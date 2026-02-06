@@ -1,0 +1,33 @@
+{
+  "FuelLogs": {
+    "title": "Fuel Logs",
+    "description": "Track fuel consumption and costs across your fleet",
+    "addFuelLog": "Add Fuel Log",
+    "editFuelLog": "Edit Fuel Log",
+    "modalDescription": "Record a fuel fill-up for a vehicle",
+    "selectVehicle": "Select Vehicle",
+    "allVehicles": "All Vehicles",
+    "fuelType": "Fuel Type",
+    "allTypes": "All Types",
+    "vehicle": "Vehicle",
+    "liters": "Liters",
+    "costPerLiter": "Cost/Liter",
+    "totalCost": "Total Cost",
+    "odometer": "Odometer",
+    "consumption": "Consumption",
+    "date": "Date",
+    "stationName": "Station Name",
+    "fullTank": "Full Tank",
+    "thisMonthCost": "This Month Cost",
+    "thisMonthLiters": "This Month Liters",
+    "avgConsumption": "Avg. Consumption",
+    "vehiclesTracked": "Vehicles Tracked",
+    "createSuccess": "Fuel Log Added",
+    "logCreated": "Fuel log has been recorded successfully",
+    "createError": "Failed to add fuel log",
+    "updateSuccess": "Fuel Log Updated",
+    "logUpdated": "Fuel log has been updated",
+    "deleteSuccess": "Fuel Log Deleted",
+    "logDeleted": "Fuel log has been removed"
+  }
+}

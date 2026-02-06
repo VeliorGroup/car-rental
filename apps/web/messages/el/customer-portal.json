@@ -1,0 +1,114 @@
+{
+  "CustomerPortal": {
+    "sidebar": {
+      "brand": "FleetPulse",
+      "subtitle": "Περιοχή Πελάτη",
+      "dashboard": "Πίνακας",
+      "searchVehicles": "Αναζήτηση οχημάτων",
+      "bookings": "Κρατήσεις",
+      "profile": "Προφίλ",
+      "logout": "Αποσύνδεση"
+    },
+    "header": {
+      "online": "Σε σύνδεση"
+    },
+    "dashboard": {
+      "hello": "Γεια σου, {name}!",
+      "welcome": "Διαχειρίσου τις κρατήσεις και το προφίλ σου",
+      "verified": "Επαληθευμένο",
+      "editProfile": "Επεξεργασία προφίλ",
+      "stats": {
+        "total": "Σύνολο κρατήσεων",
+        "active": "Σε εξέλιξη",
+        "confirmed": "Επιβεβαιωμένες",
+        "completed": "Ολοκληρωμένες"
+      },
+      "recentBookings": "Πρόσφατες κρατήσεις",
+      "recentBookingsDesc": "Οι τελευταίες κρατήσεις σου",
+      "viewAll": "Δες όλες",
+      "noBookings": "Χωρίς κρατήσεις",
+      "noBookingsDesc": "Δεν έχεις κάνει ακόμα καμία κράτηση",
+      "searchCar": "Αναζήτηση αυτοκινήτου",
+      "tableHeaders": {
+        "vehicle": "Όχημα",
+        "dates": "Ημερομηνίες",
+        "location": "Τοποθεσία",
+        "amount": "Ποσό",
+        "status": "Κατάσταση"
+      },
+      "personalInfo": "Προσωπικές πληροφορίες",
+      "quickActions": "Γρήγορες ενέργειες",
+      "searchAndBook": "Αναζήτηση και κράτηση οχήματος",
+      "manageBookings": "Διαχείριση κρατήσεων",
+      "goToHomepage": "Μετάβαση στην αρχική"
+    },
+    "search": {
+      "title": "Αναζήτηση οχημάτων",
+      "subtitle": "Βρες το τέλειο αυτοκίνητο για το επόμενο ταξίδι σου",
+      "country": "Χώρα",
+      "city": "Πόλη",
+      "searchCity": "Αναζήτηση πόλης...",
+      "pickupDate": "Ημερομηνία παραλαβής",
+      "returnDate": "Ημερομηνία επιστροφής",
+      "search": "Αναζήτηση",
+      "searching": "Αναζήτηση...",
+      "active": "Ενεργό",
+      "comingSoon": "Σύντομα",
+      "startSearch": "Έναρξη αναζήτησης",
+      "startSearchDesc": "Επίλεξε πόλη και ημερομηνίες για να βρεις διαθέσιμα οχήματα",
+      "noResults": "Δεν βρέθηκαν οχήματα",
+      "noResultsDesc": "Δοκίμασε να αλλάξεις τις ημερομηνίες ή την πόλη",
+      "resultsCount": "{count} οχήματα βρέθηκαν στην {city}",
+      "perDay": "/ημέρα",
+      "book": "Κράτηση"
+    },
+    "bookings": {
+      "title": "Οι κρατήσεις σου",
+      "subtitle": "Δες και διαχειρίσου όλες τις κρατήσεις",
+      "noBookings": "Χωρίς κρατήσεις",
+      "noBookingsDesc": "Δεν έχεις κάνει ακόμα καμία κράτηση. Αναζήτησε ένα όχημα για να ξεκινήσεις!",
+      "searchVehicles": "Αναζήτηση οχημάτων",
+      "from": "Από",
+      "to": "Έως",
+      "details": "Λεπτομέρειες",
+      "previous": "Προηγούμενη",
+      "next": "Επόμενη",
+      "pageOf": "Σελίδα {current} από {total}",
+      "status": {
+        "CONFIRMED": "Επιβεβαιωμένη",
+        "CHECKED_OUT": "Σε εξέλιξη",
+        "CHECKED_IN": "Ολοκληρωμένη",
+        "CANCELLED": "Ακυρωμένη",
+        "PENDING": "Σε αναμονή"
+      }
+    },
+    "profile": {
+      "title": "Το προφίλ σου",
+      "subtitle": "Διαχειρίσου τις προσωπικές σου πληροφορίες",
+      "personalInfo": "Προσωπικές πληροφορίες",
+      "personalInfoDesc": "Επεξεργασία προσωπικών δεδομένων",
+      "firstName": "Όνομα",
+      "lastName": "Επώνυμο",
+      "email": "Email",
+      "emailNotEditable": "Το email δεν μπορεί να αλλάξει",
+      "phone": "Τηλέφωνο",
+      "phonePlaceholder": "+30 697 123 4567",
+      "saveChanges": "Αποθήκευση αλλαγών",
+      "saving": "Αποθήκευση...",
+      "accountStatus": "Κατάσταση λογαριασμού",
+      "emailVerified": "Email επαληθευμένο",
+      "verified": "Επαληθευμένο",
+      "notVerified": "Μη επαληθευμένο",
+      "memberSince": "Μέλος από",
+      "customerId": "ID Πελάτη",
+      "contacts": "Επαφές",
+      "notSpecified": "Δεν έχει οριστεί",
+      "saveSuccess": "Το προφίλ ενημερώθηκε επιτυχώς",
+      "saveError": "Σφάλμα κατά την αποθήκευση"
+    },
+    "common": {
+      "email": "Email",
+      "phone": "Τηλέφωνο"
+    }
+  }
+}

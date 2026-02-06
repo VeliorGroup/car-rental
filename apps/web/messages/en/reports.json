@@ -1,0 +1,20 @@
+{
+  "Reports": {
+    "title": "Reports",
+    "description": "Generate and export reports for your business data",
+    "selectReportType": "Select Report Type",
+    "chooseReport": "Choose the type of report you want to generate",
+    "exportSettings": "Export Settings",
+    "configureExport": "Configure your export options",
+    "format": "Format",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "allStatuses": "All Statuses",
+    "generateReport": "Generate Report",
+    "generating": "Generating...",
+    "reportGenerated": "Report Generated",
+    "reportDownloaded": "Your report has been downloaded",
+    "generateError": "Failed to generate report",
+    "reportWillInclude": "This report will include:"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Notifications": {
+    "title": "Notifiche",
+    "total": "Totale",
+    "unread": "Non Lette",
+    "read": "Lette",
+    "today": "Oggi",
+    "all": "Tutte",
+    "new": "Nuove",
+    "markAsRead": "Segna come letta",
+    "markAllAsRead": "Segna tutte come lette",
+    "clearAll": "Elimina tutte",
+    "noNotifications": "Nessuna notifica",
+    "noUnreadNotifications": "Nessuna notifica non letta",
+    "notificationDeleted": "Notifica eliminata",
+    "allNotificationsDeleted": "Tutte le notifiche eliminate",
+    "allNotificationsRead": "Tutte le notifiche segnate come lette",
+    "notificationRead": "Notifica segnata come letta",
+    "types": {
+      "booking": "Prenotazione",
+      "caution": "Cauzione",
+      "damage": "Danno",
+      "maintenance": "Manutenzione",
+      "expiry": "Scadenza",
+      "system": "Sistema"
+    },
+    "time": {
+      "minutesAgo": "{count} minuti fa",
+      "hoursAgo": "{count} ore fa",
+      "yesterday": "Ieri",
+      "daysAgo": "{count} giorni fa"
+    }
+  }
+}

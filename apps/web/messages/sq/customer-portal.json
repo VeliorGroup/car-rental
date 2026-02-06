@@ -1,0 +1,114 @@
+{
+  "CustomerPortal": {
+    "sidebar": {
+      "brand": "FleetPulse",
+      "subtitle": "Zona e Klientit",
+      "dashboard": "Paneli",
+      "searchVehicles": "Kërko automjete",
+      "bookings": "Rezervimet",
+      "profile": "Profili",
+      "logout": "Dil"
+    },
+    "header": {
+      "online": "Online"
+    },
+    "dashboard": {
+      "hello": "Përshëndetje, {name}!",
+      "welcome": "Menaxho rezervimet dhe profilin tënd",
+      "verified": "I verifikuar",
+      "editProfile": "Ndrysho profilin",
+      "stats": {
+        "total": "Totali rezervimeve",
+        "active": "Në progres",
+        "confirmed": "Të konfirmuara",
+        "completed": "Të përfunduara"
+      },
+      "recentBookings": "Rezervimet e fundit",
+      "recentBookingsDesc": "Rezervimet tuaja të fundit",
+      "viewAll": "Shiko të gjitha",
+      "noBookings": "Asnjë rezervim",
+      "noBookingsDesc": "Nuk keni bërë ende asnjë rezervim",
+      "searchCar": "Kërko një makinë",
+      "tableHeaders": {
+        "vehicle": "Automjeti",
+        "dates": "Datat",
+        "location": "Vendndodhja",
+        "amount": "Shuma",
+        "status": "Statusi"
+      },
+      "personalInfo": "Informacione personale",
+      "quickActions": "Veprime të shpejta",
+      "searchAndBook": "Kërko dhe rezervo një automjet",
+      "manageBookings": "Menaxho rezervimet",
+      "goToHomepage": "Shko në faqen kryesore"
+    },
+    "search": {
+      "title": "Kërko automjete",
+      "subtitle": "Gjej makinën perfekte për udhëtimin tënd",
+      "country": "Shteti",
+      "city": "Qyteti",
+      "searchCity": "Kërko qytet...",
+      "pickupDate": "Data e marrjes",
+      "returnDate": "Data e kthimit",
+      "search": "Kërko",
+      "searching": "Duke kërkuar...",
+      "active": "Aktiv",
+      "comingSoon": "Së shpejti",
+      "startSearch": "Fillo kërkimin",
+      "startSearchDesc": "Zgjidh qytetin dhe datat për të gjetur automjetet e disponueshme",
+      "noResults": "Asnjë automjet i gjetur",
+      "noResultsDesc": "Provo të ndryshosh datat ose qytetin",
+      "resultsCount": "{count} automjete u gjetën në {city}",
+      "perDay": "/ditë",
+      "book": "Rezervo"
+    },
+    "bookings": {
+      "title": "Rezervimet tuaja",
+      "subtitle": "Shiko dhe menaxho të gjitha rezervimet",
+      "noBookings": "Asnjë rezervim",
+      "noBookingsDesc": "Nuk keni bërë ende asnjë rezervim. Kërkoni një automjet për të filluar!",
+      "searchVehicles": "Kërko automjete",
+      "from": "Nga",
+      "to": "Deri",
+      "details": "Detajet",
+      "previous": "Para",
+      "next": "Pas",
+      "pageOf": "Faqja {current} nga {total}",
+      "status": {
+        "CONFIRMED": "I konfirmuar",
+        "CHECKED_OUT": "Në progres",
+        "CHECKED_IN": "I përfunduar",
+        "CANCELLED": "I anuluar",
+        "PENDING": "Në pritje"
+      }
+    },
+    "profile": {
+      "title": "Profili juaj",
+      "subtitle": "Menaxho informacionet personale",
+      "personalInfo": "Informacione personale",
+      "personalInfoDesc": "Ndrysho të dhënat personale",
+      "firstName": "Emri",
+      "lastName": "Mbiemri",
+      "email": "Email",
+      "emailNotEditable": "Email nuk mund të ndryshohet",
+      "phone": "Telefoni",
+      "phonePlaceholder": "+355 69 123 4567",
+      "saveChanges": "Ruaj ndryshimet",
+      "saving": "Duke ruajtur...",
+      "accountStatus": "Statusi i llogarisë",
+      "emailVerified": "Email i verifikuar",
+      "verified": "I verifikuar",
+      "notVerified": "I paverifikuar",
+      "memberSince": "Anëtar nga",
+      "customerId": "ID e Klientit",
+      "contacts": "Kontaktet",
+      "notSpecified": "I paspecifikuar",
+      "saveSuccess": "Profili u përditësua me sukses",
+      "saveError": "Gabim gjatë ruajtjes"
+    },
+    "common": {
+      "email": "Email",
+      "phone": "Telefon"
+    }
+  }
+}

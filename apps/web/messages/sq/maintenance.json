@@ -1,0 +1,47 @@
+{
+  "Maintenance": {
+    "title": "Mirëmbajtja",
+    "searchPlaceholder": "Kërko mirëmbajtje...",
+    "pending": "Në Pritje",
+    "scheduled": "Planifikuar",
+    "inProgress": "Në Proces",
+    "completed": "Përfunduar",
+    "cancelled": "Anuluar",
+    "addMaintenance": "Shto Mirëmbajtje",
+    "addMaintenanceDesc": "Planifiko një detyrë të re mirëmbajtjeje për një automjet",
+    "selectVehicle": "Zgjidhni një automjet",
+    "titleColumn": "Titulli",
+    "titlePlaceholder": "Shkruani titullin e mirëmbajtjes",
+    "type": "Lloji",
+    "priority": "Prioriteti",
+    "priorityLow": "I Ulët",
+    "priorityMedium": "Mesatar",
+    "priorityHigh": "I Lartë",
+    "priorityUrgent": "Urgjent",
+    "scheduledFor": "Planifikuar Për",
+    "descriptionPlaceholder": "Shkruani përshkrimin e mirëmbajtjes...",
+    "createSuccess": "Mirëmbajtja u krijua me sukses",
+    "createError": "Gabim në krijimin e mirëmbajtjes",
+    "requiredFields": "Automjeti dhe titulli janë të detyrueshëm",
+    "updateSuccess": "Mirëmbajtja u përditësua me sukses",
+    "updateError": "Gabim në përditësimin e mirëmbajtjes",
+    "editMaintenance": "Ndrysho Mirëmbajtjen",
+    "cost": "Kosto",
+    "overdue": "Të Prapambetura",
+    "status": {
+      "pending": "Në Pritje",
+      "scheduled": "Planifikuar",
+      "inProgress": "Në Proces",
+      "completed": "Përfunduar",
+      "cancelled": "Anuluar"
+    },
+    "types": {
+      "routine": "Ordinare",
+      "repair": "Riparim",
+      "inspection": "Inspektim",
+      "tireChange": "Ndërrim Gomash",
+      "oilChange": "Ndërrim Vaji",
+      "brakeService": "Shërbim Frenash"
+    }
+  }
+}

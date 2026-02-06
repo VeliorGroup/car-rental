@@ -1,0 +1,114 @@
+{
+  "CustomerPortal": {
+    "sidebar": {
+      "brand": "FleetPulse",
+      "subtitle": "Област за клиенти",
+      "dashboard": "Табла",
+      "searchVehicles": "Пребарај возила",
+      "bookings": "Резервации",
+      "profile": "Профил",
+      "logout": "Одјави се"
+    },
+    "header": {
+      "online": "Онлајн"
+    },
+    "dashboard": {
+      "hello": "Здраво, {name}!",
+      "welcome": "Управувај со резервациите и профилот",
+      "verified": "Потврден",
+      "editProfile": "Измени профил",
+      "stats": {
+        "total": "Вкупно резервации",
+        "active": "Во тек",
+        "confirmed": "Потврдени",
+        "completed": "Завршени"
+      },
+      "recentBookings": "Последни резервации",
+      "recentBookingsDesc": "Вашите последни резервации",
+      "viewAll": "Види ги сите",
+      "noBookings": "Нема резервации",
+      "noBookingsDesc": "Сè уште немате направено резервации",
+      "searchCar": "Пребарај автомобил",
+      "tableHeaders": {
+        "vehicle": "Возило",
+        "dates": "Датуми",
+        "location": "Локација",
+        "amount": "Износ",
+        "status": "Статус"
+      },
+      "personalInfo": "Лични информации",
+      "quickActions": "Брзи акции",
+      "searchAndBook": "Пребарај и резервирај возило",
+      "manageBookings": "Управувај со резервации",
+      "goToHomepage": "Оди на почетна страница"
+    },
+    "search": {
+      "title": "Пребарај возила",
+      "subtitle": "Најди го совршениот автомобил за твоето патување",
+      "country": "Држава",
+      "city": "Град",
+      "searchCity": "Пребарај град...",
+      "pickupDate": "Датум на подигање",
+      "returnDate": "Датум на враќање",
+      "search": "Пребарај",
+      "searching": "Пребарување...",
+      "active": "Активен",
+      "comingSoon": "Наскоро",
+      "startSearch": "Започни пребарување",
+      "startSearchDesc": "Избери град и датуми за да најдеш достапни возила",
+      "noResults": "Не се најдени возила",
+      "noResultsDesc": "Пробај да ги промениш датумите или градот",
+      "resultsCount": "{count} возила најдени во {city}",
+      "perDay": "/ден",
+      "book": "Резервирај"
+    },
+    "bookings": {
+      "title": "Твоите резервации",
+      "subtitle": "Види и управувај со сите резервации",
+      "noBookings": "Нема резервации",
+      "noBookingsDesc": "Сè уште немате направено резервации. Пребарајте возило за да започнете!",
+      "searchVehicles": "Пребарај возила",
+      "from": "Од",
+      "to": "До",
+      "details": "Детали",
+      "previous": "Претходна",
+      "next": "Следна",
+      "pageOf": "Страница {current} од {total}",
+      "status": {
+        "CONFIRMED": "Потврдена",
+        "CHECKED_OUT": "Во тек",
+        "CHECKED_IN": "Завршена",
+        "CANCELLED": "Откажана",
+        "PENDING": "Во чекање"
+      }
+    },
+    "profile": {
+      "title": "Твојот профил",
+      "subtitle": "Управувај со личните информации",
+      "personalInfo": "Лични информации",
+      "personalInfoDesc": "Измени ги твоите лични податоци",
+      "firstName": "Име",
+      "lastName": "Презиме",
+      "email": "Email",
+      "emailNotEditable": "Email не може да се промени",
+      "phone": "Телефон",
+      "phonePlaceholder": "+389 70 123 456",
+      "saveChanges": "Зачувај промени",
+      "saving": "Зачувување...",
+      "accountStatus": "Статус на сметка",
+      "emailVerified": "Email потврден",
+      "verified": "Потврден",
+      "notVerified": "Непотврден",
+      "memberSince": "Член од",
+      "customerId": "ID на Клиент",
+      "contacts": "Контакти",
+      "notSpecified": "Не е специфицирано",
+      "saveSuccess": "Профилот е успешно ажуриран",
+      "saveError": "Грешка при зачувување"
+    },
+    "common": {
+      "email": "Email",
+      "phone": "Телефон"
+    }
+  }
+}

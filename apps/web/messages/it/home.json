@@ -1,0 +1,257 @@
+{
+  "Home": {
+    "brand": "FleetPulse",
+    "nav": {
+      "login": "Accedi",
+      "getStarted": "Inizia",
+      "solutions": "Soluzioni",
+      "pricing": "Prezzi",
+      "resources": "Risorse",
+      "contacts": "Contatti",
+      "private": "Privato",
+      "business": "Business",
+      "loginPrivate": "Accedi",
+      "registerPrivate": "Registrati",
+      "loginBusiness": "Accedi Business",
+      "registerBusiness": "Registra Azienda"
+    },
+    "hero": {
+      "title": "FleetPulse",
+      "subtitle": "di Gestione Autonoleggio",
+      "description": "Ottimizza il tuo business di autonoleggio con la nostra piattaforma all-in-one. Gestisci flotta, prenotazioni, clienti e analisi da un'unica dashboard.",
+      "startTrial": "Inizia Prova Gratuita",
+      "viewPricing": "Vedi Prezzi",
+      "trustBadge": "Usato da 500+ aziende di noleggio",
+      "trustBadgePrefix": "Usato da",
+      "trustBadgeSuffix": "aziende di noleggio",
+      "enterpriseTitle": "La piattaforma",
+      "enterpriseHighlight": "enterprise",
+      "enterpriseSubtitle": "per il noleggio auto",
+      "enterpriseDescription": "Una soluzione completa per gestire la tua flotta, le prenotazioni e i clienti. Aumenta l'efficienza operativa del 40%.",
+      "startFree": "Inizia Gratis",
+      "watchDemo": "Guarda Demo",
+      "stats": {
+        "vehicles": "Veicoli",
+        "companies": "Aziende",
+        "bookings": "Prenotazioni",
+        "uptime": "Uptime garantito",
+        "support": "Supporto tecnico"
+      }
+    },
+    "search": {
+      "title": "Cerca veicoli",
+      "subtitle": "Trova l'auto perfetta per te",
+      "country": "Paese",
+      "onlyActive": "Attivo",
+      "comingSoon": "Prossimamente",
+      "location": "Località",
+      "selectCity": "Seleziona città",
+      "pickup": "Ritiro",
+      "dropoff": "Consegna",
+      "searchButton": "Cerca Veicoli Disponibili",
+      "searching": "Ricerca in corso...",
+      "availableVehicles": "veicoli disponibili",
+      "rating": "Valutazione"
+    },
+    "results": {
+      "vehiclesAvailable": "{count} veicoli disponibili",
+      "perDay": "/giorno",
+      "totalDays": "totale {days} giorni",
+      "bookNow": "Prenota Ora",
+      "noResults": "Nessun veicolo trovato",
+      "noResultsDesc": "Non ci sono veicoli disponibili per i criteri selezionati. Prova a modificare le date o la città.",
+      "modifySearch": "Modifica Ricerca",
+      "seats": "posti"
+    },
+    "featuresBar": {
+      "secure": "Sicuro",
+      "secureDesc": "Pagamenti protetti",
+      "fast": "Veloce",
+      "fastDesc": "Prenotazione in 2 min",
+      "flexible": "Flessibile",
+      "flexibleDesc": "Cancellazione gratuita",
+      "support": "Supporto",
+      "supportDesc": "Assistenza 24/7"
+    },
+    "whyUs": {
+      "badge": "Perché FleetPulse",
+      "title": "La scelta delle aziende leader",
+      "subtitle": "Una piattaforma completa che trasforma il modo in cui gestisci il tuo business di noleggio",
+      "revenue": {
+        "title": "Aumenta i ricavi",
+        "desc": "Ottimizza i prezzi in tempo reale e massimizza l'utilizzo della flotta con analytics avanzati."
+      },
+      "efficiency": {
+        "title": "Riduci i costi operativi",
+        "desc": "Automatizza i processi ripetitivi e risparmia ore di lavoro manuale ogni settimana."
+      },
+      "experience": {
+        "title": "Migliora l'esperienza cliente",
+        "desc": "Prenotazioni online intuitive e comunicazioni automatizzate per i tuoi clienti."
+      }
+    },
+    "ctaDual": {
+      "title": "Inizia oggi stesso",
+      "subtitle": "Scegli il percorso giusto per te",
+      "customers": {
+        "title": "Per Clienti",
+        "desc": "Prenota il tuo prossimo veicolo in pochi minuti con la nostra piattaforma semplice e veloce.",
+        "button": "Cerca Veicoli"
+      },
+      "business": {
+        "title": "Per Aziende",
+        "desc": "Gestisci la tua flotta con strumenti professionali. 14 giorni di prova gratuita.",
+        "button": "Prova Gratis"
+      }
+    },
+    "trust": {
+      "title": "Scelto dalle migliori aziende"
+    },
+    "features": {
+      "title": "Tutto ciò che serve per gestire il tuo autonoleggio",
+      "fleet": {
+        "title": "Gestione Flotta",
+        "desc": "Gestisci l'intera tua flotta da una dashboard centralizzata."
+      },
+      "customer": {
+        "title": "Portale Clienti",
+        "desc": "Sistema di prenotazione professionale per i tuoi clienti con disponibilità in tempo reale."
+      },
+      "analytics": {
+        "title": "Analisi e Report",
+        "desc": "Approfondimenti dettagliati su entrate, utilizzo e metriche di performance."
+      },
+      "secure": {
+        "title": "Sicuro e Conforme",
+        "desc": "Sicurezza di livello bancario con conformità GDPR e crittografia dati."
+      },
+      "automation": {
+        "title": "Flussi Automatizzati",
+        "desc": "Automatizza prenotazioni, fatturazione e pianificazione manutenzione."
+      },
+      "multiLocation": {
+        "title": "Multi-Sede",
+        "desc": "Gestisci più sedi di noleggio da un'unica piattaforma."
+      }
+    },
+    "pricing": {
+      "title": "Prezzi semplici e trasparenti",
+      "subtitle": "Scegli il piano adatto al tuo business. Tutti i piani includono 14 giorni di prova gratuita.",
+      "monthly": "Mensile",
+      "yearly": "Annuale",
+      "perMonth": "/mese",
+      "perYear": "/anno",
+      "savePercent": "Risparmia {percent}%",
+      "billedYearly": "Fatturato €{total}/anno",
+      "contactUs": "Contattaci",
+      "contactSales": "Contatta Vendite",
+      "mostPopular": "Più Popolare",
+      "unlimited_vehicles": "Veicoli Illimitati",
+      "unlimited_users": "Utenti Illimitati",
+      "unlimited_locations": "Sedi Illimitate",
+      "feature_vehicles": "{count} Veicoli",
+      "feature_users": "{count} Utenti",
+      "feature_locations": "{count} Sedi",
+      "features": {
+        "basic_analytics": "Analisi Base",
+        "email_support": "Supporto Email",
+        "advanced_analytics": "Analisi Avanzate",
+        "priority_support": "Supporto Prioritario",
+        "api_access": "Accesso API",
+        "all_features": "Tutte le Funzionalità",
+        "dedicated_support": "Supporto Dedicato",
+        "custom_branding": "Branding Personalizzato",
+        "sso": "SSO",
+        "white_label": "White Label"
+      },
+      "plans": {
+        "basic": {
+          "name": "Basic",
+          "desc": "Per piccole flotte all'inizio.",
+          "features": {
+            "vehicles": "Fino a 10 veicoli",
+            "users": "Fino a 3 utenti",
+            "analytics": "Analisi base",
+            "support": "Supporto via email",
+            "trial": "14 giorni di prova gratuita"
+          }
+        },
+        "starter": {
+          "name": "Starter",
+          "desc": "Perfetto per piccole compagnie.",
+          "features": {
+            "vehicles": "Fino a 25 veicoli",
+            "users": "Fino a 5 utenti",
+            "analytics": "Analisi base",
+            "support": "Supporto via email",
+            "trial": "14 giorni di prova gratuita"
+          }
+        },
+        "professional": {
+          "name": "Professional",
+          "desc": "Ideale per business in crescita.",
+          "features": {
+            "vehicles": "Fino a 50 veicoli",
+            "users": "Fino a 15 utenti",
+            "analytics": "Analisi avanzata",
+            "support": "Supporto prioritario",
+            "api": "Accesso API",
+            "trial": "14 giorni di prova gratuita"
+          }
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "desc": "Per grandi flotte con esigenze personalizzate.",
+          "price": "Contattaci",
+          "features": {
+            "vehicles": "Veicoli illimitati",
+            "users": "Utenti illimitati",
+            "analytics": "Analisi personalizzata",
+            "support": "Supporto dedicato",
+            "integrations": "Integrazioni personalizzate",
+            "whitelabel": "Opzione white-label"
+          }
+        },
+        "STARTER": {
+          "name": "Starter"
+        },
+        "PROFESSIONAL": {
+          "name": "Professional"
+        },
+        "BUSINESS": {
+          "name": "Business"
+        },
+        "ENTERPRISE": {
+          "name": "Enterprise"
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto a trasformare il tuo business?",
+      "description": "Unisciti a centinaia di compagnie di noleggio che usano già la nostra piattaforma. Inizia oggi la tua prova gratuita di 14 giorni.",
+      "button": "Inizia Ora"
+    },
+    "footer": {
+      "rights": "Tutti i diritti riservati.",
+      "product": "Prodotto",
+      "company": "Azienda",
+      "legal": "Legale",
+      "contact": "Contatti",
+      "features": "Funzionalità",
+      "integrations": "Integrazioni",
+      "changelog": "Novità",
+      "docs": "Documentazione",
+      "about": "Chi siamo",
+      "blog": "Blog",
+      "careers": "Lavora con noi",
+      "press": "Stampa",
+      "privacy": "Privacy",
+      "terms": "Termini",
+      "cookies": "Cookie",
+      "support": "Supporto",
+      "sales": "Vendite",
+      "demo": "Richiedi Demo",
+      "description": "La piattaforma enterprise per la gestione del noleggio auto. Usato da oltre 500 aziende in tutto il mondo."
+    }
+  }
+}

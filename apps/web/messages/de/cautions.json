@@ -1,0 +1,53 @@
+{
+  "Cautions": {
+    "title": "Kautionen",
+    "details": "Kautionsdetails",
+    "cautionInfo": "Kautionsinformationen",
+    "releasedDate": "Freigabedatum",
+    "chargedDate": "Abbuchungsdatum",
+    "chargedAmount": "Abgebuchter Betrag",
+    "searchPlaceholder": "Kautionen suchen...",
+    "pending": "Ausstehend",
+    "held": "Einbehalten",
+    "released": "Freigegeben",
+    "charged": "Abgebucht",
+    "partiallyCharged": "Teilweise Abgebucht",
+    "failed": "Fehlgeschlagen",
+    "pendingRelease": "Freigabe Ausstehend",
+    "heldDate": "Einbehaltungsdatum",
+    "paymentMethod": "Zahlungsmethode",
+    "release": "Freigeben",
+    "charge": "Abbuchen",
+    "confirmRelease": "Kautionsfreigabe bestätigen",
+    "confirmCharge": "Kautionsabbuchung bestätigen",
+    "releaseDescription": "Sie werden eine Kaution von {amount} freigeben. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "chargeDescription": "Sie werden die vollständige Kaution von {amount} abbuchen. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "releaseSuccess": "Kaution erfolgreich freigegeben",
+    "chargeSuccess": "Kaution erfolgreich abgebucht",
+    "releaseError": "Fehler bei der Kautionsfreigabe",
+    "chargeError": "Fehler bei der Kautionsabbuchung",
+    "addCaution": "Kaution hinzufügen",
+    "addCautionDesc": "Neue Kaution für eine aktive Buchung erstellen",
+    "selectBooking": "Buchung auswählen",
+    "searchBooking": "Buchung suchen...",
+    "createSuccess": "Kaution erfolgreich erstellt",
+    "createError": "Fehler beim Erstellen der Kaution",
+    "requiredFields": "Bitte füllen Sie alle Pflichtfelder aus",
+    "updateSuccess": "Kaution erfolgreich aktualisiert",
+    "updateError": "Fehler beim Aktualisieren der Kaution",
+    "editCaution": "Kaution bearbeiten",
+    "activeCautions": "Aktive Kautionen",
+    "status": {
+      "pending": "Ausstehend",
+      "held": "Einbehalten",
+      "released": "Freigegeben",
+      "charged": "Abgebucht",
+      "partiallyCharged": "Teilweise Abgebucht"
+    },
+    "paymentMethods": {
+      "cash": "Bargeld",
+      "bankTransfer": "Banküberweisung",
+      "paysera": "Paysera"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Notifications": {
+    "title": "Notifications",
+    "total": "Total",
+    "unread": "Unread",
+    "read": "Read",
+    "today": "Today",
+    "all": "All",
+    "new": "New",
+    "markAsRead": "Mark as read",
+    "markAllAsRead": "Mark all as read",
+    "clearAll": "Clear all",
+    "noNotifications": "No notifications",
+    "noUnreadNotifications": "No unread notifications",
+    "notificationDeleted": "Notification deleted",
+    "allNotificationsDeleted": "All notifications deleted",
+    "allNotificationsRead": "All notifications marked as read",
+    "notificationRead": "Notification marked as read",
+    "types": {
+      "booking": "Booking",
+      "caution": "Caution",
+      "damage": "Damage",
+      "maintenance": "Maintenance",
+      "expiry": "Expiry",
+      "system": "System"
+    },
+    "time": {
+      "minutesAgo": "{count} minutes ago",
+      "hoursAgo": "{count} hours ago",
+      "yesterday": "Yesterday",
+      "daysAgo": "{count} days ago"
+    }
+  }
+}

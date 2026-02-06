@@ -1,0 +1,258 @@
+{
+  "Home": {
+    "brand": "FleetPulse",
+    "nav": {
+      "login": "Login",
+      "getStarted": "Get Started",
+      "solutions": "Solutions",
+      "pricing": "Pricing",
+      "resources": "Resources",
+      "contacts": "Contacts",
+      "private": "Private",
+      "business": "Business",
+      "loginPrivate": "Login",
+      "registerPrivate": "Register",
+      "loginBusiness": "Business Login",
+      "registerBusiness": "Register Company"
+    },
+    "hero": {
+      "title": "FleetPulse",
+      "subtitle": "Management Platform",
+      "description": "Streamline your car rental business with our all-in-one platform. Manage fleet, bookings, customers, and analytics from a single dashboard.",
+      "startTrial": "Start Free Trial",
+      "viewPricing": "View Pricing",
+      "trustBadge": "Used by 500+ rental companies",
+      "trustBadgePrefix": "Used by",
+      "trustBadgeSuffix": "rental companies",
+      "enterpriseTitle": "The",
+      "enterpriseHighlight": "enterprise",
+      "enterpriseSubtitle": "platform for car rental",
+      "enterpriseDescription": "A complete solution to manage your fleet, bookings, and customers. Increase operational efficiency by 40%.",
+      "startFree": "Start Free",
+      "watchDemo": "Watch Demo",
+      "stats": {
+        "vehicles": "Vehicles",
+        "companies": "Companies",
+        "bookings": "Bookings",
+        "uptime": "Guaranteed uptime",
+        "support": "Technical support"
+      }
+    },
+    "search": {
+      "title": "Search vehicles",
+      "subtitle": "Find the perfect car for you",
+      "country": "Country",
+      "onlyActive": "Active",
+      "comingSoon": "Coming Soon",
+      "location": "Location",
+      "selectCity": "Select city",
+      "pickup": "Pickup",
+      "dropoff": "Dropoff",
+      "searchButton": "Search Available Vehicles",
+      "searching": "Searching...",
+      "availableVehicles": "vehicles available",
+      "rating": "Rating"
+    },
+    "results": {
+      "vehiclesAvailable": "{count} vehicles available",
+      "perDay": "/day",
+      "totalDays": "total {days} days",
+      "bookNow": "Book Now",
+      "noResults": "No vehicles found",
+      "noResultsDesc": "There are no vehicles available for the selected criteria. Try changing the dates or city.",
+      "modifySearch": "Modify Search",
+      "seats": "seats"
+    },
+    "featuresBar": {
+      "secure": "Secure",
+      "secureDesc": "Protected payments",
+      "fast": "Fast",
+      "fastDesc": "Book in 2 min",
+      "flexible": "Flexible",
+      "flexibleDesc": "Free cancellation",
+      "support": "Support",
+      "supportDesc": "24/7 assistance"
+    },
+    "whyUs": {
+      "badge": "Why FleetPulse",
+      "title": "The choice of leading companies",
+      "subtitle": "A complete platform that transforms how you manage your rental business",
+      "revenue": {
+        "title": "Increase revenue",
+        "desc": "Optimize prices in real-time and maximize fleet utilization with advanced analytics."
+      },
+      "efficiency": {
+        "title": "Reduce operational costs",
+        "desc": "Automate repetitive processes and save hours of manual work every week."
+      },
+      "experience": {
+        "title": "Improve customer experience",
+        "desc": "Intuitive online bookings and automated communications for your customers."
+      }
+    },
+    "ctaDual": {
+      "title": "Start today",
+      "subtitle": "Choose the right path for you",
+      "customers": {
+        "title": "For Customers",
+        "desc": "Book your next vehicle in minutes with our simple and fast platform.",
+        "button": "Search Vehicles"
+      },
+      "business": {
+        "title": "For Businesses",
+        "desc": "Manage your fleet with professional tools. 14-day free trial.",
+        "button": "Try Free"
+      }
+    },
+    "trust": {
+      "title": "Trusted by the best companies"
+    },
+    "features": {
+      "title": "Everything you need to run your rental business",
+      "fleet": {
+        "title": "Fleet Management",
+        "desc": "Manage your entire vehicle fleet from one centralized dashboard."
+      },
+      "customer": {
+        "title": "Customer Portal",
+        "desc": "Professional booking system for your customers with real-time availability."
+      },
+      "analytics": {
+        "title": "Analytics & Reports",
+        "desc": "Detailed insights on revenue, utilization, and performance metrics."
+      },
+      "secure": {
+        "title": "Secure & Compliant",
+        "desc": "Bank-level security with GDPR compliance and data encryption."
+      },
+      "automation": {
+        "title": "Automated Workflows",
+        "desc": "Automate bookings, invoicing, and maintenance scheduling."
+      },
+      "multiLocation": {
+        "title": "Multi-Location",
+        "desc": "Manage multiple rental locations from a single platform."
+      }
+    },
+    "pricing": {
+      "title": "Simple, transparent pricing",
+      "subtitle": "Choose the plan that fits your business. All plans include a 14-day free trial.",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "perMonth": "/month",
+      "perYear": "/year",
+      "savePercent": "Save {percent}%",
+      "billedYearly": "Billed €{total}/year",
+      "contactUs": "Contact Us",
+      "contactSales": "Contact Sales",
+      "mostPopular": "Most Popular",
+      "unlimited_vehicles": "Unlimited Vehicles",
+      "unlimited_users": "Unlimited Users",
+      "unlimited_locations": "Unlimited Locations",
+      "feature_vehicles": "{count} Vehicles",
+      "feature_users": "{count} Users",
+      "feature_locations": "{count} Locations",
+      "features": {
+        "basic_analytics": "Basic Analytics",
+        "email_support": "Email Support",
+        "advanced_analytics": "Advanced Analytics",
+        "priority_support": "Priority Support",
+        "api_access": "API Access",
+        "all_features": "All Features",
+        "dedicated_support": "Dedicated Support",
+        "custom_branding": "Custom Branding",
+        "sso": "SSO",
+        "white_label": "White Label",
+        "custom_integration": "Custom Integration"
+      },
+      "plans": {
+        "basic": {
+          "name": "Basic",
+          "desc": "For small fleets just getting started.",
+          "features": {
+            "vehicles": "Up to 10 vehicles",
+            "users": "Up to 3 users",
+            "analytics": "Basic analytics",
+            "support": "Email support",
+            "trial": "14-day free trial"
+          }
+        },
+        "starter": {
+          "name": "Starter",
+          "desc": "Perfect for small rental companies.",
+          "features": {
+            "vehicles": "Up to 25 vehicles",
+            "users": "Up to 5 users",
+            "analytics": "Basic analytics",
+            "support": "Email support",
+            "trial": "14-day free trial"
+          }
+        },
+        "professional": {
+          "name": "Professional",
+          "desc": "Ideal for growing rental businesses.",
+          "features": {
+            "vehicles": "Up to 50 vehicles",
+            "users": "Up to 15 users",
+            "analytics": "Advanced analytics",
+            "support": "Priority support",
+            "api": "API access",
+            "trial": "14-day free trial"
+          }
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "desc": "For large fleets with custom needs.",
+          "price": "Contact Us",
+          "features": {
+            "vehicles": "Unlimited vehicles",
+            "users": "Unlimited users",
+            "analytics": "Custom analytics",
+            "support": "Dedicated support",
+            "integrations": "Custom integrations",
+            "whitelabel": "White-label option"
+          }
+        },
+        "STARTER": {
+          "name": "Starter"
+        },
+        "PROFESSIONAL": {
+          "name": "Professional"
+        },
+        "BUSINESS": {
+          "name": "Business"
+        },
+        "ENTERPRISE": {
+          "name": "Enterprise"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to transform your car rental business?",
+      "description": "Join hundreds of rental companies already using our platform. Start your 14-day free trial today-no credit card required.",
+      "button": "Get Started Now"
+    },
+    "footer": {
+      "rights": "All rights reserved.",
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "contact": "Contact",
+      "features": "Features",
+      "integrations": "Integrations",
+      "changelog": "Changelog",
+      "docs": "Documentation",
+      "about": "About Us",
+      "blog": "Blog",
+      "careers": "Careers",
+      "press": "Press",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "cookies": "Cookies",
+      "support": "Support",
+      "sales": "Sales",
+      "demo": "Request Demo",
+      "description": "The enterprise platform for car rental management. Used by over 500 companies worldwide."
+    }
+  }
+}

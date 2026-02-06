@@ -1,0 +1,51 @@
+{
+  "Tires": {
+    "title": "Pneumatici",
+    "searchPlaceholder": "Cerca pneumatici...",
+    "addTire": "Aggiungi Pneumatico",
+    "addTireDesc": "Installa un nuovo pneumatico su un veicolo",
+    "editTire": "Modifica Pneumatico",
+    "selectVehicle": "Seleziona un veicolo",
+    "brand": "Marca",
+    "model": "Modello",
+    "size": "Misura",
+    "position": "Posizione",
+    "season": "Stagione",
+    "mountDate": "Data Montaggio",
+    "mountKm": "KM Montaggio",
+    "currentKm": "KM Attuali",
+    "cost": "Costo",
+    "location": "Posizione",
+    "notes": "Note",
+    "wearAlerts": "Avvisi Usura",
+    "needReplacement": "Da Sostituire",
+    "total": "Totale",
+    "mounted": "Montati",
+    "stored": "In Magazzino",
+    "createSuccess": "Pneumatico installato con successo",
+    "createError": "Errore durante l'installazione",
+    "updateSuccess": "Pneumatico aggiornato con successo",
+    "updateError": "Errore durante l'aggiornamento",
+    "storeSuccess": "Pneumatico spostato in magazzino",
+    "storeError": "Errore durante lo spostamento",
+    "storeTire": "Sposta in Magazzino",
+    "storeTireDesc": "Sposta il pneumatico nel magazzino",
+    "warehouseLocation": "Posizione Magazzino",
+    "seasons": {
+      "summer": "Estivi",
+      "winter": "Invernali",
+      "allSeason": "4 Stagioni"
+    },
+    "positions": {
+      "fl": "Anteriore Sinistro",
+      "fr": "Anteriore Destro",
+      "rl": "Posteriore Sinistro",
+      "rr": "Posteriore Destro",
+      "spare": "Ruota di Scorta"
+    },
+    "status": {
+      "mounted": "Montato",
+      "stored": "In Magazzino"
+    }
+  }
+}

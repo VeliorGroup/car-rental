@@ -1,0 +1,15 @@
+{
+  "Analytics": {
+    "title": "Analize",
+    "revenue": "Venituri",
+    "bookings": "Rezervări",
+    "utilization": "Utilizare",
+    "performance": "Performanță",
+    "totalRevenue": "Total",
+    "utilizationRate": "Rată",
+    "activeRentals": "Active",
+    "noDataTitle": "Fără date",
+    "noDataDesc": "Vor apărea",
+    "fromLastMonth": "față de luna trecută"
+  }
+}

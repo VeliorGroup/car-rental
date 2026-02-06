@@ -1,0 +1,53 @@
+{
+  "Cautions": {
+    "title": "Εγγυήσεις",
+    "details": "Λεπτομέρειες",
+    "cautionInfo": "Πληροφορίες",
+    "releasedDate": "Απελευθέρωση",
+    "chargedDate": "Χρέωση",
+    "chargedAmount": "Ποσό",
+    "searchPlaceholder": "Αναζήτηση...",
+    "pending": "Εκκρεμής",
+    "held": "Κρατείται",
+    "released": "Απελευθερώθηκε",
+    "charged": "Χρεώθηκε",
+    "partiallyCharged": "Μερικώς",
+    "failed": "Απέτυχε",
+    "pendingRelease": "Εκκρεμεί",
+    "heldDate": "Ημερομηνία",
+    "paymentMethod": "Μέθοδος",
+    "release": "Απελευθέρωση",
+    "charge": "Χρέωση",
+    "confirmRelease": "Επιβεβαίωση",
+    "confirmCharge": "Επιβεβαίωση",
+    "releaseDescription": "Απελευθέρωση {amount}",
+    "chargeDescription": "Χρέωση {amount}",
+    "releaseSuccess": "Επιτυχία",
+    "chargeSuccess": "Επιτυχία",
+    "releaseError": "Σφάλμα",
+    "chargeError": "Σφάλμα",
+    "addCaution": "Προσθήκη",
+    "addCautionDesc": "Νέα εγγύηση",
+    "selectBooking": "Επιλογή",
+    "searchBooking": "Αναζήτηση...",
+    "createSuccess": "Δημιουργήθηκε",
+    "createError": "Σφάλμα",
+    "requiredFields": "Υποχρεωτικά",
+    "updateSuccess": "Ενημερώθηκε",
+    "updateError": "Σφάλμα",
+    "editCaution": "Επεξεργασία",
+    "activeCautions": "Ενεργές",
+    "status": {
+      "pending": "Εκκρεμής",
+      "held": "Κρατείται",
+      "released": "Απελευθερώθηκε",
+      "charged": "Χρεώθηκε",
+      "partiallyCharged": "Μερικώς"
+    },
+    "paymentMethods": {
+      "cash": "Μετρητά",
+      "bankTransfer": "Μεταφορά",
+      "paysera": "Paysera"
+    }
+  }
+}

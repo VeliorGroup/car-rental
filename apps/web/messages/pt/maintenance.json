@@ -1,0 +1,47 @@
+{
+  "Maintenance": {
+    "title": "Manutenção",
+    "searchPlaceholder": "Pesquisar manutenção...",
+    "pending": "Pendente",
+    "scheduled": "Agendada",
+    "inProgress": "Em Progresso",
+    "completed": "Concluída",
+    "cancelled": "Cancelada",
+    "addMaintenance": "Adicionar Manutenção",
+    "addMaintenanceDesc": "Agendar uma nova tarefa de manutenção para um veículo",
+    "selectVehicle": "Selecione um veículo",
+    "titleColumn": "Título",
+    "titlePlaceholder": "Introduza o título da manutenção",
+    "type": "Tipo",
+    "priority": "Prioridade",
+    "priorityLow": "Baixa",
+    "priorityMedium": "Média",
+    "priorityHigh": "Alta",
+    "priorityUrgent": "Urgente",
+    "scheduledFor": "Agendada Para",
+    "descriptionPlaceholder": "Introduza a descrição da manutenção...",
+    "createSuccess": "Manutenção criada com sucesso",
+    "createError": "Erro ao criar manutenção",
+    "requiredFields": "Veículo e título são obrigatórios",
+    "updateSuccess": "Manutenção atualizada com sucesso",
+    "updateError": "Erro ao atualizar manutenção",
+    "editMaintenance": "Editar Manutenção",
+    "cost": "Custo",
+    "overdue": "Atrasada",
+    "status": {
+      "pending": "Pendente",
+      "scheduled": "Agendada",
+      "inProgress": "Em Progresso",
+      "completed": "Concluída",
+      "cancelled": "Cancelada"
+    },
+    "types": {
+      "routine": "Rotina",
+      "repair": "Reparação",
+      "inspection": "Inspeção",
+      "tireChange": "Troca de Pneus",
+      "oilChange": "Mudança de Óleo",
+      "brakeService": "Serviço de Travões"
+    }
+  }
+}

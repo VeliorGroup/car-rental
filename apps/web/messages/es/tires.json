@@ -1,0 +1,51 @@
+{
+  "Tires": {
+    "title": "Tires",
+    "searchPlaceholder": "Search tires...",
+    "addTire": "Add Tire",
+    "addTireDesc": "Install a new tire on a vehicle",
+    "editTire": "Edit Tire",
+    "selectVehicle": "Select a vehicle",
+    "brand": "Brand",
+    "model": "Model",
+    "size": "Size",
+    "position": "Position",
+    "season": "Season",
+    "mountDate": "Mount Date",
+    "mountKm": "Mount KM",
+    "currentKm": "Current KM",
+    "cost": "Cost",
+    "location": "Location",
+    "notes": "Notes",
+    "wearAlerts": "Wear Alerts",
+    "needReplacement": "Need Replacement",
+    "total": "Total",
+    "mounted": "Mounted",
+    "stored": "Stored",
+    "createSuccess": "Tire installed successfully",
+    "createError": "Error installing tire",
+    "updateSuccess": "Tire updated successfully",
+    "updateError": "Error updating tire",
+    "storeSuccess": "Tire stored successfully",
+    "storeError": "Error storing tire",
+    "storeTire": "Store Tire",
+    "storeTireDesc": "Move tire to warehouse storage",
+    "warehouseLocation": "Warehouse Location",
+    "seasons": {
+      "summer": "Summer",
+      "winter": "Winter",
+      "allSeason": "All Season"
+    },
+    "positions": {
+      "fl": "Front Left",
+      "fr": "Front Right",
+      "rl": "Rear Left",
+      "rr": "Rear Right",
+      "spare": "Spare"
+    },
+    "status": {
+      "mounted": "Mounted",
+      "stored": "Stored"
+    }
+  }
+}

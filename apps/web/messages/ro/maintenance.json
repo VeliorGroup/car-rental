@@ -1,0 +1,47 @@
+{
+  "Maintenance": {
+    "title": "Întreținere",
+    "searchPlaceholder": "Caută...",
+    "pending": "Așteptare",
+    "scheduled": "Programat",
+    "inProgress": "În Progres",
+    "completed": "Completat",
+    "cancelled": "Anulat",
+    "addMaintenance": "Adaugă",
+    "addMaintenanceDesc": "Întreținere nouă",
+    "selectVehicle": "Selectează",
+    "titleColumn": "Titlu",
+    "titlePlaceholder": "Titlu...",
+    "type": "Tip",
+    "priority": "Prioritate",
+    "priorityLow": "Scăzută",
+    "priorityMedium": "Medie",
+    "priorityHigh": "Înaltă",
+    "priorityUrgent": "Urgentă",
+    "scheduledFor": "Pentru",
+    "descriptionPlaceholder": "Descriere...",
+    "createSuccess": "Creat",
+    "createError": "Eroare",
+    "requiredFields": "Obligatorii",
+    "updateSuccess": "Actualizat",
+    "updateError": "Eroare",
+    "editMaintenance": "Editează",
+    "cost": "Cost",
+    "overdue": "Întârziat",
+    "status": {
+      "pending": "Așteptare",
+      "scheduled": "Programat",
+      "inProgress": "În Progres",
+      "completed": "Completat",
+      "cancelled": "Anulat"
+    },
+    "types": {
+      "routine": "Rutină",
+      "repair": "Reparație",
+      "inspection": "Inspecție",
+      "tireChange": "Anvelope",
+      "oilChange": "Ulei",
+      "brakeService": "Frâne"
+    }
+  }
+}

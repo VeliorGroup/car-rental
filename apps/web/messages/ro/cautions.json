@@ -1,0 +1,53 @@
+{
+  "Cautions": {
+    "title": "Garanții",
+    "details": "Detalii",
+    "cautionInfo": "Informații",
+    "releasedDate": "Eliberare",
+    "chargedDate": "Încasare",
+    "chargedAmount": "Sumă",
+    "searchPlaceholder": "Caută...",
+    "pending": "În Așteptare",
+    "held": "Reținută",
+    "released": "Eliberată",
+    "charged": "Încasată",
+    "partiallyCharged": "Parțial",
+    "failed": "Eșuat",
+    "pendingRelease": "Eliberare Așteptată",
+    "heldDate": "Dată",
+    "paymentMethod": "Metodă",
+    "release": "Eliberează",
+    "charge": "Încasează",
+    "confirmRelease": "Confirmă Eliberare",
+    "confirmCharge": "Confirmă Încasare",
+    "releaseDescription": "Eliberezi {amount}",
+    "chargeDescription": "Încasezi {amount}",
+    "releaseSuccess": "Eliberată",
+    "chargeSuccess": "Încasată",
+    "releaseError": "Eroare",
+    "chargeError": "Eroare",
+    "addCaution": "Adaugă",
+    "addCautionDesc": "Garanție nouă",
+    "selectBooking": "Selectează",
+    "searchBooking": "Caută...",
+    "createSuccess": "Creat",
+    "createError": "Eroare",
+    "requiredFields": "Obligatorii",
+    "updateSuccess": "Actualizat",
+    "updateError": "Eroare",
+    "editCaution": "Editează",
+    "activeCautions": "Active",
+    "status": {
+      "pending": "Așteptare",
+      "held": "Reținută",
+      "released": "Eliberată",
+      "charged": "Încasată",
+      "partiallyCharged": "Parțial"
+    },
+    "paymentMethods": {
+      "cash": "Numerar",
+      "bankTransfer": "Transfer",
+      "paysera": "Paysera"
+    }
+  }
+}

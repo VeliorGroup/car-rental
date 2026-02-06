@@ -1,0 +1,54 @@
+{
+  "Maintenance": {
+    "title": "Wartung",
+    "searchPlaceholder": "Wartung suchen...",
+    "pending": "Ausstehend",
+    "scheduled": "Geplant",
+    "inProgress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert",
+    "addMaintenance": "Wartung hinzufügen",
+    "addMaintenanceDesc": "Neue Wartungsaufgabe für ein Fahrzeug planen",
+    "selectVehicle": "Fahrzeug auswählen",
+    "titleColumn": "Titel",
+    "titlePlaceholder": "Wartungstitel eingeben",
+    "type": "Typ",
+    "priority": "Priorität",
+    "priorityLow": "Niedrig",
+    "priorityMedium": "Mittel",
+    "priorityHigh": "Hoch",
+    "priorityUrgent": "Dringend",
+    "scheduledFor": "Geplant Für",
+    "descriptionPlaceholder": "Wartungsbeschreibung eingeben...",
+    "createSuccess": "Wartung erfolgreich erstellt",
+    "createError": "Fehler beim Erstellen der Wartung",
+    "requiredFields": "Fahrzeug und Titel sind erforderlich",
+    "updateSuccess": "Wartung erfolgreich aktualisiert",
+    "updateError": "Fehler beim Aktualisieren der Wartung",
+    "editMaintenance": "Wartung bearbeiten",
+    "cost": "Kosten",
+    "overdue": "Überfällig",
+    "status": {
+      "pending": "Ausstehend",
+      "scheduled": "Geplant",
+      "inProgress": "In Bearbeitung",
+      "completed": "Abgeschlossen",
+      "cancelled": "Storniert"
+    },
+    "types": {
+      "routine": "Routinewartung",
+      "repair": "Reparatur",
+      "inspection": "Inspektion",
+      "tireChange": "Reifenwechsel",
+      "oilChange": "Ölwechsel",
+      "brakeService": "Bremsenservice"
+    },
+    "priorityLabel": "Priorität",
+    "priority": {
+      "low": "Niedrig",
+      "medium": "Mittel",
+      "high": "Hoch",
+      "urgent": "Dringend"
+    }
+  }
+}

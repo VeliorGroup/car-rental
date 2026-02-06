@@ -1,0 +1,15 @@
+{
+  "Analytics": {
+    "title": "Analitika",
+    "revenue": "Të Ardhurat",
+    "bookings": "Rezervimet",
+    "utilization": "Përdorimi",
+    "performance": "Performanca",
+    "totalRevenue": "Të Ardhurat Totale",
+    "utilizationRate": "Norma e Përdorimit",
+    "activeRentals": "Qiradhënie Aktive",
+    "noDataTitle": "Nuk ka të dhëna të disponueshme",
+    "noDataDesc": "Analitika do të shfaqet këtu sapo të filloni të gjeneroni të dhëna.",
+    "fromLastMonth": "nga muaji i kaluar"
+  }
+}

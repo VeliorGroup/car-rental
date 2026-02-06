@@ -1,0 +1,257 @@
+{
+  "Home": {
+    "brand": "FleetPulse",
+    "nav": {
+      "login": "Connexion",
+      "getStarted": "Commencer",
+      "solutions": "Solutions",
+      "pricing": "Tarifs",
+      "resources": "Ressources",
+      "contacts": "Contact",
+      "private": "Particulier",
+      "business": "Entreprise",
+      "loginPrivate": "Connexion",
+      "registerPrivate": "S'inscrire",
+      "loginBusiness": "Connexion Entreprise",
+      "registerBusiness": "Inscrire une entreprise"
+    },
+    "hero": {
+      "title": "FleetPulse",
+      "subtitle": "Plateforme de gestion de location",
+      "description": "Optimisez votre activité de location de voitures avec notre plateforme tout-en-un. Gérez flotte, réservations, clients et analyses depuis un seul tableau de bord.",
+      "startTrial": "Essai gratuit",
+      "viewPricing": "Voir les tarifs",
+      "trustBadge": "Utilisé par plus de 500 entreprises de location",
+      "trustBadgePrefix": "Utilisé par",
+      "trustBadgeSuffix": "entreprises de location",
+      "enterpriseTitle": "La plateforme",
+      "enterpriseHighlight": "enterprise",
+      "enterpriseSubtitle": "pour la location de voitures",
+      "enterpriseDescription": "Une solution complète pour gérer votre flotte, vos réservations et vos clients. Augmentez l'efficacité opérationnelle de 40%.",
+      "startFree": "Commencer gratuitement",
+      "watchDemo": "Voir la démo",
+      "stats": {
+        "vehicles": "Véhicules",
+        "companies": "Entreprises",
+        "bookings": "Réservations",
+        "uptime": "Disponibilité garantie",
+        "support": "Support technique"
+      }
+    },
+    "search": {
+      "title": "Rechercher des véhicules",
+      "subtitle": "Trouvez la voiture parfaite pour vous",
+      "country": "Pays",
+      "onlyActive": "Actif",
+      "comingSoon": "Bientôt",
+      "location": "Lieu",
+      "selectCity": "Sélectionner une ville",
+      "pickup": "Prise en charge",
+      "dropoff": "Retour",
+      "searchButton": "Rechercher les véhicules disponibles",
+      "searching": "Recherche en cours...",
+      "availableVehicles": "véhicules disponibles",
+      "rating": "Évaluation"
+    },
+    "results": {
+      "vehiclesAvailable": "{count} véhicules disponibles",
+      "perDay": "/jour",
+      "totalDays": "total {days} jours",
+      "bookNow": "Réserver maintenant",
+      "noResults": "Aucun véhicule trouvé",
+      "noResultsDesc": "Il n'y a pas de véhicules disponibles pour les critères sélectionnés. Essayez de modifier les dates ou la ville.",
+      "modifySearch": "Modifier la recherche",
+      "seats": "places"
+    },
+    "featuresBar": {
+      "secure": "Sécurisé",
+      "secureDesc": "Paiements protégés",
+      "fast": "Rapide",
+      "fastDesc": "Réservation en 2 min",
+      "flexible": "Flexible",
+      "flexibleDesc": "Annulation gratuite",
+      "support": "Support",
+      "supportDesc": "Assistance 24/7"
+    },
+    "whyUs": {
+      "badge": "Pourquoi FleetPulse",
+      "title": "Le choix des entreprises leaders",
+      "subtitle": "Une plateforme complète qui transforme la façon dont vous gérez votre activité de location",
+      "revenue": {
+        "title": "Augmentez vos revenus",
+        "desc": "Optimisez les prix en temps réel et maximisez l'utilisation de la flotte avec des analyses avancées."
+      },
+      "efficiency": {
+        "title": "Réduisez les coûts opérationnels",
+        "desc": "Automatisez les processus répétitifs et économisez des heures de travail manuel chaque semaine."
+      },
+      "experience": {
+        "title": "Améliorez l'expérience client",
+        "desc": "Réservations en ligne intuitives et communications automatisées pour vos clients."
+      }
+    },
+    "ctaDual": {
+      "title": "Commencez aujourd'hui",
+      "subtitle": "Choisissez le bon chemin pour vous",
+      "customers": {
+        "title": "Pour les clients",
+        "desc": "Réservez votre prochain véhicule en quelques minutes avec notre plateforme simple et rapide.",
+        "button": "Rechercher des véhicules"
+      },
+      "business": {
+        "title": "Pour les entreprises",
+        "desc": "Gérez votre flotte avec des outils professionnels. Essai gratuit de 14 jours.",
+        "button": "Essayer gratuitement"
+      }
+    },
+    "trust": {
+      "title": "Approuvé par les meilleures entreprises"
+    },
+    "features": {
+      "title": "Tout ce dont vous avez besoin pour gérer votre activité de location",
+      "fleet": {
+        "title": "Gestion de flotte",
+        "desc": "Gérez l'ensemble de votre flotte de véhicules depuis un tableau de bord centralisé."
+      },
+      "customer": {
+        "title": "Portail client",
+        "desc": "Système de réservation professionnel pour vos clients avec disponibilité en temps réel."
+      },
+      "analytics": {
+        "title": "Analyses et rapports",
+        "desc": "Aperçus détaillés des revenus, de l'utilisation et des indicateurs de performance."
+      },
+      "secure": {
+        "title": "Sécurisé et conforme",
+        "desc": "Sécurité bancaire avec conformité RGPD et chiffrement des données."
+      },
+      "automation": {
+        "title": "Flux automatisés",
+        "desc": "Automatisez les réservations, la facturation et la planification de la maintenance."
+      },
+      "multiLocation": {
+        "title": "Multi-sites",
+        "desc": "Gérez plusieurs sites de location depuis une seule plateforme."
+      }
+    },
+    "pricing": {
+      "title": "Tarifs simples et transparents",
+      "subtitle": "Choisissez le plan adapté à votre entreprise. Tous les plans incluent un essai gratuit de 14 jours.",
+      "monthly": "Mensuel",
+      "yearly": "Annuel",
+      "perMonth": "/mois",
+      "perYear": "/an",
+      "savePercent": "Économisez {percent}%",
+      "billedYearly": "Facturé €{total}/an",
+      "contactUs": "Contactez-nous",
+      "contactSales": "Contacter les ventes",
+      "mostPopular": "Plus populaire",
+      "unlimited_vehicles": "Véhicules illimités",
+      "unlimited_users": "Utilisateurs illimités",
+      "unlimited_locations": "Sites illimités",
+      "feature_vehicles": "{count} Véhicules",
+      "feature_users": "{count} Utilisateurs",
+      "feature_locations": "{count} Sites",
+      "features": {
+        "basic_analytics": "Analyses de base",
+        "email_support": "Support par email",
+        "advanced_analytics": "Analyses avancées",
+        "priority_support": "Support prioritaire",
+        "api_access": "Accès API",
+        "all_features": "Toutes les fonctionnalités",
+        "dedicated_support": "Support dédié",
+        "custom_branding": "Personnalisation de la marque",
+        "sso": "SSO",
+        "white_label": "Marque blanche"
+      },
+      "plans": {
+        "basic": {
+          "name": "Basic",
+          "desc": "Pour les petites flottes qui débutent.",
+          "features": {
+            "vehicles": "Jusqu'à 10 véhicules",
+            "users": "Jusqu'à 3 utilisateurs",
+            "analytics": "Analyses de base",
+            "support": "Support par email",
+            "trial": "Essai gratuit de 14 jours"
+          }
+        },
+        "starter": {
+          "name": "Starter",
+          "desc": "Parfait pour les petites entreprises de location.",
+          "features": {
+            "vehicles": "Jusqu'à 25 véhicules",
+            "users": "Jusqu'à 5 utilisateurs",
+            "analytics": "Analyses de base",
+            "support": "Support par email",
+            "trial": "Essai gratuit de 14 jours"
+          }
+        },
+        "professional": {
+          "name": "Professional",
+          "desc": "Idéal pour les entreprises en croissance.",
+          "features": {
+            "vehicles": "Jusqu'à 50 véhicules",
+            "users": "Jusqu'à 15 utilisateurs",
+            "analytics": "Analyses avancées",
+            "support": "Support prioritaire",
+            "api": "Accès API",
+            "trial": "Essai gratuit de 14 jours"
+          }
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "desc": "Pour les grandes flottes avec des besoins personnalisés.",
+          "price": "Contactez-nous",
+          "features": {
+            "vehicles": "Véhicules illimités",
+            "users": "Utilisateurs illimités",
+            "analytics": "Analyses personnalisées",
+            "support": "Support dédié",
+            "integrations": "Intégrations personnalisées",
+            "whitelabel": "Option marque blanche"
+          }
+        },
+        "STARTER": {
+          "name": "Starter"
+        },
+        "PROFESSIONAL": {
+          "name": "Professionnel"
+        },
+        "BUSINESS": {
+          "name": "Business"
+        },
+        "ENTERPRISE": {
+          "name": "Entreprise"
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à transformer votre entreprise ?",
+      "description": "Rejoignez des centaines d'entreprises de location qui utilisent déjà notre plateforme. Commencez votre essai gratuit de 14 jours aujourd'hui.",
+      "button": "Commencer maintenant"
+    },
+    "footer": {
+      "rights": "Tous droits réservés.",
+      "product": "Produit",
+      "company": "Entreprise",
+      "legal": "Légal",
+      "contact": "Contact",
+      "features": "Fonctionnalités",
+      "integrations": "Intégrations",
+      "changelog": "Journal des modifications",
+      "docs": "Documentation",
+      "about": "À propos",
+      "blog": "Blog",
+      "careers": "Carrières",
+      "press": "Presse",
+      "privacy": "Confidentialité",
+      "terms": "Conditions",
+      "cookies": "Cookies",
+      "support": "Support",
+      "sales": "Ventes",
+      "demo": "Demander une démo",
+      "description": "La plateforme enterprise pour la gestion de location de voitures. Utilisée par plus de 500 entreprises dans le monde."
+    }
+  }
+}

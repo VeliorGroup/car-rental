@@ -1,0 +1,15 @@
+{
+  "Analytics": {
+    "title": "Analítica",
+    "revenue": "Ingresos",
+    "bookings": "Reservas",
+    "utilization": "Utilización",
+    "performance": "Rendimiento",
+    "totalRevenue": "Ingresos Totales",
+    "utilizationRate": "Tasa de Utilización",
+    "activeRentals": "Alquileres Activos",
+    "noDataTitle": "No hay datos disponibles",
+    "noDataDesc": "La analítica aparecerá aquí una vez empieces a generar datos.",
+    "fromLastMonth": "desde el mes pasado"
+  }
+}

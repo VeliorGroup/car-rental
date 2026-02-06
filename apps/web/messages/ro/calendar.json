@@ -1,0 +1,42 @@
+{
+  "Calendar": {
+    "title": "Calendar",
+    "selectDate": "Selectează",
+    "clickToSee": "Click pentru detalii",
+    "noBookings": "Fără rezervări",
+    "more": "mai mult",
+    "days": {
+      "sun": "Dum",
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mie",
+      "thu": "Joi",
+      "fri": "Vin",
+      "sat": "Sâm"
+    },
+    "months": {
+      "january": "Ianuarie",
+      "february": "Februarie",
+      "march": "Martie",
+      "april": "Aprilie",
+      "may": "Mai",
+      "june": "Iunie",
+      "july": "Iulie",
+      "august": "August",
+      "september": "Septembrie",
+      "october": "Octombrie",
+      "november": "Noiembrie",
+      "december": "Decembrie"
+    },
+    "view": {
+      "day": "Zi",
+      "week": "Săptămână",
+      "month": "Lună"
+    },
+    "week": "Săptămână",
+    "pickups": "Ridicări",
+    "dropoffs": "Returnări",
+    "noPickups": "Nicio",
+    "noDropoffs": "Nicio"
+  }
+}

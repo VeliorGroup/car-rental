@@ -1,0 +1,33 @@
+{
+  "Branches": {
+    "title": "Branches",
+    "details": "Branch Details",
+    "branch": "Branch",
+    "searchPlaceholder": "Search branches...",
+    "code": "Code",
+    "address": "Address",
+    "city": "City",
+    "country": "Country",
+    "phone": "Phone",
+    "email": "Email",
+    "notes": "Notes",
+    "active": "Active",
+    "inactive": "Inactive",
+    "default": "Default",
+    "setAsDefault": "Set as Default",
+    "totalBranches": "Total Branches",
+    "activeBranches": "Active Branches",
+    "vehiclesDistribution": "Vehicles Distribution",
+    "addBranch": "Add Branch",
+    "addBranchDesc": "Enter the details of the new branch",
+    "namePlaceholder": "Branch name",
+    "addressPlaceholder": "123 Main Street",
+    "cityPlaceholder": "Tirana",
+    "notesPlaceholder": "Additional notes...",
+    "createSuccess": "Branch created successfully",
+    "createError": "Error creating branch",
+    "updateSuccess": "Branch updated successfully",
+    "updateError": "Error updating branch",
+    "requiredFields": "Please fill in all required fields"
+  }
+}

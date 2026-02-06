@@ -1,0 +1,42 @@
+{
+  "Calendar": {
+    "title": "Buchungskalender",
+    "selectDate": "Datum auswählen",
+    "clickToSee": "Klicken Sie auf einen Tag, um Buchungsdetails zu sehen",
+    "noBookings": "Keine Buchungen für dieses Datum",
+    "more": "mehr",
+    "days": {
+      "sun": "So",
+      "mon": "Mo",
+      "tue": "Di",
+      "wed": "Mi",
+      "thu": "Do",
+      "fri": "Fr",
+      "sat": "Sa"
+    },
+    "months": {
+      "january": "Januar",
+      "february": "Februar",
+      "march": "März",
+      "april": "April",
+      "may": "Mai",
+      "june": "Juni",
+      "july": "Juli",
+      "august": "August",
+      "september": "September",
+      "october": "Oktober",
+      "november": "November",
+      "december": "Dezember"
+    },
+    "view": {
+      "day": "Tag",
+      "week": "Woche",
+      "month": "Monat"
+    },
+    "week": "Woche",
+    "pickups": "Abholungen",
+    "dropoffs": "Rückgaben",
+    "noPickups": "Keine Abholungen",
+    "noDropoffs": "Keine Rückgaben"
+  }
+}

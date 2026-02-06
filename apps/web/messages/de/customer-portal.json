@@ -1,0 +1,114 @@
+{
+  "CustomerPortal": {
+    "sidebar": {
+      "brand": "FleetPulse",
+      "subtitle": "Kundenbereich",
+      "dashboard": "Dashboard",
+      "searchVehicles": "Fahrzeuge suchen",
+      "bookings": "Buchungen",
+      "profile": "Profil",
+      "logout": "Abmelden"
+    },
+    "header": {
+      "online": "Online"
+    },
+    "dashboard": {
+      "hello": "Hallo, {name}!",
+      "welcome": "Verwalten Sie Ihre Buchungen und Ihr Profil",
+      "verified": "Verifiziert",
+      "editProfile": "Profil bearbeiten",
+      "stats": {
+        "total": "Buchungen gesamt",
+        "active": "Laufend",
+        "confirmed": "Bestätigt",
+        "completed": "Abgeschlossen"
+      },
+      "recentBookings": "Letzte Buchungen",
+      "recentBookingsDesc": "Ihre letzten Buchungen",
+      "viewAll": "Alle anzeigen",
+      "noBookings": "Keine Buchungen",
+      "noBookingsDesc": "Sie haben noch keine Buchungen gemacht",
+      "searchCar": "Auto suchen",
+      "tableHeaders": {
+        "vehicle": "Fahrzeug",
+        "dates": "Daten",
+        "location": "Ort",
+        "amount": "Betrag",
+        "status": "Status"
+      },
+      "personalInfo": "Persönliche Daten",
+      "quickActions": "Schnellaktionen",
+      "searchAndBook": "Fahrzeug suchen und buchen",
+      "manageBookings": "Buchungen verwalten",
+      "goToHomepage": "Zur Startseite"
+    },
+    "search": {
+      "title": "Fahrzeuge suchen",
+      "subtitle": "Finden Sie das perfekte Auto für Ihre nächste Reise",
+      "country": "Land",
+      "city": "Stadt",
+      "searchCity": "Stadt suchen...",
+      "pickupDate": "Abholdatum",
+      "returnDate": "Rückgabedatum",
+      "search": "Suchen",
+      "searching": "Suche läuft...",
+      "active": "Aktiv",
+      "comingSoon": "Bald",
+      "startSearch": "Suche starten",
+      "startSearchDesc": "Wählen Sie Stadt und Daten, um verfügbare Fahrzeuge zu finden",
+      "noResults": "Keine Fahrzeuge gefunden",
+      "noResultsDesc": "Versuchen Sie, die Daten oder die Stadt zu ändern",
+      "resultsCount": "{count} Fahrzeuge in {city} gefunden",
+      "perDay": "/Tag",
+      "book": "Buchen"
+    },
+    "bookings": {
+      "title": "Ihre Buchungen",
+      "subtitle": "Alle Buchungen anzeigen und verwalten",
+      "noBookings": "Keine Buchungen",
+      "noBookingsDesc": "Sie haben noch keine Buchungen. Suchen Sie ein Fahrzeug, um zu beginnen!",
+      "searchVehicles": "Fahrzeuge suchen",
+      "from": "Von",
+      "to": "Bis",
+      "details": "Details",
+      "previous": "Zurück",
+      "next": "Weiter",
+      "pageOf": "Seite {current} von {total}",
+      "status": {
+        "CONFIRMED": "Bestätigt",
+        "CHECKED_OUT": "Laufend",
+        "CHECKED_IN": "Abgeschlossen",
+        "CANCELLED": "Storniert",
+        "PENDING": "Ausstehend"
+      }
+    },
+    "profile": {
+      "title": "Ihr Profil",
+      "subtitle": "Verwalten Sie Ihre persönlichen Daten",
+      "personalInfo": "Persönliche Daten",
+      "personalInfoDesc": "Bearbeiten Sie Ihre persönlichen Daten",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "emailNotEditable": "E-Mail kann nicht geändert werden",
+      "phone": "Telefon",
+      "phonePlaceholder": "+49 170 123 4567",
+      "saveChanges": "Änderungen speichern",
+      "saving": "Speichern...",
+      "accountStatus": "Kontostatus",
+      "emailVerified": "E-Mail verifiziert",
+      "verified": "Verifiziert",
+      "notVerified": "Nicht verifiziert",
+      "memberSince": "Mitglied seit",
+      "customerId": "Kunden-ID",
+      "contacts": "Kontakte",
+      "notSpecified": "Nicht angegeben",
+      "saveSuccess": "Profil erfolgreich aktualisiert",
+      "saveError": "Fehler beim Speichern"
+    },
+    "common": {
+      "email": "E-Mail",
+      "phone": "Telefon"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Analytics": {
+    "title": "Αναλυτικά",
+    "revenue": "Έσοδα",
+    "bookings": "Κρατήσεις",
+    "utilization": "Χρήση",
+    "performance": "Απόδοση",
+    "totalRevenue": "Συνολικά",
+    "utilizationRate": "Ποσοστό",
+    "activeRentals": "Ενεργές",
+    "noDataTitle": "Χωρίς δεδομένα",
+    "noDataDesc": "Θα εμφανιστούν",
+    "fromLastMonth": "από προηγούμενο μήνα"
+  }
+}

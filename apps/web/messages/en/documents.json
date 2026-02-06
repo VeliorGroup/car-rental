@@ -1,0 +1,32 @@
+{
+  "Documents": {
+    "title": "Documents",
+    "description": "Manage and organize your documents",
+    "searchPlaceholder": "Search documents...",
+    "type": "Type",
+    "allTypes": "All Types",
+    "entityType": "Entity",
+    "allEntities": "All Entities",
+    "uploadDocument": "Upload Document",
+    "uploadDescription": "Upload a new document to your library",
+    "totalDocuments": "Total Documents",
+    "expiringSoon": "Expiring Soon",
+    "contracts": "Contracts",
+    "insurance": "Insurance",
+    "expiringDocuments": "Expiring Documents",
+    "expiresOn": "Expires on",
+    "name": "Name",
+    "size": "Size",
+    "expiryDate": "Expiry Date",
+    "uploadedAt": "Uploaded",
+    "file": "File",
+    "clickToUpload": "Click to upload or drag and drop",
+    "description": "Description",
+    "upload": "Upload",
+    "uploadSuccess": "Upload Successful",
+    "documentUploaded": "Document has been uploaded successfully",
+    "uploadError": "Failed to upload document",
+    "deleteSuccess": "Document Deleted",
+    "documentDeleted": "Document has been deleted successfully"
+  }
+}

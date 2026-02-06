@@ -1,0 +1,33 @@
+{
+  "Branches": {
+    "title": "Υποκαταστήματα",
+    "details": "Λεπτομέρειες",
+    "branch": "Υποκατάστημα",
+    "searchPlaceholder": "Αναζήτηση...",
+    "code": "Κωδικός",
+    "address": "Διεύθυνση",
+    "city": "Πόλη",
+    "country": "Χώρα",
+    "phone": "Τηλέφωνο",
+    "email": "Ηλ. Ταχυδρομείο",
+    "notes": "Σημειώσεις",
+    "active": "Ενεργό",
+    "inactive": "Ανενεργό",
+    "default": "Προεπιλογή",
+    "setAsDefault": "Ορισμός",
+    "totalBranches": "Σύνολο",
+    "activeBranches": "Ενεργά",
+    "vehiclesDistribution": "Κατανομή",
+    "addBranch": "Προσθήκη",
+    "addBranchDesc": "Νέο υποκατάστημα",
+    "namePlaceholder": "Όνομα",
+    "addressPlaceholder": "Διεύθυνση",
+    "cityPlaceholder": "Πόλη",
+    "notesPlaceholder": "Σημειώσεις...",
+    "createSuccess": "Δημιουργήθηκε",
+    "createError": "Σφάλμα",
+    "updateSuccess": "Ενημερώθηκε",
+    "updateError": "Σφάλμα",
+    "requiredFields": "Υποχρεωτικά"
+  }
+}

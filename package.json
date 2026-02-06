@@ -1,0 +1,32 @@
+{
+  "name": "fleetpulse",
+  "version": "1.0.0",
+  "description": "FleetPulse - Complete SaaS platform for car rental fleet management",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "cd apps/api && npm run start:dev",
+    "dev:web": "cd apps/web && npm run dev",
+    "build": "npm run build:api && npm run build:web",
+    "build:api": "cd apps/api && npm run build",
+    "build:web": "cd apps/web && npm run build",
+    "test": "npm run test:api && npm run test:web",
+    "test:api": "cd apps/api && npm run test",
+    "test:web": "cd apps/web && npm run test",
+    "docker:dev": "docker-compose up -d",
+    "docker:prod": "docker-compose -f docker-compose.prod.yml up -d",
+    "docker:build": "docker-compose -f docker-compose.prod.yml build",
+    "docker:down": "docker-compose down",
+    "deploy": "./scripts/deploy.sh"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

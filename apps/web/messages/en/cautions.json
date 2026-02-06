@@ -1,0 +1,53 @@
+{
+  "Cautions": {
+    "title": "Cautions",
+    "details": "Caution Details",
+    "cautionInfo": "Caution Information",
+    "releasedDate": "Released Date",
+    "chargedDate": "Charged Date",
+    "chargedAmount": "Charged Amount",
+    "searchPlaceholder": "Search cautions...",
+    "pending": "Pending",
+    "held": "Held",
+    "released": "Released",
+    "charged": "Charged",
+    "partiallyCharged": "Partially Charged",
+    "failed": "Failed",
+    "pendingRelease": "Pending Release",
+    "heldDate": "Held Date",
+    "paymentMethod": "Payment Method",
+    "release": "Release",
+    "charge": "Charge",
+    "confirmRelease": "Confirm Caution Release",
+    "confirmCharge": "Confirm Caution Charge",
+    "releaseDescription": "You are about to release a caution of {amount}. This action cannot be undone.",
+    "chargeDescription": "You are about to charge the full caution of {amount}. This action cannot be undone.",
+    "releaseSuccess": "Caution released successfully",
+    "chargeSuccess": "Caution charged successfully",
+    "releaseError": "Error releasing caution",
+    "chargeError": "Error charging caution",
+    "addCaution": "Add Caution",
+    "addCautionDesc": "Create a new caution for an active booking",
+    "selectBooking": "Select booking",
+    "searchBooking": "Search booking...",
+    "createSuccess": "Caution created successfully",
+    "createError": "Error creating caution",
+    "requiredFields": "Please fill in all required fields",
+    "updateSuccess": "Caution updated successfully",
+    "updateError": "Error updating caution",
+    "editCaution": "Edit Caution",
+    "activeCautions": "Active Cautions",
+    "status": {
+      "pending": "Pending",
+      "held": "Held",
+      "released": "Released",
+      "charged": "Charged",
+      "partiallyCharged": "Partially Charged"
+    },
+    "paymentMethods": {
+      "cash": "Cash",
+      "bankTransfer": "Bank Transfer",
+      "paysera": "Paysera"
+    }
+  }
+}

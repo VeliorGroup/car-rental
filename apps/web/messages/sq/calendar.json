@@ -1,0 +1,42 @@
+{
+  "Calendar": {
+    "title": "Kalendari i Rezervimeve",
+    "selectDate": "Zgjidhni një datë",
+    "clickToSee": "Klikoni mbi një ditë për të parë detajet e rezervimit",
+    "noBookings": "Nuk ka rezervime për këtë datë",
+    "more": "më shumë",
+    "days": {
+      "sun": "Die",
+      "mon": "Hën",
+      "tue": "Mar",
+      "wed": "Mër",
+      "thu": "Enj",
+      "fri": "Pre",
+      "sat": "Sht"
+    },
+    "months": {
+      "january": "Janar",
+      "february": "Shkurt",
+      "march": "Mars",
+      "april": "Prill",
+      "may": "Maj",
+      "june": "Qershor",
+      "july": "Korrik",
+      "august": "Gusht",
+      "september": "Shtator",
+      "october": "Tetor",
+      "november": "Nëntor",
+      "december": "Dhjetor"
+    },
+    "view": {
+      "day": "Ditë",
+      "week": "Javë",
+      "month": "Muaj"
+    },
+    "week": "Javë",
+    "pickups": "Marrjet",
+    "dropoffs": "Kthimet",
+    "noPickups": "Nuk ka marrje",
+    "noDropoffs": "Nuk ka kthim"
+  }
+}

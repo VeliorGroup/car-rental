@@ -1,0 +1,33 @@
+{
+  "Branches": {
+    "title": "Filiais",
+    "details": "Detalhes da Filial",
+    "branch": "Filial",
+    "searchPlaceholder": "Pesquisar filiais...",
+    "code": "Código",
+    "address": "Morada",
+    "city": "Cidade",
+    "country": "País",
+    "phone": "Telefone",
+    "email": "Email",
+    "notes": "Notas",
+    "active": "Ativa",
+    "inactive": "Inativa",
+    "default": "Predefinida",
+    "setAsDefault": "Definir como Predefinida",
+    "totalBranches": "Total de Filiais",
+    "activeBranches": "Filiais Ativas",
+    "vehiclesDistribution": "Distribuição de Veículos",
+    "addBranch": "Adicionar Filial",
+    "addBranchDesc": "Introduza os detalhes da nova filial",
+    "namePlaceholder": "Nome da filial",
+    "addressPlaceholder": "Rua Principal 123",
+    "cityPlaceholder": "Lisboa",
+    "notesPlaceholder": "Notas adicionais...",
+    "createSuccess": "Filial criada com sucesso",
+    "createError": "Erro ao criar filial",
+    "updateSuccess": "Filial atualizada com sucesso",
+    "updateError": "Erro ao atualizar filial",
+    "requiredFields": "Por favor preencha todos os campos obrigatórios"
+  }
+}

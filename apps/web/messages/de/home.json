@@ -1,0 +1,257 @@
+{
+  "Home": {
+    "brand": "FleetPulse",
+    "nav": {
+      "login": "Anmelden",
+      "getStarted": "Loslegen",
+      "solutions": "Lösungen",
+      "pricing": "Preise",
+      "resources": "Ressourcen",
+      "contacts": "Kontakt",
+      "private": "Privat",
+      "business": "Business",
+      "loginPrivate": "Anmelden",
+      "registerPrivate": "Registrieren",
+      "loginBusiness": "Business-Anmeldung",
+      "registerBusiness": "Unternehmen registrieren"
+    },
+    "hero": {
+      "title": "FleetPulse",
+      "subtitle": "Autovermietungs-Management",
+      "description": "Optimieren Sie Ihr Autovermietungsgeschäft mit unserer All-in-One-Plattform. Verwalten Sie Flotte, Buchungen, Kunden und Analysen von einem einzigen Dashboard aus.",
+      "startTrial": "Kostenlose Testversion starten",
+      "viewPricing": "Preise ansehen",
+      "trustBadge": "Von über 500 Vermietungsunternehmen genutzt",
+      "trustBadgePrefix": "Von",
+      "trustBadgeSuffix": "Vermietungsunternehmen genutzt",
+      "enterpriseTitle": "Die",
+      "enterpriseHighlight": "Enterprise",
+      "enterpriseSubtitle": "Plattform für Autovermietung",
+      "enterpriseDescription": "Eine komplette Lösung zur Verwaltung Ihrer Flotte, Buchungen und Kunden. Steigern Sie die operative Effizienz um 40%.",
+      "startFree": "Kostenlos starten",
+      "watchDemo": "Demo ansehen",
+      "stats": {
+        "vehicles": "Fahrzeuge",
+        "companies": "Unternehmen",
+        "bookings": "Buchungen",
+        "uptime": "Garantierte Verfügbarkeit",
+        "support": "Technischer Support"
+      }
+    },
+    "search": {
+      "title": "Fahrzeuge suchen",
+      "subtitle": "Finden Sie das perfekte Auto für Sie",
+      "country": "Land",
+      "onlyActive": "Aktiv",
+      "comingSoon": "Demnächst",
+      "location": "Standort",
+      "selectCity": "Stadt auswählen",
+      "pickup": "Abholung",
+      "dropoff": "Rückgabe",
+      "searchButton": "Verfügbare Fahrzeuge suchen",
+      "searching": "Suche läuft...",
+      "availableVehicles": "verfügbare Fahrzeuge",
+      "rating": "Bewertung"
+    },
+    "results": {
+      "vehiclesAvailable": "{count} Fahrzeuge verfügbar",
+      "perDay": "/Tag",
+      "totalDays": "gesamt {days} Tage",
+      "bookNow": "Jetzt buchen",
+      "noResults": "Keine Fahrzeuge gefunden",
+      "noResultsDesc": "Für die ausgewählten Kriterien sind keine Fahrzeuge verfügbar. Versuchen Sie, die Daten oder die Stadt zu ändern.",
+      "modifySearch": "Suche ändern",
+      "seats": "Sitze"
+    },
+    "featuresBar": {
+      "secure": "Sicher",
+      "secureDesc": "Geschützte Zahlungen",
+      "fast": "Schnell",
+      "fastDesc": "Buchung in 2 Min",
+      "flexible": "Flexibel",
+      "flexibleDesc": "Kostenlose Stornierung",
+      "support": "Support",
+      "supportDesc": "24/7 Unterstützung"
+    },
+    "whyUs": {
+      "badge": "Warum FleetPulse",
+      "title": "Die Wahl führender Unternehmen",
+      "subtitle": "Eine komplette Plattform, die die Art und Weise transformiert, wie Sie Ihr Vermietungsgeschäft führen",
+      "revenue": {
+        "title": "Umsatz steigern",
+        "desc": "Optimieren Sie Preise in Echtzeit und maximieren Sie die Flottenauslastung mit fortschrittlichen Analysen."
+      },
+      "efficiency": {
+        "title": "Betriebskosten senken",
+        "desc": "Automatisieren Sie wiederkehrende Prozesse und sparen Sie jede Woche Stunden manueller Arbeit."
+      },
+      "experience": {
+        "title": "Kundenerlebnis verbessern",
+        "desc": "Intuitive Online-Buchungen und automatisierte Kommunikation für Ihre Kunden."
+      }
+    },
+    "ctaDual": {
+      "title": "Heute starten",
+      "subtitle": "Wählen Sie den richtigen Weg für Sie",
+      "customers": {
+        "title": "Für Kunden",
+        "desc": "Buchen Sie Ihr nächstes Fahrzeug in wenigen Minuten mit unserer einfachen und schnellen Plattform.",
+        "button": "Fahrzeuge suchen"
+      },
+      "business": {
+        "title": "Für Unternehmen",
+        "desc": "Verwalten Sie Ihre Flotte mit professionellen Tools. 14 Tage kostenlose Testversion.",
+        "button": "Kostenlos testen"
+      }
+    },
+    "trust": {
+      "title": "Von den besten Unternehmen vertraut"
+    },
+    "features": {
+      "title": "Alles, was Sie für Ihr Vermietungsgeschäft brauchen",
+      "fleet": {
+        "title": "Flottenmanagement",
+        "desc": "Verwalten Sie Ihre gesamte Fahrzeugflotte von einem zentralen Dashboard aus."
+      },
+      "customer": {
+        "title": "Kundenportal",
+        "desc": "Professionelles Buchungssystem für Ihre Kunden mit Echtzeit-Verfügbarkeit."
+      },
+      "analytics": {
+        "title": "Analysen & Berichte",
+        "desc": "Detaillierte Einblicke in Umsatz, Auslastung und Leistungskennzahlen."
+      },
+      "secure": {
+        "title": "Sicher & Konform",
+        "desc": "Banksicherheit mit DSGVO-Konformität und Datenverschlüsselung."
+      },
+      "automation": {
+        "title": "Automatisierte Workflows",
+        "desc": "Automatisieren Sie Buchungen, Rechnungsstellung und Wartungsplanung."
+      },
+      "multiLocation": {
+        "title": "Multi-Standort",
+        "desc": "Verwalten Sie mehrere Vermietungsstandorte von einer einzigen Plattform aus."
+      }
+    },
+    "pricing": {
+      "title": "Einfache, transparente Preise",
+      "subtitle": "Wählen Sie den Plan, der zu Ihrem Unternehmen passt. Alle Pläne beinhalten eine 14-tägige kostenlose Testversion.",
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "perMonth": "/Monat",
+      "perYear": "/Jahr",
+      "savePercent": "{percent}% sparen",
+      "billedYearly": "Jährlich €{total} abgerechnet",
+      "contactUs": "Kontaktieren Sie uns",
+      "contactSales": "Vertrieb kontaktieren",
+      "mostPopular": "Beliebteste",
+      "unlimited_vehicles": "Unbegrenzte Fahrzeuge",
+      "unlimited_users": "Unbegrenzte Benutzer",
+      "unlimited_locations": "Unbegrenzte Standorte",
+      "feature_vehicles": "{count} Fahrzeuge",
+      "feature_users": "{count} Benutzer",
+      "feature_locations": "{count} Standorte",
+      "features": {
+        "basic_analytics": "Basis-Analysen",
+        "email_support": "E-Mail-Support",
+        "advanced_analytics": "Erweiterte Analysen",
+        "priority_support": "Prioritäts-Support",
+        "api_access": "API-Zugang",
+        "all_features": "Alle Funktionen",
+        "dedicated_support": "Dedizierter Support",
+        "custom_branding": "Individuelles Branding",
+        "sso": "SSO",
+        "white_label": "White Label"
+      },
+      "plans": {
+        "basic": {
+          "name": "Basic",
+          "desc": "Für kleine Flotten am Anfang.",
+          "features": {
+            "vehicles": "Bis zu 10 Fahrzeuge",
+            "users": "Bis zu 3 Benutzer",
+            "analytics": "Basis-Analysen",
+            "support": "E-Mail-Support",
+            "trial": "14-tägige kostenlose Testversion"
+          }
+        },
+        "starter": {
+          "name": "Starter",
+          "desc": "Perfekt für kleine Vermietungsunternehmen.",
+          "features": {
+            "vehicles": "Bis zu 25 Fahrzeuge",
+            "users": "Bis zu 5 Benutzer",
+            "analytics": "Basis-Analysen",
+            "support": "E-Mail-Support",
+            "trial": "14-tägige kostenlose Testversion"
+          }
+        },
+        "professional": {
+          "name": "Professional",
+          "desc": "Ideal für wachsende Unternehmen.",
+          "features": {
+            "vehicles": "Bis zu 50 Fahrzeuge",
+            "users": "Bis zu 15 Benutzer",
+            "analytics": "Erweiterte Analysen",
+            "support": "Prioritäts-Support",
+            "api": "API-Zugang",
+            "trial": "14-tägige kostenlose Testversion"
+          }
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "desc": "Für große Flotten mit individuellen Anforderungen.",
+          "price": "Kontaktieren Sie uns",
+          "features": {
+            "vehicles": "Unbegrenzte Fahrzeuge",
+            "users": "Unbegrenzte Benutzer",
+            "analytics": "Individuelle Analysen",
+            "support": "Dedizierter Support",
+            "integrations": "Individuelle Integrationen",
+            "whitelabel": "White-Label-Option"
+          }
+        },
+        "STARTER": {
+          "name": "Starter"
+        },
+        "PROFESSIONAL": {
+          "name": "Professional"
+        },
+        "BUSINESS": {
+          "name": "Business"
+        },
+        "ENTERPRISE": {
+          "name": "Enterprise"
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihr Geschäft zu transformieren?",
+      "description": "Schließen Sie sich Hunderten von Vermietungsunternehmen an, die bereits unsere Plattform nutzen. Starten Sie heute Ihre 14-tägige kostenlose Testversion.",
+      "button": "Jetzt starten"
+    },
+    "footer": {
+      "rights": "Alle Rechte vorbehalten.",
+      "product": "Produkt",
+      "company": "Unternehmen",
+      "legal": "Rechtliches",
+      "contact": "Kontakt",
+      "features": "Funktionen",
+      "integrations": "Integrationen",
+      "changelog": "Änderungsprotokoll",
+      "docs": "Dokumentation",
+      "about": "Über uns",
+      "blog": "Blog",
+      "careers": "Karriere",
+      "press": "Presse",
+      "privacy": "Datenschutz",
+      "terms": "AGB",
+      "cookies": "Cookies",
+      "support": "Support",
+      "sales": "Vertrieb",
+      "demo": "Demo anfordern",
+      "description": "Die Enterprise-Plattform für Autovermietungsmanagement. Von über 500 Unternehmen weltweit genutzt."
+    }
+  }
+}

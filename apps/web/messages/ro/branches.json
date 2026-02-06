@@ -1,0 +1,33 @@
+{
+  "Branches": {
+    "title": "Filiale",
+    "details": "Detalii",
+    "branch": "Filială",
+    "searchPlaceholder": "Caută...",
+    "code": "Cod",
+    "address": "Adresă",
+    "city": "Oraș",
+    "country": "Țară",
+    "phone": "Telefon",
+    "email": "Email",
+    "notes": "Note",
+    "active": "Activă",
+    "inactive": "Inactivă",
+    "default": "Implicit",
+    "setAsDefault": "Setează",
+    "totalBranches": "Total",
+    "activeBranches": "Active",
+    "vehiclesDistribution": "Distribuție",
+    "addBranch": "Adaugă",
+    "addBranchDesc": "Filială nouă",
+    "namePlaceholder": "Nume",
+    "addressPlaceholder": "Adresă",
+    "cityPlaceholder": "Oraș",
+    "notesPlaceholder": "Note...",
+    "createSuccess": "Creat",
+    "createError": "Eroare",
+    "updateSuccess": "Actualizat",
+    "updateError": "Eroare",
+    "requiredFields": "Obligatorii"
+  }
+}

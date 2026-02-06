@@ -1,0 +1,33 @@
+{
+  "Branches": {
+    "title": "Filialen",
+    "details": "Filialdetails",
+    "branch": "Filiale",
+    "searchPlaceholder": "Filialen suchen...",
+    "code": "Code",
+    "address": "Adresse",
+    "city": "Stadt",
+    "country": "Land",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "notes": "Notizen",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "default": "Standard",
+    "setAsDefault": "Als Standard festlegen",
+    "totalBranches": "Filialen Gesamt",
+    "activeBranches": "Aktive Filialen",
+    "vehiclesDistribution": "Fahrzeugverteilung",
+    "addBranch": "Filiale hinzufügen",
+    "addBranchDesc": "Details der neuen Filiale eingeben",
+    "namePlaceholder": "Filialname",
+    "addressPlaceholder": "Hauptstraße 123",
+    "cityPlaceholder": "Berlin",
+    "notesPlaceholder": "Zusätzliche Notizen...",
+    "createSuccess": "Filiale erfolgreich erstellt",
+    "createError": "Fehler beim Erstellen der Filiale",
+    "updateSuccess": "Filiale erfolgreich aktualisiert",
+    "updateError": "Fehler beim Aktualisieren der Filiale",
+    "requiredFields": "Bitte füllen Sie alle Pflichtfelder aus"
+  }
+}

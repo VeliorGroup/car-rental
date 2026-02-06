@@ -1,0 +1,114 @@
+{
+  "CustomerPortal": {
+    "sidebar": {
+      "brand": "FleetPulse",
+      "subtitle": "Área Cliente",
+      "dashboard": "Panel",
+      "searchVehicles": "Buscar vehículos",
+      "bookings": "Reservas",
+      "profile": "Perfil",
+      "logout": "Salir"
+    },
+    "header": {
+      "online": "En línea"
+    },
+    "dashboard": {
+      "hello": "¡Hola, {name}!",
+      "welcome": "Gestiona tus reservas y perfil",
+      "verified": "Verificado",
+      "editProfile": "Editar perfil",
+      "stats": {
+        "total": "Total reservas",
+        "active": "En curso",
+        "confirmed": "Confirmadas",
+        "completed": "Completadas"
+      },
+      "recentBookings": "Reservas recientes",
+      "recentBookingsDesc": "Tus últimas reservas",
+      "viewAll": "Ver todas",
+      "noBookings": "Sin reservas",
+      "noBookingsDesc": "Aún no has realizado ninguna reserva",
+      "searchCar": "Buscar un coche",
+      "tableHeaders": {
+        "vehicle": "Vehículo",
+        "dates": "Fechas",
+        "location": "Ubicación",
+        "amount": "Importe",
+        "status": "Estado"
+      },
+      "personalInfo": "Información personal",
+      "quickActions": "Acciones rápidas",
+      "searchAndBook": "Buscar y reservar un vehículo",
+      "manageBookings": "Gestionar reservas",
+      "goToHomepage": "Ir a la página principal"
+    },
+    "search": {
+      "title": "Buscar vehículos",
+      "subtitle": "Encuentra el coche perfecto para tu próximo viaje",
+      "country": "País",
+      "city": "Ciudad",
+      "searchCity": "Buscar ciudad...",
+      "pickupDate": "Fecha de recogida",
+      "returnDate": "Fecha de entrega",
+      "search": "Buscar",
+      "searching": "Buscando...",
+      "active": "Activo",
+      "comingSoon": "Próximamente",
+      "startSearch": "Iniciar búsqueda",
+      "startSearchDesc": "Selecciona ciudad y fechas para encontrar vehículos disponibles",
+      "noResults": "No se encontraron vehículos",
+      "noResultsDesc": "Prueba a cambiar las fechas o la ciudad",
+      "resultsCount": "{count} vehículos encontrados en {city}",
+      "perDay": "/día",
+      "book": "Reservar"
+    },
+    "bookings": {
+      "title": "Tus reservas",
+      "subtitle": "Ver y gestionar todas tus reservas",
+      "noBookings": "Sin reservas",
+      "noBookingsDesc": "Aún no has realizado ninguna reserva. ¡Busca un vehículo para empezar!",
+      "searchVehicles": "Buscar vehículos",
+      "from": "Desde",
+      "to": "Hasta",
+      "details": "Detalles",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "pageOf": "Página {current} de {total}",
+      "status": {
+        "CONFIRMED": "Confirmada",
+        "CHECKED_OUT": "En curso",
+        "CHECKED_IN": "Completada",
+        "CANCELLED": "Cancelada",
+        "PENDING": "Pendiente"
+      }
+    },
+    "profile": {
+      "title": "Tu perfil",
+      "subtitle": "Gestiona tu información personal",
+      "personalInfo": "Información personal",
+      "personalInfoDesc": "Edita tus datos personales",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Email",
+      "emailNotEditable": "El email no se puede cambiar",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+34 612 345 678",
+      "saveChanges": "Guardar cambios",
+      "saving": "Guardando...",
+      "accountStatus": "Estado de la cuenta",
+      "emailVerified": "Email verificado",
+      "verified": "Verificado",
+      "notVerified": "No verificado",
+      "memberSince": "Miembro desde",
+      "customerId": "ID de Cliente",
+      "contacts": "Contactos",
+      "notSpecified": "No especificado",
+      "saveSuccess": "Perfil actualizado correctamente",
+      "saveError": "Error al guardar"
+    },
+    "common": {
+      "email": "Email",
+      "phone": "Teléfono"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "Cautions": {
+    "title": "Cautions",
+    "details": "Détails de la Caution",
+    "cautionInfo": "Informations sur la Caution",
+    "releasedDate": "Date de Libération",
+    "chargedDate": "Date de Prélèvement",
+    "chargedAmount": "Montant Prélevé",
+    "searchPlaceholder": "Rechercher des cautions...",
+    "pending": "En Attente",
+    "held": "Retenue",
+    "released": "Libérée",
+    "charged": "Prélevée",
+    "partiallyCharged": "Partiellement Prélevée",
+    "failed": "Échouée",
+    "pendingRelease": "En Attente de Libération",
+    "heldDate": "Date de Retenue",
+    "paymentMethod": "Mode de Paiement",
+    "release": "Libérer",
+    "charge": "Prélever",
+    "confirmRelease": "Confirmer la Libération de la Caution",
+    "confirmCharge": "Confirmer le Prélèvement de la Caution",
+    "releaseDescription": "Vous êtes sur le point de libérer une caution de {amount}. Cette action est irréversible.",
+    "chargeDescription": "Vous êtes sur le point de prélever la caution complète de {amount}. Cette action est irréversible.",
+    "releaseSuccess": "Caution libérée avec succès",
+    "chargeSuccess": "Caution prélevée avec succès",
+    "releaseError": "Erreur lors de la libération de la caution",
+    "chargeError": "Erreur lors du prélèvement de la caution",
+    "addCaution": "Ajouter une Caution",
+    "addCautionDesc": "Créer une nouvelle caution pour une réservation active",
+    "selectBooking": "Sélectionner une réservation",
+    "searchBooking": "Rechercher une réservation...",
+    "createSuccess": "Caution créée avec succès",
+    "createError": "Erreur lors de la création de la caution",
+    "requiredFields": "Veuillez remplir tous les champs obligatoires",
+    "updateSuccess": "Caution mise à jour avec succès",
+    "updateError": "Erreur lors de la mise à jour de la caution",
+    "editCaution": "Modifier la Caution",
+    "activeCautions": "Cautions Actives",
+    "status": {
+      "pending": "En Attente",
+      "held": "Retenue",
+      "released": "Libérée",
+      "charged": "Prélevée",
+      "partiallyCharged": "Partiellement Prélevée"
+    },
+    "paymentMethods": {
+      "cash": "Espèces",
+      "bankTransfer": "Virement Bancaire",
+      "paysera": "Paysera"
+    }
+  }
+}

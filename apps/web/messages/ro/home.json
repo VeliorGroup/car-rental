@@ -1,0 +1,245 @@
+{
+  "Home": {
+    "brand": "FleetPulse",
+    "nav": {
+      "login": "Autentificare",
+      "getStarted": "Începe",
+      "solutions": "Soluții",
+      "pricing": "Prețuri",
+      "resources": "Resurse",
+      "contacts": "Contact",
+      "private": "Particular",
+      "business": "Business",
+      "loginPrivate": "Autentificare",
+      "registerPrivate": "Înregistrare",
+      "loginBusiness": "Acces Business",
+      "registerBusiness": "Înregistrează Companie"
+    },
+    "hero": {
+      "title": "FleetPulse",
+      "subtitle": "Platformă de management închirieri",
+      "description": "Optimizează-ți afacerea de închirieri auto cu platforma noastră all-in-one. Gestionează flota, rezervările, clienții și analizele dintr-un singur panou.",
+      "startTrial": "Probă gratuită",
+      "viewPricing": "Vezi prețurile",
+      "trustBadge": "Folosit de peste 500 de companii de închirieri",
+      "trustBadgePrefix": "Folosit de",
+      "trustBadgeSuffix": "companii de închirieri",
+      "enterpriseTitle": "Platforma",
+      "enterpriseHighlight": "enterprise",
+      "enterpriseSubtitle": "pentru închirieri auto",
+      "enterpriseDescription": "O soluție completă pentru gestionarea flotei, rezervărilor și clienților. Crește eficiența operațională cu 40%.",
+      "startFree": "Începe gratuit",
+      "watchDemo": "Vezi demo",
+      "stats": {
+        "vehicles": "Vehicule",
+        "companies": "Companii",
+        "bookings": "Rezervări",
+        "uptime": "Disponibilitate garantată",
+        "support": "Suport tehnic"
+      }
+    },
+    "search": {
+      "title": "Caută vehicule",
+      "subtitle": "Găsește mașina perfectă pentru tine",
+      "country": "Țară",
+      "onlyActive": "Activ",
+      "comingSoon": "În Curând",
+      "location": "Locație",
+      "selectCity": "Selectează oraș",
+      "pickup": "Preluare",
+      "dropoff": "Returnare",
+      "searchButton": "Caută vehicule disponibile",
+      "searching": "Se caută...",
+      "availableVehicles": "vehicule disponibile",
+      "rating": "Evaluare"
+    },
+    "results": {
+      "vehiclesAvailable": "{count} vehicule disponibile",
+      "perDay": "/zi",
+      "totalDays": "total {days} zile",
+      "bookNow": "Rezervă acum",
+      "noResults": "Nu s-au găsit vehicule",
+      "noResultsDesc": "Nu există vehicule disponibile pentru criteriile selectate. Încearcă să modifici datele sau orașul.",
+      "modifySearch": "Modifică căutarea",
+      "seats": "locuri"
+    },
+    "featuresBar": {
+      "secure": "Sigur",
+      "secureDesc": "Plăți protejate",
+      "fast": "Rapid",
+      "fastDesc": "Rezervare în 2 min",
+      "flexible": "Flexibil",
+      "flexibleDesc": "Anulare gratuită",
+      "support": "Suport",
+      "supportDesc": "Asistență 24/7"
+    },
+    "whyUs": {
+      "badge": "De ce FleetPulse",
+      "title": "Alegerea companiilor lider",
+      "subtitle": "O platformă completă care transformă modul în care îți gestionezi afacerea de închirieri",
+      "revenue": {
+        "title": "Crește veniturile",
+        "desc": "Optimizează prețurile în timp real și maximizează utilizarea flotei cu analize avansate."
+      },
+      "efficiency": {
+        "title": "Reduce costurile operaționale",
+        "desc": "Automatizează procesele repetitive și economisește ore de muncă manuală în fiecare săptămână."
+      },
+      "experience": {
+        "title": "Îmbunătățește experiența clientului",
+        "desc": "Rezervări online intuitive și comunicări automatizate pentru clienții tăi."
+      }
+    },
+    "ctaDual": {
+      "title": "Începe astăzi",
+      "subtitle": "Alege drumul potrivit pentru tine",
+      "customers": {
+        "title": "Pentru Clienți",
+        "desc": "Rezervă următorul tău vehicul în câteva minute cu platforma noastră simplă și rapidă.",
+        "button": "Caută vehicule"
+      },
+      "business": {
+        "title": "Pentru Afaceri",
+        "desc": "Gestionează-ți flota cu instrumente profesionale. 14 zile de probă gratuită.",
+        "button": "Încearcă gratuit"
+      }
+    },
+    "trust": {
+      "title": "Ales de cele mai bune companii"
+    },
+    "features": {
+      "title": "Tot ce ai nevoie pentru a gestiona afacerea ta de închirieri",
+      "fleet": {
+        "title": "Gestionarea flotei",
+        "desc": "Gestionează întreaga flotă de vehicule dintr-un panou centralizat."
+      },
+      "customer": {
+        "title": "Portal clienți",
+        "desc": "Sistem profesional de rezervări pentru clienții tăi cu disponibilitate în timp real."
+      },
+      "analytics": {
+        "title": "Analize și rapoarte",
+        "desc": "Informații detaliate despre venituri, utilizare și metrici de performanță."
+      },
+      "secure": {
+        "title": "Sigur și conform",
+        "desc": "Securitate bancară cu conformitate GDPR și criptare a datelor."
+      },
+      "automation": {
+        "title": "Fluxuri automatizate",
+        "desc": "Automatizează rezervările, facturarea și programarea întreținerii."
+      },
+      "multiLocation": {
+        "title": "Locații multiple",
+        "desc": "Gestionează locații multiple de închiriere dintr-o singură platformă."
+      }
+    },
+    "pricing": {
+      "title": "Prețuri simple și transparente",
+      "subtitle": "Alege planul potrivit pentru afacerea ta. Toate planurile includ 14 zile de probă gratuită.",
+      "monthly": "Lunar",
+      "yearly": "Anual",
+      "perMonth": "/lună",
+      "perYear": "/an",
+      "savePercent": "Economisești {percent}%",
+      "billedYearly": "Facturat €{total}/an",
+      "contactUs": "Contactează-ne",
+      "contactSales": "Contactează vânzări",
+      "mostPopular": "Cel mai popular",
+      "unlimited_vehicles": "Vehicule nelimitate",
+      "unlimited_users": "Utilizatori nelimitați",
+      "unlimited_locations": "Locații nelimitate",
+      "feature_vehicles": "{count} Vehicule",
+      "feature_users": "{count} Utilizatori",
+      "feature_locations": "{count} Locații",
+      "features": {
+        "basic_analytics": "Analiză de bază",
+        "email_support": "Suport prin email",
+        "advanced_analytics": "Analiză avansată",
+        "priority_support": "Suport prioritar",
+        "api_access": "Acces API",
+        "all_features": "Toate funcționalitățile",
+        "dedicated_support": "Suport dedicat",
+        "custom_branding": "Branding personalizat",
+        "sso": "SSO",
+        "white_label": "White Label"
+      },
+      "plans": {
+        "basic": {
+          "name": "Basic",
+          "desc": "Pentru flote mici la început.",
+          "features": {
+            "vehicles": "Până la 10 vehicule",
+            "users": "Până la 3 utilizatori",
+            "analytics": "Analiză de bază",
+            "support": "Suport prin email",
+            "trial": "14 zile probă gratuită"
+          }
+        },
+        "starter": {
+          "name": "Starter",
+          "desc": "Perfect pentru companii mici de închirieri.",
+          "features": {
+            "vehicles": "Până la 25 vehicule",
+            "users": "Până la 5 utilizatori",
+            "analytics": "Analiză de bază",
+            "support": "Suport prin email",
+            "trial": "14 zile probă gratuită"
+          }
+        },
+        "professional": {
+          "name": "Professional",
+          "desc": "Ideal pentru afaceri în creștere.",
+          "features": {
+            "vehicles": "Până la 50 vehicule",
+            "users": "Până la 15 utilizatori",
+            "analytics": "Analiză avansată",
+            "support": "Suport prioritar",
+            "api": "Acces API",
+            "trial": "14 zile probă gratuită"
+          }
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "desc": "Pentru flote mari cu nevoi personalizate.",
+          "price": "Contactează-ne",
+          "features": {
+            "vehicles": "Vehicule nelimitate",
+            "users": "Utilizatori nelimitați",
+            "analytics": "Analiză personalizată",
+            "support": "Suport dedicat",
+            "integrations": "Integrări personalizate",
+            "whitelabel": "Opțiune white-label"
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": "Gata să îți transformi afacerea?",
+      "description": "Alătură-te sutelor de companii de închirieri care folosesc deja platforma noastră. Începe proba gratuită de 14 zile astăzi.",
+      "button": "Începe acum"
+    },
+    "footer": {
+      "rights": "Toate drepturile rezervate.",
+      "product": "Produs",
+      "company": "Companie",
+      "legal": "Legal",
+      "contact": "Contact",
+      "features": "Funcționalități",
+      "integrations": "Integrări",
+      "changelog": "Noutăți",
+      "docs": "Documentație",
+      "about": "Despre noi",
+      "blog": "Blog",
+      "careers": "Cariere",
+      "press": "Presă",
+      "privacy": "Confidențialitate",
+      "terms": "Termeni",
+      "cookies": "Cookies",
+      "support": "Suport",
+      "sales": "Vânzări",
+      "demo": "Solicită demo",
+      "description": "Platforma enterprise pentru managementul închirierilor auto. Folosită de peste 500 de companii din întreaga lume."
+    }
+  }
+}

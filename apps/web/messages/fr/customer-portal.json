@@ -1,0 +1,114 @@
+{
+  "CustomerPortal": {
+    "sidebar": {
+      "brand": "FleetPulse",
+      "subtitle": "Espace Client",
+      "dashboard": "Tableau de bord",
+      "searchVehicles": "Rechercher véhicules",
+      "bookings": "Réservations",
+      "profile": "Profil",
+      "logout": "Déconnexion"
+    },
+    "header": {
+      "online": "En ligne"
+    },
+    "dashboard": {
+      "hello": "Bonjour, {name} !",
+      "welcome": "Gérez vos réservations et votre profil",
+      "verified": "Vérifié",
+      "editProfile": "Modifier le profil",
+      "stats": {
+        "total": "Total réservations",
+        "active": "En cours",
+        "confirmed": "Confirmées",
+        "completed": "Terminées"
+      },
+      "recentBookings": "Réservations récentes",
+      "recentBookingsDesc": "Vos dernières réservations",
+      "viewAll": "Voir tout",
+      "noBookings": "Aucune réservation",
+      "noBookingsDesc": "Vous n'avez pas encore effectué de réservation",
+      "searchCar": "Rechercher une voiture",
+      "tableHeaders": {
+        "vehicle": "Véhicule",
+        "dates": "Dates",
+        "location": "Lieu",
+        "amount": "Montant",
+        "status": "Statut"
+      },
+      "personalInfo": "Informations personnelles",
+      "quickActions": "Actions rapides",
+      "searchAndBook": "Rechercher et réserver un véhicule",
+      "manageBookings": "Gérer les réservations",
+      "goToHomepage": "Aller à la page d'accueil"
+    },
+    "search": {
+      "title": "Rechercher des véhicules",
+      "subtitle": "Trouvez la voiture parfaite pour votre prochain voyage",
+      "country": "Pays",
+      "city": "Ville",
+      "searchCity": "Rechercher une ville...",
+      "pickupDate": "Date de prise en charge",
+      "returnDate": "Date de retour",
+      "search": "Rechercher",
+      "searching": "Recherche en cours...",
+      "active": "Actif",
+      "comingSoon": "Bientôt",
+      "startSearch": "Commencer la recherche",
+      "startSearchDesc": "Sélectionnez ville et dates pour trouver les véhicules disponibles",
+      "noResults": "Aucun véhicule trouvé",
+      "noResultsDesc": "Essayez de changer les dates ou la ville",
+      "resultsCount": "{count} véhicules trouvés à {city}",
+      "perDay": "/jour",
+      "book": "Réserver"
+    },
+    "bookings": {
+      "title": "Vos réservations",
+      "subtitle": "Voir et gérer toutes vos réservations",
+      "noBookings": "Aucune réservation",
+      "noBookingsDesc": "Vous n'avez pas encore effectué de réservation. Recherchez un véhicule pour commencer !",
+      "searchVehicles": "Rechercher des véhicules",
+      "from": "Du",
+      "to": "Au",
+      "details": "Détails",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "pageOf": "Page {current} sur {total}",
+      "status": {
+        "CONFIRMED": "Confirmée",
+        "CHECKED_OUT": "En cours",
+        "CHECKED_IN": "Terminée",
+        "CANCELLED": "Annulée",
+        "PENDING": "En attente"
+      }
+    },
+    "profile": {
+      "title": "Votre profil",
+      "subtitle": "Gérez vos informations personnelles",
+      "personalInfo": "Informations personnelles",
+      "personalInfoDesc": "Modifiez vos données personnelles",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "emailNotEditable": "L'email ne peut pas être modifié",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+33 6 12 34 56 78",
+      "saveChanges": "Enregistrer",
+      "saving": "Enregistrement...",
+      "accountStatus": "Statut du compte",
+      "emailVerified": "Email vérifié",
+      "verified": "Vérifié",
+      "notVerified": "Non vérifié",
+      "memberSince": "Membre depuis",
+      "customerId": "ID Client",
+      "contacts": "Contacts",
+      "notSpecified": "Non spécifié",
+      "saveSuccess": "Profil mis à jour avec succès",
+      "saveError": "Erreur lors de la sauvegarde"
+    },
+    "common": {
+      "email": "Email",
+      "phone": "Téléphone"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Calendar": {
+    "title": "Calendrier des Réservations",
+    "selectDate": "Sélectionnez une date",
+    "clickToSee": "Cliquez sur un jour pour voir les détails de la réservation",
+    "noBookings": "Aucune réservation pour cette date",
+    "more": "plus",
+    "days": {
+      "sun": "Dim",
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mer",
+      "thu": "Jeu",
+      "fri": "Ven",
+      "sat": "Sam"
+    },
+    "months": {
+      "january": "Janvier",
+      "february": "Février",
+      "march": "Mars",
+      "april": "Avril",
+      "may": "Mai",
+      "june": "Juin",
+      "july": "Juillet",
+      "august": "Août",
+      "september": "Septembre",
+      "october": "Octobre",
+      "november": "Novembre",
+      "december": "Décembre"
+    },
+    "view": {
+      "day": "Jour",
+      "week": "Semaine",
+      "month": "Mois"
+    },
+    "week": "Semaine",
+    "pickups": "Départs",
+    "dropoffs": "Retours",
+    "noPickups": "Aucun départ",
+    "noDropoffs": "Aucun retour"
+  }
+}

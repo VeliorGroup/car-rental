@@ -1,0 +1,34 @@
+{
+  "Notifications": {
+    "title": "Njoftimet",
+    "total": "Totali",
+    "unread": "Pa Lexuar",
+    "read": "Lexuar",
+    "today": "Sot",
+    "all": "Të Gjitha",
+    "new": "E Re",
+    "markAsRead": "Shëno si të lexuar",
+    "markAllAsRead": "Shëno të gjitha si të lexuara",
+    "clearAll": "Pastro të gjitha",
+    "noNotifications": "Nuk ka njoftime",
+    "noUnreadNotifications": "Nuk ka njoftime të palexuara",
+    "notificationDeleted": "Njoftimi u fshi",
+    "allNotificationsDeleted": "Të gjitha njoftimet u fshinë",
+    "allNotificationsRead": "Të gjitha njoftimet u shënuan si të lexuara",
+    "notificationRead": "Njoftimi u shënua si i lexuar",
+    "types": {
+      "booking": "Rezervim",
+      "caution": "Garanci",
+      "damage": "Dëm",
+      "maintenance": "Mirëmbajtje",
+      "expiry": "Skadim",
+      "system": "Sistem"
+    },
+    "time": {
+      "minutesAgo": "{count} minuta më parë",
+      "hoursAgo": "{count} orë më parë",
+      "yesterday": "Dje",
+      "daysAgo": "{count} ditë më parë"
+    }
+  }
+}

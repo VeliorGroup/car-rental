@@ -1,0 +1,34 @@
+{
+  "Notifications": {
+    "title": "Ειδοποιήσεις",
+    "total": "Σύνολο",
+    "unread": "Αδιάβαστες",
+    "read": "Διαβασμένες",
+    "today": "Σήμερα",
+    "all": "Όλες",
+    "new": "Νέα",
+    "markAsRead": "Διαβασμένη",
+    "markAllAsRead": "Όλες διαβασμένες",
+    "clearAll": "Καθαρισμός",
+    "noNotifications": "Καμία",
+    "noUnreadNotifications": "Καμία αδιάβαστη",
+    "notificationDeleted": "Διαγράφηκε",
+    "allNotificationsDeleted": "Διαγράφηκαν",
+    "allNotificationsRead": "Διαβάστηκαν",
+    "notificationRead": "Διαβάστηκε",
+    "types": {
+      "booking": "Κράτηση",
+      "caution": "Εγγύηση",
+      "damage": "Ζημιά",
+      "maintenance": "Συντήρηση",
+      "expiry": "Λήξη",
+      "system": "Σύστημα"
+    },
+    "time": {
+      "minutesAgo": "πριν {count} λεπτά",
+      "hoursAgo": "πριν {count} ώρες",
+      "yesterday": "Χθες",
+      "daysAgo": "πριν {count} ημέρες"
+    }
+  }
+}

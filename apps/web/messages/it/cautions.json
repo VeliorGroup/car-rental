@@ -1,0 +1,53 @@
+{
+  "Cautions": {
+    "title": "Cauzioni",
+    "details": "Dettagli Cauzione",
+    "cautionInfo": "Informazioni Cauzione",
+    "releasedDate": "Data Rilascio",
+    "chargedDate": "Data Addebito",
+    "chargedAmount": "Importo Addebitato",
+    "searchPlaceholder": "Cerca cauzioni...",
+    "pending": "In Attesa",
+    "held": "Trattenuta",
+    "released": "Rilasciata",
+    "charged": "Addebitata",
+    "partiallyCharged": "Parzialmente Addebitata",
+    "failed": "Fallita",
+    "pendingRelease": "In Attesa di Rilascio",
+    "heldDate": "Data Trattenuta",
+    "paymentMethod": "Metodo di Pagamento",
+    "release": "Rilascia",
+    "charge": "Addebita",
+    "confirmRelease": "Conferma Rilascio Cauzione",
+    "confirmCharge": "Conferma Addebito Cauzione",
+    "releaseDescription": "Stai per rilasciare una cauzione di {amount}. Questa azione non può essere annullata.",
+    "chargeDescription": "Stai per addebitare l'intera cauzione di {amount}. Questa azione non può essere annullata.",
+    "releaseSuccess": "Cauzione rilasciata con successo",
+    "chargeSuccess": "Cauzione addebitata con successo",
+    "releaseError": "Errore nel rilascio della cauzione",
+    "chargeError": "Errore nell'addebito della cauzione",
+    "addCaution": "Aggiungi Cauzione",
+    "addCautionDesc": "Crea una nuova cauzione per una prenotazione attiva",
+    "selectBooking": "Seleziona prenotazione",
+    "searchBooking": "Cerca prenotazione...",
+    "createSuccess": "Cauzione creata con successo",
+    "createError": "Errore nella creazione della cauzione",
+    "requiredFields": "Compila tutti i campi obbligatori",
+    "updateSuccess": "Cauzione aggiornata con successo",
+    "updateError": "Errore nell'aggiornamento della cauzione",
+    "editCaution": "Modifica Cauzione",
+    "activeCautions": "Cauzioni Attive",
+    "status": {
+      "pending": "In Attesa",
+      "held": "Trattenuta",
+      "released": "Rilasciata",
+      "charged": "Addebitata",
+      "partiallyCharged": "Parzialmente Addebitata"
+    },
+    "paymentMethods": {
+      "cash": "Contanti",
+      "bankTransfer": "Bonifico Bancario",
+      "paysera": "Paysera"
+    }
+  }
+}

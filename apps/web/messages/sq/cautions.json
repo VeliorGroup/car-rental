@@ -1,0 +1,53 @@
+{
+  "Cautions": {
+    "title": "Garancitë",
+    "details": "Detajet e Garancisë",
+    "cautionInfo": "Informacionet e Garancisë",
+    "releasedDate": "Data e Lëshimit",
+    "chargedDate": "Data e Ngarkimit",
+    "chargedAmount": "Shuma e Ngarkuar",
+    "searchPlaceholder": "Kërko garanci...",
+    "pending": "Në Pritje",
+    "held": "Mbajtur",
+    "released": "Lëshuar",
+    "charged": "Ngarkuar",
+    "partiallyCharged": "Ngarkuar Pjesërisht",
+    "failed": "Dështoi",
+    "pendingRelease": "Për Lëshim",
+    "heldDate": "Data e Mbajtjes",
+    "paymentMethod": "Metoda e Pagesës",
+    "release": "Lësho",
+    "charge": "Ngarko",
+    "confirmRelease": "Konfirmo Lëshimin e Garancisë",
+    "confirmCharge": "Konfirmo Ngarkimin e Garancisë",
+    "releaseDescription": "Jeni duke lëshuar një garanci prej {amount}. Ky veprim nuk mund të zhbëhet.",
+    "chargeDescription": "Jeni duke ngarkuar garanci të plotë prej {amount}. Ky veprim nuk mund të zhbëhet.",
+    "releaseSuccess": "Garancia u lëshua me sukses",
+    "chargeSuccess": "Garancia u ngarkua me sukses",
+    "releaseError": "Gabim gjatë lëshimit të garancisë",
+    "chargeError": "Gabim gjatë ngarkimit të garancisë",
+    "addCaution": "Shto Garanci",
+    "addCautionDesc": "Krijoni një garanci të re për një rezervim aktiv",
+    "selectBooking": "Zgjidhni rezervimin",
+    "searchBooking": "Kërko rezervimin...",
+    "createSuccess": "Garancia u krijua me sukses",
+    "createError": "Gabim në krijimin e garancisë",
+    "requiredFields": "Ju lutem plotësoni të gjitha fushat e detyrueshme",
+    "updateSuccess": "Garancia u përditësua me sukses",
+    "updateError": "Gabim në përditësimin e garancisë",
+    "editCaution": "Ndrysho Garancinë",
+    "activeCautions": "Garanci Aktive",
+    "status": {
+      "pending": "Në Pritje",
+      "held": "Mbajtur",
+      "released": "Lëshuar",
+      "charged": "Ngarkuar",
+      "partiallyCharged": "Ngarkuar Pjesërisht"
+    },
+    "paymentMethods": {
+      "cash": "Para në Dorë",
+      "bankTransfer": "Transfertë Bankare",
+      "paysera": "Paysera"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Calendar": {
+    "title": "Bookings Calendar",
+    "selectDate": "Select a date",
+    "clickToSee": "Click on a day to see booking details",
+    "noBookings": "No bookings for this date",
+    "more": "more",
+    "days": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "view": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month"
+    },
+    "week": "Week",
+    "pickups": "Pickups",
+    "dropoffs": "Dropoffs",
+    "noPickups": "No pickups",
+    "noDropoffs": "No dropoffs"
+  }
+}

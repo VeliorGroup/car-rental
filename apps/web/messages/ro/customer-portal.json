@@ -1,0 +1,114 @@
+{
+  "CustomerPortal": {
+    "sidebar": {
+      "brand": "FleetPulse",
+      "subtitle": "Zona Client",
+      "dashboard": "Panou",
+      "searchVehicles": "Caută vehicule",
+      "bookings": "Rezervări",
+      "profile": "Profil",
+      "logout": "Deconectare"
+    },
+    "header": {
+      "online": "Online"
+    },
+    "dashboard": {
+      "hello": "Bună, {name}!",
+      "welcome": "Gestionează rezervările și profilul tău",
+      "verified": "Verificat",
+      "editProfile": "Editare profil",
+      "stats": {
+        "total": "Total rezervări",
+        "active": "În desfășurare",
+        "confirmed": "Confirmate",
+        "completed": "Finalizate"
+      },
+      "recentBookings": "Rezervări recente",
+      "recentBookingsDesc": "Ultimele tale rezervări",
+      "viewAll": "Vezi toate",
+      "noBookings": "Fără rezervări",
+      "noBookingsDesc": "Nu ai făcut încă nicio rezervare",
+      "searchCar": "Caută o mașină",
+      "tableHeaders": {
+        "vehicle": "Vehicul",
+        "dates": "Date",
+        "location": "Locație",
+        "amount": "Sumă",
+        "status": "Status"
+      },
+      "personalInfo": "Informații personale",
+      "quickActions": "Acțiuni rapide",
+      "searchAndBook": "Caută și rezervă un vehicul",
+      "manageBookings": "Gestionează rezervări",
+      "goToHomepage": "Du-te la pagina principală"
+    },
+    "search": {
+      "title": "Caută vehicule",
+      "subtitle": "Găsește mașina perfectă pentru următoarea ta călătorie",
+      "country": "Țară",
+      "city": "Oraș",
+      "searchCity": "Caută oraș...",
+      "pickupDate": "Data preluării",
+      "returnDate": "Data returnării",
+      "search": "Caută",
+      "searching": "Se caută...",
+      "active": "Activ",
+      "comingSoon": "În curând",
+      "startSearch": "Începe căutarea",
+      "startSearchDesc": "Selectează orașul și datele pentru a găsi vehiculele disponibile",
+      "noResults": "Niciun vehicul găsit",
+      "noResultsDesc": "Încearcă să schimbi datele sau orașul",
+      "resultsCount": "{count} vehicule găsite în {city}",
+      "perDay": "/zi",
+      "book": "Rezervă"
+    },
+    "bookings": {
+      "title": "Rezervările tale",
+      "subtitle": "Vezi și gestionează toate rezervările",
+      "noBookings": "Fără rezervări",
+      "noBookingsDesc": "Nu ai făcut încă nicio rezervare. Caută un vehicul pentru a începe!",
+      "searchVehicles": "Caută vehicule",
+      "from": "Din",
+      "to": "Până",
+      "details": "Detalii",
+      "previous": "Anterior",
+      "next": "Următoare",
+      "pageOf": "Pagina {current} din {total}",
+      "status": {
+        "CONFIRMED": "Confirmată",
+        "CHECKED_OUT": "În desfășurare",
+        "CHECKED_IN": "Finalizată",
+        "CANCELLED": "Anulată",
+        "PENDING": "În așteptare"
+      }
+    },
+    "profile": {
+      "title": "Profilul tău",
+      "subtitle": "Gestionează informațiile personale",
+      "personalInfo": "Informații personale",
+      "personalInfoDesc": "Editează datele tale personale",
+      "firstName": "Prenume",
+      "lastName": "Nume",
+      "email": "Email",
+      "emailNotEditable": "Email-ul nu poate fi schimbat",
+      "phone": "Telefon",
+      "phonePlaceholder": "+40 722 123 456",
+      "saveChanges": "Salvează modificările",
+      "saving": "Se salvează...",
+      "accountStatus": "Status cont",
+      "emailVerified": "Email verificat",
+      "verified": "Verificat",
+      "notVerified": "Neverificat",
+      "memberSince": "Membru din",
+      "customerId": "ID Client",
+      "contacts": "Contacte",
+      "notSpecified": "Nespecificat",
+      "saveSuccess": "Profil actualizat cu succes",
+      "saveError": "Eroare la salvare"
+    },
+    "common": {
+      "email": "Email",
+      "phone": "Telefon"
+    }
+  }
+}

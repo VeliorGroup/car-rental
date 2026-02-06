@@ -1,0 +1,200 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  lint-and-typecheck:
+    name: Lint & Type Check
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Install API dependencies
+        run: cd apps/api && npm ci
+      
+      - name: Install Web dependencies
+        run: cd apps/web && npm ci
+      
+      - name: Lint API
+        run: cd apps/api && npm run lint
+      
+      - name: Lint Web
+        run: cd apps/web && npm run lint
+      
+      - name: Type check API
+        run: cd apps/api && npx tsc --noEmit
+      
+      - name: Type check Web
+        run: cd apps/web && npx tsc --noEmit
+
+  test-api:
+    name: Test Backend
+    runs-on: ubuntu-latest
+    
+    services:
+      postgres:
+        image: postgres:14
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: car_rental_test
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Install API dependencies
+        run: cd apps/api && npm ci
+      
+      - name: Setup test database
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/car_rental_test
+        run: |
+          cd apps/api
+          npm run prisma:generate
+          npm run prisma:migrate || true
+      
+      - name: Run tests
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/car_rental_test
+          JWT_SECRET: test-jwt-secret-minimum-16-characters
+          CORS_ORIGIN: http://localhost:3001
+          NODE_ENV: test
+        run: cd apps/api && npm test -- --coverage --maxWorkers=2
+      
+      - name: Verify coverage threshold
+        run: |
+          cd apps/api
+          node -e "
+            const coverage = require('./coverage/coverage-summary.json');
+            const statements = coverage.total.statements.pct;
+            console.log('Statement coverage: ' + statements + '%');
+            if (statements < 50) {
+              console.error('ERROR: Coverage ' + statements + '% is below the 50% threshold');
+              process.exit(1);
+            }
+            console.log('Coverage threshold met!');
+          "
+      
+      - name: Upload coverage
+        uses: codecov/codecov-action@v3
+        with:
+          files: ./apps/api/coverage/lcov.info
+          flags: api
+          name: api-coverage
+
+  test-web:
+    name: Test Frontend
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Install Web dependencies
+        run: cd apps/web && npm ci
+      
+      - name: Run tests
+        run: cd apps/web && npm test -- --coverage --maxWorkers=2
+      
+      - name: Upload coverage
+        uses: codecov/codecov-action@v3
+        with:
+          files: ./apps/web/coverage/lcov.info
+          flags: web
+          name: web-coverage
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs: [lint-and-typecheck, test-api]
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Build API
+        run: cd apps/api && npm run build
+      
+      - name: Build Web
+        run: cd apps/web && npm run build
+      
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifacts
+          path: |
+            apps/api/dist
+            apps/web/.next
+
+  security-scan:
+    name: Security Scan
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Run npm audit
+        run: |
+          cd apps/api && npm audit --audit-level=high
+          cd ../web && npm audit --audit-level=high
+      
+      - name: Run Snyk security scan
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          args: --severity-threshold=high

@@ -1,0 +1,114 @@
+{
+  "CustomerPortal": {
+    "sidebar": {
+      "brand": "FleetPulse",
+      "subtitle": "Customer Area",
+      "dashboard": "Dashboard",
+      "searchVehicles": "Search Vehicles",
+      "bookings": "Bookings",
+      "profile": "Profile",
+      "logout": "Logout"
+    },
+    "header": {
+      "online": "Online"
+    },
+    "dashboard": {
+      "hello": "Hello, {name}!",
+      "welcome": "Manage your bookings and profile",
+      "verified": "Verified",
+      "editProfile": "Edit profile",
+      "stats": {
+        "total": "Total bookings",
+        "active": "In progress",
+        "confirmed": "Confirmed",
+        "completed": "Completed"
+      },
+      "recentBookings": "Recent bookings",
+      "recentBookingsDesc": "Your latest bookings",
+      "viewAll": "View all",
+      "noBookings": "No bookings",
+      "noBookingsDesc": "You haven't made any bookings yet",
+      "searchCar": "Search a car",
+      "tableHeaders": {
+        "vehicle": "Vehicle",
+        "dates": "Dates",
+        "location": "Location",
+        "amount": "Amount",
+        "status": "Status"
+      },
+      "personalInfo": "Personal information",
+      "quickActions": "Quick actions",
+      "searchAndBook": "Search and book a vehicle",
+      "manageBookings": "Manage bookings",
+      "goToHomepage": "Go to homepage"
+    },
+    "search": {
+      "title": "Search vehicles",
+      "subtitle": "Find the perfect car for your next trip",
+      "country": "Country",
+      "city": "City",
+      "searchCity": "Search city...",
+      "pickupDate": "Pickup date",
+      "returnDate": "Return date",
+      "search": "Search",
+      "searching": "Searching...",
+      "active": "Active",
+      "comingSoon": "Soon",
+      "startSearch": "Start searching",
+      "startSearchDesc": "Select city and dates to find available vehicles",
+      "noResults": "No vehicles found",
+      "noResultsDesc": "Try changing the dates or city",
+      "resultsCount": "{count} vehicles found in {city}",
+      "perDay": "/day",
+      "book": "Book"
+    },
+    "bookings": {
+      "title": "Your bookings",
+      "subtitle": "View and manage all your bookings",
+      "noBookings": "No bookings",
+      "noBookingsDesc": "You haven't made any bookings yet. Search for a vehicle to get started!",
+      "searchVehicles": "Search vehicles",
+      "from": "From",
+      "to": "To",
+      "details": "Details",
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {current} of {total}",
+      "status": {
+        "CONFIRMED": "Confirmed",
+        "CHECKED_OUT": "In progress",
+        "CHECKED_IN": "Completed",
+        "CANCELLED": "Cancelled",
+        "PENDING": "Pending"
+      }
+    },
+    "profile": {
+      "title": "Your profile",
+      "subtitle": "Manage your personal information",
+      "personalInfo": "Personal information",
+      "personalInfoDesc": "Edit your personal data",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "emailNotEditable": "Email cannot be changed",
+      "phone": "Phone",
+      "phonePlaceholder": "+39 123 456 7890",
+      "saveChanges": "Save changes",
+      "saving": "Saving...",
+      "accountStatus": "Account status",
+      "emailVerified": "Email verified",
+      "verified": "Verified",
+      "notVerified": "Not verified",
+      "memberSince": "Member since",
+      "customerId": "Customer ID",
+      "contacts": "Contacts",
+      "notSpecified": "Not specified",
+      "saveSuccess": "Profile updated successfully",
+      "saveError": "Error saving profile"
+    },
+    "common": {
+      "email": "Email",
+      "phone": "Phone"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Notifications": {
+    "title": "Benachrichtigungen",
+    "total": "Gesamt",
+    "unread": "Ungelesen",
+    "read": "Gelesen",
+    "today": "Heute",
+    "all": "Alle",
+    "new": "Neu",
+    "markAsRead": "Als gelesen markieren",
+    "markAllAsRead": "Alle als gelesen markieren",
+    "clearAll": "Alle löschen",
+    "noNotifications": "Keine Benachrichtigungen",
+    "noUnreadNotifications": "Keine ungelesenen Benachrichtigungen",
+    "notificationDeleted": "Benachrichtigung gelöscht",
+    "allNotificationsDeleted": "Alle Benachrichtigungen gelöscht",
+    "allNotificationsRead": "Alle Benachrichtigungen als gelesen markiert",
+    "notificationRead": "Benachrichtigung als gelesen markiert",
+    "types": {
+      "booking": "Buchung",
+      "caution": "Kaution",
+      "damage": "Schaden",
+      "maintenance": "Wartung",
+      "expiry": "Ablauf",
+      "system": "System"
+    },
+    "time": {
+      "minutesAgo": "vor {count} Minuten",
+      "hoursAgo": "vor {count} Stunden",
+      "yesterday": "Gestern",
+      "daysAgo": "vor {count} Tagen"
+    }
+  }
+}

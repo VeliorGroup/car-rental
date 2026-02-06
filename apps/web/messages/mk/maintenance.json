@@ -1,0 +1,47 @@
+{
+  "Maintenance": {
+    "title": "Maintenance",
+    "searchPlaceholder": "Search maintenance...",
+    "pending": "Pending",
+    "scheduled": "Scheduled",
+    "inProgress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "addMaintenance": "Add Maintenance",
+    "addMaintenanceDesc": "Schedule a new maintenance task for a vehicle",
+    "selectVehicle": "Select a vehicle",
+    "titleColumn": "Title",
+    "titlePlaceholder": "Enter maintenance title",
+    "type": "Type",
+    "priority": "Priority",
+    "priorityLow": "Low",
+    "priorityMedium": "Medium",
+    "priorityHigh": "High",
+    "priorityUrgent": "Urgent",
+    "scheduledFor": "Scheduled For",
+    "descriptionPlaceholder": "Enter maintenance description...",
+    "createSuccess": "Maintenance created successfully",
+    "createError": "Error creating maintenance",
+    "requiredFields": "Vehicle and title are required",
+    "updateSuccess": "Maintenance updated successfully",
+    "updateError": "Error updating maintenance",
+    "editMaintenance": "Edit Maintenance",
+    "cost": "Cost",
+    "overdue": "Overdue",
+    "status": {
+      "pending": "Pending",
+      "scheduled": "Scheduled",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "types": {
+      "routine": "Routine",
+      "repair": "Repair",
+      "inspection": "Inspection",
+      "tireChange": "Tire Change",
+      "oilChange": "Oil Change",
+      "brakeService": "Brake Service"
+    }
+  }
+}

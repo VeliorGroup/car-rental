@@ -1,0 +1,53 @@
+{
+  "Cautions": {
+    "title": "Cauciones",
+    "details": "Detalles de Caución",
+    "cautionInfo": "Información de Caución",
+    "releasedDate": "Fecha de Liberación",
+    "chargedDate": "Fecha de Cargo",
+    "chargedAmount": "Importe Cargado",
+    "searchPlaceholder": "Buscar cauciones...",
+    "pending": "Pendiente",
+    "held": "Retenida",
+    "released": "Liberada",
+    "charged": "Cargada",
+    "partiallyCharged": "Cargada Parcialmente",
+    "failed": "Fallida",
+    "pendingRelease": "Pendiente de Liberación",
+    "heldDate": "Fecha de Retención",
+    "paymentMethod": "Método de Pago",
+    "release": "Liberar",
+    "charge": "Cargar",
+    "confirmRelease": "Confirmar Liberación de Caución",
+    "confirmCharge": "Confirmar Cargo de Caución",
+    "releaseDescription": "Estás a punto de liberar una caución de {amount}. Esta acción no se puede deshacer.",
+    "chargeDescription": "Estás a punto de cargar la caución completa de {amount}. Esta acción no se puede deshacer.",
+    "releaseSuccess": "Caución liberada con éxito",
+    "chargeSuccess": "Caución cargada con éxito",
+    "releaseError": "Error al liberar caución",
+    "chargeError": "Error al cargar caución",
+    "addCaution": "Añadir Caución",
+    "addCautionDesc": "Crear una nueva caución para una reserva activa",
+    "selectBooking": "Seleccionar reserva",
+    "searchBooking": "Buscar reserva...",
+    "createSuccess": "Caución creada con éxito",
+    "createError": "Error al crear caución",
+    "requiredFields": "Por favor rellena todos los campos obligatorios",
+    "updateSuccess": "Caución actualizada con éxito",
+    "updateError": "Error al actualizar caución",
+    "editCaution": "Editar Caución",
+    "activeCautions": "Cauciones Activas",
+    "status": {
+      "pending": "Pendiente",
+      "held": "Retenida",
+      "released": "Liberada",
+      "charged": "Cargada",
+      "partiallyCharged": "Cargada Parcialmente"
+    },
+    "paymentMethods": {
+      "cash": "Efectivo",
+      "bankTransfer": "Transferencia Bancaria",
+      "paysera": "Paysera"
+    }
+  }
+}

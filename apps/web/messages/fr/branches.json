@@ -1,0 +1,33 @@
+{
+  "Branches": {
+    "title": "Agences",
+    "details": "Détails de l'Agence",
+    "branch": "Agence",
+    "searchPlaceholder": "Rechercher des agences...",
+    "code": "Code",
+    "address": "Adresse",
+    "city": "Ville",
+    "country": "Pays",
+    "phone": "Téléphone",
+    "email": "Email",
+    "notes": "Notes",
+    "active": "Active",
+    "inactive": "Inactive",
+    "default": "Par Défaut",
+    "setAsDefault": "Définir par Défaut",
+    "totalBranches": "Total des Agences",
+    "activeBranches": "Agences Actives",
+    "vehiclesDistribution": "Distribution des Véhicules",
+    "addBranch": "Ajouter une Agence",
+    "addBranchDesc": "Entrez les détails de la nouvelle agence",
+    "namePlaceholder": "Nom de l'agence",
+    "addressPlaceholder": "123 Rue Principale",
+    "cityPlaceholder": "Paris",
+    "notesPlaceholder": "Notes supplémentaires...",
+    "createSuccess": "Agence créée avec succès",
+    "createError": "Erreur lors de la création de l'agence",
+    "updateSuccess": "Agence mise à jour avec succès",
+    "updateError": "Erreur lors de la mise à jour de l'agence",
+    "requiredFields": "Veuillez remplir tous les champs obligatoires"
+  }
+}

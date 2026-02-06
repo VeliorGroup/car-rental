@@ -1,0 +1,33 @@
+{
+  "Branches": {
+    "title": "Filiali",
+    "details": "Dettagli Filiale",
+    "branch": "Filiale",
+    "searchPlaceholder": "Cerca filiali...",
+    "code": "Codice",
+    "address": "Indirizzo",
+    "city": "Città",
+    "country": "Paese",
+    "phone": "Telefono",
+    "email": "Email",
+    "notes": "Note",
+    "active": "Attiva",
+    "inactive": "Inattiva",
+    "default": "Predefinita",
+    "setAsDefault": "Imposta come Predefinita",
+    "totalBranches": "Filiali Totali",
+    "activeBranches": "Filiali Attive",
+    "vehiclesDistribution": "Distribuzione Veicoli",
+    "addBranch": "Aggiungi Filiale",
+    "addBranchDesc": "Inserisci i dettagli della nuova filiale",
+    "namePlaceholder": "Nome filiale",
+    "addressPlaceholder": "Via Roma 123",
+    "cityPlaceholder": "Tirana",
+    "notesPlaceholder": "Note aggiuntive...",
+    "createSuccess": "Filiale creata con successo",
+    "createError": "Errore nella creazione della filiale",
+    "updateSuccess": "Filiale aggiornata con successo",
+    "updateError": "Errore nell'aggiornamento della filiale",
+    "requiredFields": "Compila tutti i campi obbligatori"
+  }
+}

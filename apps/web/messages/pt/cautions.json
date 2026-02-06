@@ -1,0 +1,53 @@
+{
+  "Cautions": {
+    "title": "Cauções",
+    "details": "Detalhes da Caução",
+    "cautionInfo": "Informações da Caução",
+    "releasedDate": "Data de Libertação",
+    "chargedDate": "Data de Cobrança",
+    "chargedAmount": "Montante Cobrado",
+    "searchPlaceholder": "Pesquisar cauções...",
+    "pending": "Pendente",
+    "held": "Retida",
+    "released": "Libertada",
+    "charged": "Cobrada",
+    "partiallyCharged": "Parcialmente Cobrada",
+    "failed": "Falhou",
+    "pendingRelease": "Libertação Pendente",
+    "heldDate": "Data de Retenção",
+    "paymentMethod": "Método de Pagamento",
+    "release": "Libertar",
+    "charge": "Cobrar",
+    "confirmRelease": "Confirmar Libertação da Caução",
+    "confirmCharge": "Confirmar Cobrança da Caução",
+    "releaseDescription": "Está prestes a libertar uma caução de {amount}. Esta ação não pode ser desfeita.",
+    "chargeDescription": "Está prestes a cobrar a caução completa de {amount}. Esta ação não pode ser desfeita.",
+    "releaseSuccess": "Caução libertada com sucesso",
+    "chargeSuccess": "Caução cobrada com sucesso",
+    "releaseError": "Erro ao libertar caução",
+    "chargeError": "Erro ao cobrar caução",
+    "addCaution": "Adicionar Caução",
+    "addCautionDesc": "Criar uma nova caução para uma reserva ativa",
+    "selectBooking": "Selecionar reserva",
+    "searchBooking": "Pesquisar reserva...",
+    "createSuccess": "Caução criada com sucesso",
+    "createError": "Erro ao criar caução",
+    "requiredFields": "Por favor preencha todos os campos obrigatórios",
+    "updateSuccess": "Caução atualizada com sucesso",
+    "updateError": "Erro ao atualizar caução",
+    "editCaution": "Editar Caução",
+    "activeCautions": "Cauções Ativas",
+    "status": {
+      "pending": "Pendente",
+      "held": "Retida",
+      "released": "Libertada",
+      "charged": "Cobrada",
+      "partiallyCharged": "Parcialmente Cobrada"
+    },
+    "paymentMethods": {
+      "cash": "Dinheiro",
+      "bankTransfer": "Transferência Bancária",
+      "paysera": "Paysera"
+    }
+  }
+}

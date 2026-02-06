@@ -1,0 +1,34 @@
+{
+  "Notifications": {
+    "title": "Notificări",
+    "total": "Total",
+    "unread": "Necitite",
+    "read": "Citite",
+    "today": "Azi",
+    "all": "Toate",
+    "new": "Nouă",
+    "markAsRead": "Citită",
+    "markAllAsRead": "Toate citite",
+    "clearAll": "Șterge",
+    "noNotifications": "Nicio",
+    "noUnreadNotifications": "Nicio necitită",
+    "notificationDeleted": "Ștersă",
+    "allNotificationsDeleted": "Șterse",
+    "allNotificationsRead": "Citite",
+    "notificationRead": "Citită",
+    "types": {
+      "booking": "Rezervare",
+      "caution": "Garanție",
+      "damage": "Daună",
+      "maintenance": "Întreținere",
+      "expiry": "Expirare",
+      "system": "Sistem"
+    },
+    "time": {
+      "minutesAgo": "acum {count} min",
+      "hoursAgo": "acum {count} ore",
+      "yesterday": "Ieri",
+      "daysAgo": "acum {count} zile"
+    }
+  }
+}

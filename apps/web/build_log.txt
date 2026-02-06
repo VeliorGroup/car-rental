@@ -1,0 +1,369 @@
+
+> fleetpulse-web@1.0.0 build
+> next build
+
+▲ Next.js 16.1.0 (Turbopack)
+- Environments: .env
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 5.0s
+  Running TypeScript ...
+  Collecting page data using 9 workers ...
+  Generating static pages using 9 workers (0/467) ...
+Error: MISSING_MESSAGE: CustomerPortal.myBookings (it)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16854) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookings (it)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookingsDesc (it)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16950) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookingsDesc (it)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.newBooking (it)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17094) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.newBooking (it)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (it)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17478) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (it)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.completed (it)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17769) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.completed (it)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.total (it)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18032) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.total (it)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (it)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18218) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (it)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.past (it)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18357) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.past (it)'
+}
+Error: MISSING_MESSAGE: Maintenance.priorityLabel (es)
+    at K (.next/server/chunks/ssr/apps_web_src_app_[locale]_(authenticated)_maintenance_page_tsx_11642349._.js:1:11241) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Maintenance.priorityLabel (es)'
+}
+Error: MISSING_MESSAGE: Maintenance.priorityLabel (fr)
+    at K (.next/server/chunks/ssr/apps_web_src_app_[locale]_(authenticated)_maintenance_page_tsx_11642349._.js:1:11241) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Maintenance.priorityLabel (fr)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookings (pt)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16854) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookings (pt)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookingsDesc (pt)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16950) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookingsDesc (pt)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.newBooking (pt)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17094) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.newBooking (pt)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (pt)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17478) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (pt)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.completed (pt)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17769) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.completed (pt)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.total (pt)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18032) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.total (pt)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (pt)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18218) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (pt)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.past (pt)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18357) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.past (pt)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookings (fr)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16854) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookings (fr)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookingsDesc (fr)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16950) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookingsDesc (fr)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.newBooking (fr)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17094) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.newBooking (fr)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (fr)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17478) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (fr)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.completed (fr)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17769) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.completed (fr)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.total (fr)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18032) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.total (fr)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (fr)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18218) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (fr)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.past (fr)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18357) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.past (fr)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookings (es)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16854) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookings (es)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookingsDesc (es)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16950) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookingsDesc (es)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.newBooking (es)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17094) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.newBooking (es)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (es)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17478) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (es)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.completed (es)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17769) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.completed (es)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.total (es)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18032) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.total (es)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (es)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18218) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (es)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.past (es)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18357) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.past (es)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookings (el)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16854) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookings (el)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookingsDesc (el)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16950) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookingsDesc (el)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.newBooking (el)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17094) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.newBooking (el)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (el)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17478) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (el)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.completed (el)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17769) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.completed (el)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.total (el)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18032) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.total (el)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (el)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18218) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (el)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.past (el)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18357) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.past (el)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookings (mk)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16854) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookings (mk)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookingsDesc (mk)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16950) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookingsDesc (mk)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.newBooking (mk)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17094) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.newBooking (mk)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (mk)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17478) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (mk)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.completed (mk)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17769) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.completed (mk)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.total (mk)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18032) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.total (mk)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (mk)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18218) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (mk)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.past (mk)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18357) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.past (mk)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookings (ro)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16854) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookings (ro)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookingsDesc (ro)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16950) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookingsDesc (ro)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.newBooking (ro)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17094) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.newBooking (ro)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (ro)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17478) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (ro)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.completed (ro)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17769) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.completed (ro)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.total (ro)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18032) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.total (ro)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (ro)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18218) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (ro)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.past (ro)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18357) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.past (ro)'
+}
+⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/customer/search". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at Q (/Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/apps/web/.next/server/chunks/ssr/node_modules_next_920e7746._.js:2:2111)
+    at o (/Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/apps/web/.next/server/chunks/ssr/node_modules_next_920e7746._.js:4:5314)
+    at M (/Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/apps/web/.next/server/chunks/ssr/apps_web_src_app_[locale]_customer_(authenticated)_search_page_tsx_c3cfbc89._.js:1:1404)
+    at an (/Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:84360)
+    at ai (/Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:86179)
+    at al (/Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:107953)
+    at as (/Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:105368)
+    at aa (/Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:84712)
+    at ai (/Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:86228)
+    at ai (/Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:104708)
+Error occurred prerendering page "/en/customer/search". Read more: https://nextjs.org/docs/messages/prerender-error
+Export encountered an error on /[locale]/customer/(authenticated)/search/page: /en/customer/search, exiting the build.
+Error: MISSING_MESSAGE: CustomerPortal.myBookings (de)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16854) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookings (de)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.myBookingsDesc (de)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:16950) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.myBookingsDesc (de)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.newBooking (de)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17094) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.newBooking (de)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (de)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17478) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (de)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.completed (de)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:17769) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.completed (de)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.total (de)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18032) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.total (de)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.upcoming (de)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18218) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.upcoming (de)'
+}
+Error: MISSING_MESSAGE: CustomerPortal.past (de)
+    at x (.next/server/chunks/ssr/_34c34198._.js:1:18357) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'CustomerPortal.past (de)'
+}
+Error: MISSING_MESSAGE: Maintenance.priorityLabel (pt)
+    at K (.next/server/chunks/ssr/apps_web_src_app_[locale]_(authenticated)_maintenance_page_tsx_11642349._.js:1:11241) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Maintenance.priorityLabel (pt)'
+}
+⨯ Next.js build worker exited with code: 1 and signal: null
+npm error Lifecycle script `build` failed with error:
+npm error code 1
+npm error path /Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/apps/web
+npm error workspace fleetpulse-web@1.0.0
+npm error location /Users/devisgjyzeli/WORKSPACE/PROJECTS/CAR RENTAL/apps/web
+npm error command failed
+npm error command sh -c next build

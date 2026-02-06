@@ -1,0 +1,33 @@
+{
+  "Branches": {
+    "title": "Degët",
+    "details": "Detajet e Degës",
+    "branch": "Dega",
+    "searchPlaceholder": "Kërko degët...",
+    "code": "Kodi",
+    "address": "Adresa",
+    "city": "Qyteti",
+    "country": "Shteti",
+    "phone": "Telefoni",
+    "email": "Email",
+    "notes": "Shënime",
+    "active": "Aktive",
+    "inactive": "Jo aktive",
+    "default": "Parazgjedhur",
+    "setAsDefault": "Vendos si Parazgjedhur",
+    "totalBranches": "Totali i Degëve",
+    "activeBranches": "Degë Aktive",
+    "vehiclesDistribution": "Shpërndarja e Automjeteve",
+    "addBranch": "Shto Degë",
+    "addBranchDesc": "Shkruani detajet e degës së re",
+    "namePlaceholder": "Emri i degës",
+    "addressPlaceholder": "Rruga Kryesore 123",
+    "cityPlaceholder": "Tiranë",
+    "notesPlaceholder": "Shënime shtesë...",
+    "createSuccess": "Dega u krijua me sukses",
+    "createError": "Gabim në krijimin e degës",
+    "updateSuccess": "Dega u përditësua me sukses",
+    "updateError": "Gabim në përditësimin e degës",
+    "requiredFields": "Ju lutem plotësoni të gjitha fushat e detyrueshme"
+  }
+}

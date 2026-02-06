@@ -1,0 +1,33 @@
+{
+  "Branches": {
+    "title": "Sucursales",
+    "details": "Detalles de Sucursal",
+    "branch": "Sucursal",
+    "searchPlaceholder": "Buscar sucursales...",
+    "code": "Código",
+    "address": "Dirección",
+    "city": "Ciudad",
+    "country": "País",
+    "phone": "Teléfono",
+    "email": "Email",
+    "notes": "Notas",
+    "active": "Activa",
+    "inactive": "Inactiva",
+    "default": "Predeterminada",
+    "setAsDefault": "Establecer como Predeterminada",
+    "totalBranches": "Total de Sucursales",
+    "activeBranches": "Sucursales Activas",
+    "vehiclesDistribution": "Distribución de Vehículos",
+    "addBranch": "Añadir Sucursal",
+    "addBranchDesc": "Introduce los datos de la nueva sucursal",
+    "namePlaceholder": "Nombre de sucursal",
+    "addressPlaceholder": "Calle Principal 123",
+    "cityPlaceholder": "Madrid",
+    "notesPlaceholder": "Notas adicionales...",
+    "createSuccess": "Sucursal creada con éxito",
+    "createError": "Error al crear sucursal",
+    "updateSuccess": "Sucursal actualizada con éxito",
+    "updateError": "Error al actualizar sucursal",
+    "requiredFields": "Por favor rellena todos los campos obligatorios"
+  }
+}

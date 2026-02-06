@@ -1,0 +1,15 @@
+{
+  "Analytics": {
+    "title": "Analytics",
+    "revenue": "Revenue",
+    "bookings": "Bookings",
+    "utilization": "Utilization",
+    "performance": "Performance",
+    "totalRevenue": "Total Revenue",
+    "utilizationRate": "Utilization Rate",
+    "activeRentals": "Active Rentals",
+    "noDataTitle": "No data available",
+    "noDataDesc": "Analytics will appear here once you start generating data.",
+    "fromLastMonth": "from last month"
+  }
+}

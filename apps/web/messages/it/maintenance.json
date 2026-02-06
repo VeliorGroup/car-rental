@@ -1,0 +1,54 @@
+{
+  "Maintenance": {
+    "title": "Manutenzione",
+    "searchPlaceholder": "Cerca manutenzione...",
+    "pending": "In Attesa",
+    "scheduled": "Programmata",
+    "inProgress": "In Corso",
+    "completed": "Completata",
+    "cancelled": "Annullata",
+    "addMaintenance": "Aggiungi Manutenzione",
+    "addMaintenanceDesc": "Programma una nuova attività di manutenzione per un veicolo",
+    "selectVehicle": "Seleziona un veicolo",
+    "titleColumn": "Titolo",
+    "titlePlaceholder": "Inserisci titolo manutenzione",
+    "type": "Tipo",
+    "priority": "Priorità",
+    "priorityLabel": "Priorità",
+    "priorityLow": "Bassa",
+    "priorityMedium": "Media",
+    "priorityHigh": "Alta",
+    "priorityUrgent": "Urgente",
+    "scheduledFor": "Programmata Per",
+    "descriptionPlaceholder": "Inserisci descrizione manutenzione...",
+    "createSuccess": "Manutenzione creata con successo",
+    "createError": "Errore nella creazione della manutenzione",
+    "requiredFields": "Veicolo e titolo sono obbligatori",
+    "updateSuccess": "Manutenzione aggiornata con successo",
+    "updateError": "Errore nell'aggiornamento della manutenzione",
+    "editMaintenance": "Modifica Manutenzione",
+    "cost": "Costo",
+    "overdue": "In Ritardo",
+    "status": {
+      "pending": "In Attesa",
+      "scheduled": "Programmata",
+      "inProgress": "In Corso",
+      "completed": "Completata",
+      "cancelled": "Annullata"
+    },
+    "types": {
+      "routine": "Ordinaria",
+      "repair": "Riparazione",
+      "inspection": "Ispezione",
+      "tireChange": "Cambio Gomme",
+      "oilChange": "Cambio Olio",
+      "brakeService": "Servizio Freni"
+    },
+    "priority": {
+      "low": "Bassa",
+      "medium": "Media",
+      "high": "Alta",
+      "urgent": "Urgente"
+    }
+  }
+}

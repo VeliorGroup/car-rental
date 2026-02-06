@@ -1,0 +1,27 @@
+{
+  "AuditLogs": {
+    "title": "Audit Logs",
+    "description": "View a complete history of actions performed in your account",
+    "searchPlaceholder": "Search logs...",
+    "action": "Action",
+    "allActions": "All Actions",
+    "resource": "Resource",
+    "allResources": "All Resources",
+    "from": "From",
+    "to": "To",
+    "timestamp": "Timestamp",
+    "user": "User",
+    "resourceId": "Resource ID",
+    "ipAddress": "IP Address",
+    "system": "System",
+    "page": "Page",
+    "totalLogs": "Total Logs",
+    "creates": "Creates",
+    "updates": "Updates",
+    "deletes": "Deletes",
+    "logDetails": "Log Details",
+    "changes": "Changes",
+    "oldValue": "Previous Value",
+    "newValue": "New Value"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "Home": {
+    "brand": "FleetPulse",
+    "nav": {
+      "login": "Hyrje",
+      "getStarted": "Filloni",
+      "solutions": "Zgjidhje",
+      "pricing": "Çmimet",
+      "resources": "Burimet",
+      "contacts": "Kontakte",
+      "private": "Privat",
+      "business": "Biznes",
+      "loginPrivate": "Hyrje",
+      "registerPrivate": "Regjistrohu",
+      "loginBusiness": "Hyrje Biznes",
+      "registerBusiness": "Regjistro Kompaninë"
+    },
+    "hero": {
+      "title": "FleetPulse",
+      "subtitle": "për Menaxhimin e Makinave me Qira",
+      "description": "Thjeshtoni biznesin tuaj të makinave me qira me platformën tonë gjithëpërfshirëse. Menaxhoni flotën, rezervimet, klientët dhe analitikën nga një panel i vetëm.",
+      "startTrial": "Filloni Provën Falas",
+      "viewPricing": "Shikoni Çmimet",
+      "trustBadge": "Përdoret nga 500+ kompani qiraje",
+      "trustBadgePrefix": "Përdoret nga",
+      "trustBadgeSuffix": "kompani qiraje",
+      "enterpriseTitle": "Platforma",
+      "enterpriseHighlight": "enterprise",
+      "enterpriseSubtitle": "për qira automjetesh",
+      "enterpriseDescription": "Një zgjidhje e plotë për të menaxhuar flotën, rezervimet dhe klientët tuaj. Rrisni efikasitetin operacional me 40%.",
+      "startFree": "Filloni Falas",
+      "watchDemo": "Shikoni Demo",
+      "stats": {
+        "vehicles": "Automjete",
+        "companies": "Kompani",
+        "bookings": "Rezervime",
+        "uptime": "Kohë pune e garantuar",
+        "support": "Mbështetje teknike"
+      }
+    },
+    "search": {
+      "title": "Kërkoni automjete",
+      "subtitle": "Gjeni makinën perfekte për ju",
+      "country": "Shteti",
+      "onlyActive": "Aktiv",
+      "comingSoon": "Së Shpejti",
+      "location": "Vendndodhja",
+      "selectCity": "Zgjidhni qytetin",
+      "pickup": "Marrja",
+      "dropoff": "Kthimi",
+      "searchButton": "Kërkoni Automjete të Disponueshme",
+      "searching": "Duke kërkuar...",
+      "availableVehicles": "automjete të disponueshme",
+      "rating": "Vlerësimi"
+    },
+    "results": {
+      "vehiclesAvailable": "{count} automjete të disponueshme",
+      "perDay": "/ditë",
+      "totalDays": "totali {days} ditë",
+      "bookNow": "Rezervoni Tani",
+      "noResults": "Asnjë automjet nuk u gjet",
+      "noResultsDesc": "Nuk ka automjete të disponueshme për kriteret e zgjedhura. Provoni të ndryshoni datat ose qytetin.",
+      "modifySearch": "Modifikoni Kërkimin",
+      "seats": "ulëse"
+    },
+    "featuresBar": {
+      "secure": "I Sigurt",
+      "secureDesc": "Pagesa të mbrojtura",
+      "fast": "I Shpejtë",
+      "fastDesc": "Rezervoni në 2 min",
+      "flexible": "Fleksibël",
+      "flexibleDesc": "Anulim falas",
+      "support": "Mbështetje",
+      "supportDesc": "Asistencë 24/7"
+    },
+    "whyUs": {
+      "badge": "Pse FleetPulse",
+      "title": "Zgjedhja e kompanive lider",
+      "subtitle": "Një platformë e plotë që transformon mënyrën se si menaxhoni biznesin tuaj të qirasë",
+      "revenue": {
+        "title": "Rrisni të ardhurat",
+        "desc": "Optimizoni çmimet në kohë reale dhe maksimizoni përdorimin e flotës me analitika të avancuara."
+      },
+      "efficiency": {
+        "title": "Ulni kostot operacionale",
+        "desc": "Automatizoni proceset e përsëritura dhe kurseni orë pune manuale çdo javë."
+      },
+      "experience": {
+        "title": "Përmirësoni përvojën e klientit",
+        "desc": "Rezervime online intuitive dhe komunikime automatike për klientët tuaj."
+      }
+    },
+    "ctaDual": {
+      "title": "Filloni sot",
+      "subtitle": "Zgjidhni rrugën e duhur për ju",
+      "customers": {
+        "title": "Për Klientët",
+        "desc": "Rezervoni automjetin tuaj të ardhshëm në disa minuta me platformën tonë të thjeshtë dhe të shpejtë.",
+        "button": "Kërkoni Automjete"
+      },
+      "business": {
+        "title": "Për Bizneset",
+        "desc": "Menaxhoni flotën tuaj me mjete profesionale. 14 ditë provë falas.",
+        "button": "Provoni Falas"
+      }
+    },
+    "trust": {
+      "title": "Besuar nga kompanitë më të mira"
+    },
+    "features": {
+      "title": "Gjithçka që ju nevojitet për të drejtuar biznesin tuaj",
+      "fleet": {
+        "title": "Menaxhimi i Flotës",
+        "desc": "Menaxhoni të gjithë flotën tuaj të automjeteve nga një panel i centralizuar."
+      },
+      "customer": {
+        "title": "Portali i Klientit",
+        "desc": "Sistem profesional rezervimi për klientët tuaj me disponueshmëri në kohë reale."
+      },
+      "analytics": {
+        "title": "Analitika dhe Raporte",
+        "desc": "Vështrime të detajuara mbi të ardhurat, përdorimin dhe metrikat e performancës."
+      },
+      "secure": {
+        "title": "I Sigurt & Në Përputhje",
+        "desc": "Siguri e nivelit bankar me përputhshmëri GDPR dhe enkriptim të dhënash."
+      },
+      "automation": {
+        "title": "Rrjedha Pune të Automatizuara",
+        "desc": "Automatizoni rezervimet, faturimin dhe planifikimin e mirëmbajtjes."
+      },
+      "multiLocation": {
+        "title": "Shumë Vendndodhje",
+        "desc": "Menaxhoni shumë pika qiraje nga një platformë e vetme."
+      }
+    },
+    "pricing": {
+      "title": "Çmime të thjeshta dhe transparente",
+      "subtitle": "Zgjidhni planin që i përshtatet biznesit tuaj. Të gjitha planet përfshijnë një provë falas 14-ditore.",
+      "monthly": "Mujor",
+      "yearly": "Vjetor",
+      "perMonth": "/muaj",
+      "perYear": "/vit",
+      "savePercent": "Kurseni {percent}%",
+      "billedYearly": "Faturohet €{total}/vit",
+      "contactUs": "Na Kontaktoni",
+      "contactSales": "Kontaktoni Shitjet",
+      "mostPopular": "Më e Popullarizuar",
+      "unlimited_vehicles": "Automjete të Pakufizuara",
+      "unlimited_users": "Përdorues të Pakufizuar",
+      "unlimited_locations": "Vendndodhje të Pakufizuara",
+      "feature_vehicles": "{count} Automjete",
+      "feature_users": "{count} Përdorues",
+      "feature_locations": "{count} Vendndodhje",
+      "features": {
+        "basic_analytics": "Analizë Bazë",
+        "email_support": "Mbështetje me Email",
+        "advanced_analytics": "Analizë e Avancuar",
+        "priority_support": "Mbështetje Prioritare",
+        "api_access": "Qasje API",
+        "all_features": "Të Gjitha Veçoritë",
+        "dedicated_support": "Mbështetje e Dedikuar",
+        "custom_branding": "Brandim i Personalizuar",
+        "sso": "SSO",
+        "white_label": "White Label"
+      },
+      "plans": {
+        "basic": {
+          "name": "Bazë",
+          "desc": "Për flota të vogla që sapo fillojnë.",
+          "features": {
+            "vehicles": "Deri në 10 automjete",
+            "users": "Deri në 3 përdorues",
+            "analytics": "Analitika Bazë",
+            "support": "Mbështetje me Email",
+            "trial": "Provë falas 14-ditore"
+          }
+        },
+        "starter": {
+          "name": "Fillestar",
+          "desc": "E përkryer për kompani të vogla qiraje.",
+          "features": {
+            "vehicles": "Deri në 25 automjete",
+            "users": "Deri në 5 përdorues",
+            "analytics": "Analitika Bazë",
+            "support": "Mbështetje me Email",
+            "trial": "Provë falas 14-ditore"
+          }
+        },
+        "professional": {
+          "name": "Profesional",
+          "desc": "Ideale për biznese në rritje.",
+          "features": {
+            "vehicles": "Deri në 50 automjete",
+            "users": "Deri në 15 përdorues",
+            "analytics": "Analitika e Avancuar",
+            "support": "Mbështetje Prioritare",
+            "api": "Akses në API",
+            "trial": "Provë falas 14-ditore"
+          }
+        },
+        "enterprise": {
+          "name": "Ndërmarrje",
+          "desc": "Për flota të mëdha me nevoja të personalizuara.",
+          "price": "Na Kontaktoni",
+          "features": {
+            "vehicles": "Automjete pa limit",
+            "users": "Përdorues pa limit",
+            "analytics": "Analitika e Personalizuar",
+            "support": "Mbështetje e Dedikuar",
+            "integrations": "Integrime të Personalizuara",
+            "whitelabel": "Opsion White-label"
+          }
+        },
+        "STARTER": {
+          "name": "Starter"
+        },
+        "PROFESSIONAL": {
+          "name": "Profesional"
+        },
+        "BUSINESS": {
+          "name": "Biznes"
+        },
+        "ENTERPRISE": {
+          "name": "Ndërmarrje"
+        }
+      }
+    },
+    "cta": {
+      "title": "Gati për të transformuar biznesin tuaj?",
+      "description": "Bashkohuni me qindra kompani qiraje që tashmë përdorin platformën tonë. Filloni provën tuaj falas 14-ditore sot—nuk kërkohet kartë krediti.",
+      "button": "Filloni Tani"
+    },
+    "footer": {
+      "rights": "Të gjitha të drejtat e rezervuara.",
+      "product": "Produkti",
+      "company": "Kompania",
+      "legal": "Ligjore",
+      "contact": "Kontakt",
+      "features": "Veçoritë",
+      "integrations": "Integrimet",
+      "changelog": "Ndryshimet",
+      "docs": "Dokumentacioni",
+      "about": "Rreth Nesh",
+      "blog": "Blog",
+      "careers": "Karriera",
+      "press": "Shtypi",
+      "privacy": "Privatësia",
+      "terms": "Kushtet",
+      "cookies": "Cookies",
+      "support": "Mbështetje",
+      "sales": "Shitjet",
+      "demo": "Kërkoni Demo",
+      "description": "Platforma enterprise për menaxhimin e qirasë së automjeteve. Përdoret nga mbi 500 kompani në mbarë botën."
+    }
+  }
+}

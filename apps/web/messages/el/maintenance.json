@@ -1,0 +1,57 @@
+{
+  "Maintenance": {
+    "title": "Συντήρηση",
+    "details": "Λεπτομέρειες",
+    "maintenanceInfo": "Πληροφορίες Συντήρησης",
+    "searchPlaceholder": "Αναζήτηση...",
+    "pending": "Εκκρεμής",
+    "scheduled": "Προγραμματισμένη",
+    "inProgress": "Σε εξέλιξη",
+    "completed": "Ολοκληρώθηκε",
+    "cancelled": "Ακυρώθηκε",
+    "completedAt": "Ολοκληρώθηκε Στις",
+    "addMaintenance": "Προσθήκη",
+    "addMaintenanceDesc": "Νέα συντήρηση",
+    "selectVehicle": "Επιλογή",
+    "titleColumn": "Τίτλος",
+    "titlePlaceholder": "Τίτλος...",
+    "type": "Τύπος",
+    "priorityLabel": "Προτεραιότητα",
+    "priorityLow": "Χαμηλή",
+    "priorityMedium": "Μέτρια",
+    "priorityHigh": "Υψηλή",
+    "priorityUrgent": "Επείγον",
+    "scheduledFor": "Για",
+    "descriptionPlaceholder": "Περιγραφή...",
+    "createSuccess": "Δημιουργήθηκε",
+    "createError": "Σφάλμα",
+    "requiredFields": "Υποχρεωτικά",
+    "updateSuccess": "Ενημερώθηκε",
+    "updateError": "Σφάλμα",
+    "editMaintenance": "Επεξεργασία",
+    "cost": "Κόστος",
+    "overdue": "Εκπρόθεσμη",
+    "maintenance": "Συντήρηση",
+    "status": {
+      "pending": "Εκκρεμής",
+      "scheduled": "Προγραμματισμένη",
+      "inProgress": "Σε εξέλιξη",
+      "completed": "Ολοκληρώθηκε",
+      "cancelled": "Ακυρώθηκε"
+    },
+    "priority": {
+      "low": "Χαμηλή",
+      "medium": "Μέτρια",
+      "high": "Υψηλή",
+      "urgent": "Επείγον"
+    },
+    "types": {
+      "routine": "Τακτική",
+      "repair": "Επισκευή",
+      "inspection": "Έλεγχος",
+      "tireChange": "Ελαστικά",
+      "oilChange": "Λάδια",
+      "brakeService": "Φρένα"
+    }
+  }
+}

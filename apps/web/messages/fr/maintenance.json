@@ -1,0 +1,47 @@
+{
+  "Maintenance": {
+    "title": "Entretien",
+    "searchPlaceholder": "Rechercher un entretien...",
+    "pending": "En Attente",
+    "scheduled": "Planifié",
+    "inProgress": "En Cours",
+    "completed": "Terminé",
+    "cancelled": "Annulé",
+    "addMaintenance": "Ajouter un Entretien",
+    "addMaintenanceDesc": "Planifier une nouvelle tâche d'entretien pour un véhicule",
+    "selectVehicle": "Sélectionner un véhicule",
+    "titleColumn": "Titre",
+    "titlePlaceholder": "Entrez le titre de l'entretien",
+    "type": "Type",
+    "priority": "Priorité",
+    "priorityLow": "Basse",
+    "priorityMedium": "Moyenne",
+    "priorityHigh": "Haute",
+    "priorityUrgent": "Urgente",
+    "scheduledFor": "Planifié Pour",
+    "descriptionPlaceholder": "Entrez la description de l'entretien...",
+    "createSuccess": "Entretien créé avec succès",
+    "createError": "Erreur lors de la création de l'entretien",
+    "requiredFields": "Le véhicule et le titre sont requis",
+    "updateSuccess": "Entretien mis à jour avec succès",
+    "updateError": "Erreur lors de la mise à jour de l'entretien",
+    "editMaintenance": "Modifier l'Entretien",
+    "cost": "Coût",
+    "overdue": "En Retard",
+    "status": {
+      "pending": "En Attente",
+      "scheduled": "Planifié",
+      "inProgress": "En Cours",
+      "completed": "Terminé",
+      "cancelled": "Annulé"
+    },
+    "types": {
+      "routine": "Routine",
+      "repair": "Réparation",
+      "inspection": "Inspection",
+      "tireChange": "Changement de Pneus",
+      "oilChange": "Vidange",
+      "brakeService": "Service Freins"
+    }
+  }
+}

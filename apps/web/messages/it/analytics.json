@@ -1,0 +1,15 @@
+{
+  "Analytics": {
+    "title": "Analisi",
+    "revenue": "Ricavi",
+    "bookings": "Prenotazioni",
+    "utilization": "Utilizzo",
+    "performance": "Performance",
+    "totalRevenue": "Ricavi Totali",
+    "utilizationRate": "Tasso di Utilizzo",
+    "activeRentals": "Noleggi Attivi",
+    "noDataTitle": "Nessun dato disponibile",
+    "noDataDesc": "Le analisi appariranno qui una volta che inizierai a generare dati.",
+    "fromLastMonth": "dal mese scorso"
+  }
+}

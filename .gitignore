@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+apps/*/node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Backup files
+backups/
+*.sql
+*.sql.gz
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build error logs
+apps/web/build_error*.txt
+apps/web/build_output.txt
+apps/web/lint_output.txt
+
+# Misc
+*.pem
+*.key
+*.crt
+*.csv

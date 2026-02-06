@@ -1,0 +1,15 @@
+{
+  "Analytics": {
+    "title": "Analytik",
+    "revenue": "Umsatz",
+    "bookings": "Buchungen",
+    "utilization": "Auslastung",
+    "performance": "Leistung",
+    "totalRevenue": "Gesamtumsatz",
+    "utilizationRate": "Auslastungsrate",
+    "activeRentals": "Aktive Vermietungen",
+    "noDataTitle": "Keine Daten verfügbar",
+    "noDataDesc": "Die Analytik wird hier erscheinen, sobald Sie Daten generieren.",
+    "fromLastMonth": "seit letztem Monat"
+  }
+}
