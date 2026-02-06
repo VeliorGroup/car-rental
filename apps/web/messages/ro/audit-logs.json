@@ -1,0 +1,27 @@
+{
+  "AuditLogs": {
+    "title": "Jurnale de Audit",
+    "description": "Vizualizează un istoric complet al acțiunilor efectuate în contul tău",
+    "searchPlaceholder": "Cauta jurnale...",
+    "action": "Acțiune",
+    "allActions": "Toate Acțiunile",
+    "resource": "Resursă",
+    "allResources": "Toate Resursele",
+    "from": "Din",
+    "to": "Pentru",
+    "timestamp": "Marcă de Timp",
+    "user": "Utilizator",
+    "resourceId": "ID Resursă",
+    "ipAddress": "Adresă IP",
+    "system": "Sistem",
+    "page": "Pagină",
+    "totalLogs": "Jurnale Totale",
+    "creates": "Creări",
+    "updates": "Actualizări",
+    "deletes": "Ștergeri",
+    "logDetails": "Detalii Jurnal",
+    "changes": "Modificări",
+    "oldValue": "Valoare Anterioară",
+    "newValue": "Valoare Nouă"
+  }
+}

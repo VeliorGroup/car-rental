@@ -1,0 +1,27 @@
+{
+  "AuditLogs": {
+    "title": "Registos de Auditoria",
+    "description": "Visualize um histórico completo de ações executadas na sua conta",
+    "searchPlaceholder": "Pesquisar registros...",
+    "action": "Ação",
+    "allActions": "Todas as Ações",
+    "resource": "Recurso",
+    "allResources": "Todos os Recursos",
+    "from": "De",
+    "to": "Para",
+    "timestamp": "Carimbo de Tempo",
+    "user": "Usuário",
+    "resourceId": "ID do Recurso",
+    "ipAddress": "Endereço IP",
+    "system": "Sistema",
+    "page": "Página",
+    "totalLogs": "Registos Totais",
+    "creates": "Criações",
+    "updates": "Atualizações",
+    "deletes": "Exclusões",
+    "logDetails": "Detalhes do Registro",
+    "changes": "Alterações",
+    "oldValue": "Valor Anterior",
+    "newValue": "Novo Valor"
+  }
+}

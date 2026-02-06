@@ -1,0 +1,27 @@
+{
+  "AuditLogs": {
+    "title": "Regjistrat e Auditimit",
+    "description": "Shikoni një historik të plotë të veprimeve të kryera në llogarinë tuaj",
+    "searchPlaceholder": "Kërkoni regjistrat...",
+    "action": "Veprim",
+    "allActions": "Të Gjitha Veprimet",
+    "resource": "Burimi",
+    "allResources": "Të Gjithë Burimet",
+    "from": "Nga",
+    "to": "Në",
+    "timestamp": "Pullë Kohe",
+    "user": "Përdorues",
+    "resourceId": "ID i Burimit",
+    "ipAddress": "Adresa IP",
+    "system": "Sistemi",
+    "page": "Faqja",
+    "totalLogs": "Regjistrat Totale",
+    "creates": "Krijimet",
+    "updates": "Përditesimet",
+    "deletes": "Fshirimet",
+    "logDetails": "Detalet e Regjistrit",
+    "changes": "Ndryshimet",
+    "oldValue": "Vlera e Mëparshme",
+    "newValue": "Vlera e Re"
+  }
+}

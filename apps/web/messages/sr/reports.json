@@ -1,0 +1,20 @@
+{
+  "Reports": {
+    "title": "Извештаји",
+    "description": "Генеришите и извезите извештаје за вашу пословну даду",
+    "selectReportType": "Одаберите Тип Извештаја",
+    "chooseReport": "Одаберите врсту извештаја коју желите да генеришете",
+    "exportSettings": "Подешавања за Извоз",
+    "configureExport": "Подешите своје опције извоза",
+    "format": "Формат",
+    "startDate": "Датум Почетка",
+    "endDate": "Датум Завршетка",
+    "allStatuses": "Сви Статуси",
+    "generateReport": "Генеришите Извештај",
+    "generating": "Генерисање...",
+    "reportGenerated": "Извештај Генерисан",
+    "reportDownloaded": "Ваш извештај је преузет",
+    "generateError": "Неуспешна генерисања извештаја",
+    "reportWillInclude": "Овај извештај ће укључити:"
+  }
+}

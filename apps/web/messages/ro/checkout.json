@@ -1,0 +1,38 @@
+{
+  "Checkout": {
+    "title": "Plată",
+    "back": "Înapoi",
+    "vehicleSummary": "Rezumat vehicul",
+    "datesLocation": "Date și Locație",
+    "pickup": "Preluare",
+    "return": "Returnare",
+    "loginRequired": "Trebuie să fii conectat pentru a finaliza rezervarea.",
+    "loginNow": "Conectează-te acum",
+    "priceSummary": "Rezumat Preț",
+    "days": "zile",
+    "total": "Total",
+    "deposit": {
+      "title": "Depozit de Garanție",
+      "atPickup": "va fi încasat la preluare"
+    },
+    "processing": "Se procesează...",
+    "payAndBook": "Plătește și Rezervă",
+    "loginToBook": "Conectează-te pentru a Rezerva",
+    "securePayment": "Plată Sigură",
+    "backToSearch": "Înapoi la Căutare",
+    "terms": {
+      "accept": "Accept",
+      "termsConditions": "Termenii și Condițiile",
+      "and": "și",
+      "privacyPolicy": "Politica de Confidențialitate",
+      "confirm": "Confirm că am citit și accept aceste documente"
+    },
+    "errors": {
+      "missingParams": "Parametri de rezervare necesari lipsesc",
+      "loadError": "Imposibil de încărcat detaliile rezervării",
+      "vehicleNotFound": "Vehicul nu găsit",
+      "termsRequired": "Trebuie să accepți termenii și condițiile",
+      "bookingError": "Imposibil de creat rezervarea. Te rog încearcă din nou."
+    }
+  }
+}

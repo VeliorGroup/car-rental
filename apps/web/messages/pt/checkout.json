@@ -1,0 +1,38 @@
+{
+  "Checkout": {
+    "title": "Pagamento",
+    "back": "Voltar",
+    "vehicleSummary": "Resumo do Veículo",
+    "datesLocation": "Datas e Localização",
+    "pickup": "Retirada",
+    "return": "Devolução",
+    "loginRequired": "Você precisa estar conectado para concluir sua reserva.",
+    "loginNow": "Conecte-se agora",
+    "priceSummary": "Resumo de Preços",
+    "days": "dias",
+    "total": "Total",
+    "deposit": {
+      "title": "Depósito de Segurança",
+      "atPickup": "será cobrado na retirada"
+    },
+    "processing": "Processando...",
+    "payAndBook": "Pagar e Reservar",
+    "loginToBook": "Conecte-se para Reservar",
+    "securePayment": "Pagamento Seguro",
+    "backToSearch": "Voltar à Busca",
+    "terms": {
+      "accept": "Aceito os",
+      "termsConditions": "Termos e Condições",
+      "and": "e a",
+      "privacyPolicy": "Política de Privacidade",
+      "confirm": "Confirmo que li e aceito estes documentos"
+    },
+    "errors": {
+      "missingParams": "Parâmetros de reserva obrigatórios ausentes",
+      "loadError": "Falha ao carregar os detalhes da reserva",
+      "vehicleNotFound": "Veículo não encontrado",
+      "termsRequired": "Você deve aceitar os termos e condições",
+      "bookingError": "Falha ao criar reserva. Por favor, tente novamente."
+    }
+  }
+}

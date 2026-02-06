@@ -161,6 +161,55 @@ export class SubscriptionService {
     }
   }
 
+  async upgradePlan(tenantId: string, planId: string, interval?: 'MONTHLY' | 'YEARLY') {
+    const subscription = await this.prisma.subscription.findUnique({
+      where: { tenantId },
+      include: { plan: true },
+    });
+
+    if (!subscription) {
+      throw new NotFoundException('No subscription found for this tenant');
+    }
+
+    // Verify the plan exists
+    const plan = await this.prisma.subscriptionPlan.findUnique({
+      where: { id: planId },
+    });
+
+    if (!plan || !plan.isActive) {
+      throw new NotFoundException('Plan not found or inactive');
+    }
+
+    // Calculate new billing period
+    const now = new Date();
+    const periodEnd = new Date(now);
+    if (interval === 'YEARLY') {
+      periodEnd.setFullYear(periodEnd.getFullYear() + 1);
+    } else {
+      periodEnd.setMonth(periodEnd.getMonth() + 1);
+    }
+
+    const updated = await this.prisma.subscription.update({
+      where: { tenantId },
+      data: {
+        planId,
+        status: 'ACTIVE',
+        interval: (interval as any) || subscription.interval,
+        currentPeriodStart: now,
+        currentPeriodEnd: periodEnd,
+        trialEndsAt: null, // End trial
+      },
+      include: { plan: true },
+    });
+
+    // Process referral reward if this is first activation
+    if (subscription.status === 'TRIAL') {
+      await this.checkReferralReward(tenantId);
+    }
+
+    return updated;
+  }
+
   async checkLimit(tenantId: string, resource: 'maxVehicles' | 'maxUsers' | 'maxLocations'): Promise<boolean> {
     const subscription = await this.prisma.subscription.findUnique({
       where: { tenantId },

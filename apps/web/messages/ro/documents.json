@@ -1,0 +1,32 @@
+{
+  "Documents": {
+    "title": "Documente",
+    "description": "Gestionează și organizează documentele tale",
+    "searchPlaceholder": "Cauta documente...",
+    "type": "Tip",
+    "allTypes": "Toate Tipurile",
+    "entityType": "Entitate",
+    "allEntities": "Toate Entitățile",
+    "uploadDocument": "Încarcă Document",
+    "uploadDescription": "Încarcă un nou document în biblioteca ta",
+    "totalDocuments": "Documente Totale",
+    "expiringSoon": "Expiază în Curând",
+    "contracts": "Contracte",
+    "insurance": "Asigurare",
+    "expiringDocuments": "Documente Expirate",
+    "expiresOn": "Expiază pe",
+    "name": "Nume",
+    "size": "Dimensiune",
+    "expiryDate": "Data Expirării",
+    "uploadedAt": "Încărcat",
+    "file": "Fișier",
+    "clickToUpload": "Fă clic pentru a încărca sau trage",
+    "description": "Descriere",
+    "upload": "Încarcă",
+    "uploadSuccess": "Încărcare Reușită",
+    "documentUploaded": "Documentul a fost încărcat cu succes",
+    "uploadError": "Eșec la încărcarea documentului",
+    "deleteSuccess": "Document Șters",
+    "documentDeleted": "Documentul a fost șters cu succes"
+  }
+}

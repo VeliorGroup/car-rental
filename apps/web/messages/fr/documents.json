@@ -1,0 +1,32 @@
+{
+  "Documents": {
+    "title": "Documents",
+    "description": "Gérez et organisez vos documents",
+    "searchPlaceholder": "Rechercher des documents...",
+    "type": "Type",
+    "allTypes": "Tous les Types",
+    "entityType": "Entité",
+    "allEntities": "Toutes les Entités",
+    "uploadDocument": "Télécharger un Document",
+    "uploadDescription": "Téléchargez un nouveau document dans votre bibliothèque",
+    "totalDocuments": "Documents Totaux",
+    "expiringSoon": "Expiration Imminente",
+    "contracts": "Contrats",
+    "insurance": "Assurances",
+    "expiringDocuments": "Documents Expirant",
+    "expiresOn": "Expire le",
+    "name": "Nom",
+    "size": "Taille",
+    "expiryDate": "Date d'Expiration",
+    "uploadedAt": "Téléchargé",
+    "file": "Fichier",
+    "clickToUpload": "Cliquez pour télécharger ou glissez-déposez",
+    "description": "Description",
+    "upload": "Télécharger",
+    "uploadSuccess": "Téléchargement Réussi",
+    "documentUploaded": "Le document a été téléchargé avec succès",
+    "uploadError": "Échec du téléchargement du document",
+    "deleteSuccess": "Document Supprimé",
+    "documentDeleted": "Le document a été supprimé avec succès"
+  }
+}

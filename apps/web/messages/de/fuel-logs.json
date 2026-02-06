@@ -1,0 +1,33 @@
+{
+  "FuelLogs": {
+    "title": "Kraftstoff-Protokolle",
+    "description": "Verfolge den Kraftstoffverbrauch und Kosten in deiner Flotte",
+    "addFuelLog": "Kraftstoff-Protokoll Hinzufügen",
+    "editFuelLog": "Kraftstoff-Protokoll Bearbeiten",
+    "modalDescription": "Registriere eine Tankstelle für ein Fahrzeug",
+    "selectVehicle": "Fahrzeug Auswählen",
+    "allVehicles": "Alle Fahrzeuge",
+    "fuelType": "Kraftstofftyp",
+    "allTypes": "Alle Typen",
+    "vehicle": "Fahrzeug",
+    "liters": "Liter",
+    "costPerLiter": "Kosten/Liter",
+    "totalCost": "Gesamtkosten",
+    "odometer": "Tachometer",
+    "consumption": "Verbrauch",
+    "date": "Datum",
+    "stationName": "Stationname",
+    "fullTank": "Voller Tank",
+    "thisMonthCost": "Kosten Diesen Monat",
+    "thisMonthLiters": "Liter Diesen Monat",
+    "avgConsumption": "Durchschnittsverbrauch",
+    "vehiclesTracked": "Verfolgte Fahrzeuge",
+    "createSuccess": "Kraftstoff-Protokoll Hinzugefügt",
+    "logCreated": "Das Kraftstoff-Protokoll wurde erfolgreich registriert",
+    "createError": "Fehler beim Hinzufügen des Kraftstoff-Protokolls",
+    "updateSuccess": "Kraftstoff-Protokoll Aktualisiert",
+    "logUpdated": "Das Kraftstoff-Protokoll wurde aktualisiert",
+    "deleteSuccess": "Kraftstoff-Protokoll Gelöscht",
+    "logDeleted": "Das Kraftstoff-Protokoll wurde entfernt"
+  }
+}

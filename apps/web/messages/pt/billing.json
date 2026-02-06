@@ -1,0 +1,27 @@
+{
+  "Billing": {
+    "title": "Faturamento e Assinatura",
+    "subtitle": "Gerencie seu plano de assinatura e faturamento",
+    "daysLeft": "dias restantes na sua avaliação",
+    "trialExpired": "Sua avaliação expirou. Escolha um plano para continuar.",
+    "renewsOn": "Renova em",
+    "month": "mês",
+    "year": "ano",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "vehicles": "veículos",
+    "users": "usuários",
+    "locations": "localizações",
+    "availablePlans": "Planos Disponíveis",
+    "popular": "Mais Popular",
+    "currentPlan": "Plano Atual",
+    "currentPlanBtn": "Plano atual",
+    "upgradeTo": "Atualizar para",
+    "toast": {
+      "upgradeSuccess": "Plano atualizado!",
+      "upgradeDesc": "Sua assinatura foi atualizada com sucesso.",
+      "upgradeFail": "Falha na atualização",
+      "upgradeFailDesc": "Um erro ocorreu. Por favor, tente novamente."
+    }
+  }
+}

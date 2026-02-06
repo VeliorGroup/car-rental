@@ -1,0 +1,32 @@
+{
+  "Documents": {
+    "title": "Документи",
+    "description": "Управувај и организирај со твоите документи",
+    "searchPlaceholder": "Пребаруваај документи...",
+    "type": "Тип",
+    "allTypes": "Сите Типови",
+    "entityType": "Ентитет",
+    "allEntities": "Сите Ентитети",
+    "uploadDocument": "Отпреми Документ",
+    "uploadDescription": "Отпреми нов документ во твојата библиотека",
+    "totalDocuments": "Вкупно Документи",
+    "expiringSoon": "Скоро Истекува",
+    "contracts": "Договори",
+    "insurance": "Осигурување",
+    "expiringDocuments": "Документи што Истекуваат",
+    "expiresOn": "Истекува на",
+    "name": "Име",
+    "size": "Величина",
+    "expiryDate": "Датум на Истекување",
+    "uploadedAt": "Отпремено",
+    "file": "Датотека",
+    "clickToUpload": "Кликни за отпремување или повлечи",
+    "description": "Опис",
+    "upload": "Отпреми",
+    "uploadSuccess": "Отпремување Успешно",
+    "documentUploaded": "Документот е успешно отпремен",
+    "uploadError": "Неуспешно отпремување на документ",
+    "deleteSuccess": "Документ Избришан",
+    "documentDeleted": "Документот е успешно избришан"
+  }
+}

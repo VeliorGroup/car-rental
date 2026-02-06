@@ -1,0 +1,20 @@
+{
+  "Reports": {
+    "title": "Report",
+    "description": "Genera ed esporta report per i dati della tua azienda",
+    "selectReportType": "Seleziona Tipo Report",
+    "chooseReport": "Scegli il tipo di report che desideri generare",
+    "exportSettings": "Impostazioni di Esportazione",
+    "configureExport": "Configura le tue opzioni di esportazione",
+    "format": "Formato",
+    "startDate": "Data di Inizio",
+    "endDate": "Data di Fine",
+    "allStatuses": "Tutti gli Stati",
+    "generateReport": "Genera Report",
+    "generating": "Generazione in corso...",
+    "reportGenerated": "Report Generato",
+    "reportDownloaded": "Il tuo report è stato scaricato",
+    "generateError": "Impossibile generare il report",
+    "reportWillInclude": "Questo report includerà:"
+  }
+}

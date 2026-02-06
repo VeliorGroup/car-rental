@@ -1,0 +1,32 @@
+{
+  "Documents": {
+    "title": "Documentos",
+    "description": "Gerencie e organize seus documentos",
+    "searchPlaceholder": "Pesquisar documentos...",
+    "type": "Tipo",
+    "allTypes": "Todos os Tipos",
+    "entityType": "Entidade",
+    "allEntities": "Todas as Entidades",
+    "uploadDocument": "Carregar Documento",
+    "uploadDescription": "Carregue um novo documento para sua biblioteca",
+    "totalDocuments": "Documentos Totais",
+    "expiringSoon": "Próximo a Expirar",
+    "contracts": "Contratos",
+    "insurance": "Seguros",
+    "expiringDocuments": "Documentos Expirando",
+    "expiresOn": "Expira em",
+    "name": "Nome",
+    "size": "Tamanho",
+    "expiryDate": "Data de Expiração",
+    "uploadedAt": "Carregado",
+    "file": "Arquivo",
+    "clickToUpload": "Clique para carregar ou arraste",
+    "description": "Descrição",
+    "upload": "Carregar",
+    "uploadSuccess": "Carregamento Bem-sucedido",
+    "documentUploaded": "O documento foi carregado com sucesso",
+    "uploadError": "Falha ao carregar documento",
+    "deleteSuccess": "Documento Deletado",
+    "documentDeleted": "O documento foi deletado com sucesso"
+  }
+}

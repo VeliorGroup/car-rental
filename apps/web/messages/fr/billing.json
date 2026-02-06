@@ -1,0 +1,27 @@
+{
+  "Billing": {
+    "title": "Facturation et Abonnement",
+    "subtitle": "Gérez votre plan d'abonnement et votre facturation",
+    "daysLeft": "jours restants dans votre essai",
+    "trialExpired": "Votre essai a expiré. Choisissez un plan pour continuer.",
+    "renewsOn": "Se renouvelle le",
+    "month": "mois",
+    "year": "année",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "vehicles": "véhicules",
+    "users": "utilisateurs",
+    "locations": "localités",
+    "availablePlans": "Plans Disponibles",
+    "popular": "Plus Populaire",
+    "currentPlan": "Plan Actuel",
+    "currentPlanBtn": "Plan actuel",
+    "upgradeTo": "Passer à",
+    "toast": {
+      "upgradeSuccess": "Plan mis à jour!",
+      "upgradeDesc": "Votre abonnement a été mis à jour avec succès.",
+      "upgradeFail": "La mise à jour a échoué",
+      "upgradeFailDesc": "Une erreur est survenue. Veuillez réessayer."
+    }
+  }
+}

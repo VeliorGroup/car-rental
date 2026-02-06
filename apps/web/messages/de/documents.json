@@ -1,0 +1,32 @@
+{
+  "Documents": {
+    "title": "Dokumente",
+    "description": "Verwalte und organisiere deine Dokumente",
+    "searchPlaceholder": "Dokumente durchsuchen...",
+    "type": "Typ",
+    "allTypes": "Alle Typen",
+    "entityType": "Entität",
+    "allEntities": "Alle Entitäten",
+    "uploadDocument": "Dokument Hochladen",
+    "uploadDescription": "Lade ein neues Dokument in deine Bibliothek hoch",
+    "totalDocuments": "Gesamtdokumente",
+    "expiringSoon": "Läuft bald ab",
+    "contracts": "Verträge",
+    "insurance": "Versicherungen",
+    "expiringDocuments": "Ablaufende Dokumente",
+    "expiresOn": "Läuft ab am",
+    "name": "Name",
+    "size": "Größe",
+    "expiryDate": "Ablaufdatum",
+    "uploadedAt": "Hochgeladen",
+    "file": "Datei",
+    "clickToUpload": "Klicken zum Hochladen oder Ziehen und Ablegen",
+    "description": "Beschreibung",
+    "upload": "Hochladen",
+    "uploadSuccess": "Upload Erfolgreich",
+    "documentUploaded": "Das Dokument wurde erfolgreich hochgeladen",
+    "uploadError": "Fehler beim Hochladen des Dokuments",
+    "deleteSuccess": "Dokument Gelöscht",
+    "documentDeleted": "Das Dokument wurde erfolgreich gelöscht"
+  }
+}

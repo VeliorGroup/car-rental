@@ -248,16 +248,26 @@ export class AuthService {
         });
       }
 
-      // 4. Create Subscription
+      // 4. Create Subscription - 14 day free trial with default plan
       const trialEndsAt = new Date();
       trialEndsAt.setDate(trialEndsAt.getDate() + 14); // 14 days trial
+
+      // Find default plan (starter or first available)
+      const defaultPlan = await prisma.subscriptionPlan.findFirst({
+        where: { isActive: true },
+        orderBy: { sortOrder: 'asc' },
+      });
+
+      if (!defaultPlan) {
+        throw new Error('No subscription plans available. Please seed plans.');
+      }
 
       await prisma.subscription.create({
         data: {
           tenantId: tenant.id,
-          planId: dto.planId,
+          planId: defaultPlan.id,
           status: 'TRIAL',
-          interval: (dto.interval as any) || 'MONTHLY',
+          interval: 'MONTHLY',
           currentPeriodStart: new Date(),
           currentPeriodEnd: trialEndsAt,
           trialEndsAt: trialEndsAt,

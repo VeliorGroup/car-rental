@@ -1,0 +1,33 @@
+{
+  "FuelLogs": {
+    "title": "Regjistrat e Karburantit",
+    "description": "Gjurmo konsumin e karburantit dhe kostot në flotën tënde",
+    "addFuelLog": "Shto Regjistrim të Karburantit",
+    "editFuelLog": "Redakto Regjistrim të Karburantit",
+    "modalDescription": "Regjistroni një mbushje karburanti për një automjet",
+    "selectVehicle": "Zgjedh Automjetin",
+    "allVehicles": "Të Gjithë Automjetet",
+    "fuelType": "Lloji i Karburantit",
+    "allTypes": "Të Gjitha Llojet",
+    "vehicle": "Automjeti",
+    "liters": "Litrat",
+    "costPerLiter": "Kostoja/Litër",
+    "totalCost": "Kostoja Totale",
+    "odometer": "Odometri",
+    "consumption": "Konsumi",
+    "date": "Data",
+    "stationName": "Emri i Stacionit",
+    "fullTank": "Rezervuari i Plotë",
+    "thisMonthCost": "Kostoja Këtë Muaj",
+    "thisMonthLiters": "Litrat Këtë Muaj",
+    "avgConsumption": "Konsumi Mesatar",
+    "vehiclesTracked": "Automjetet e Gjurmuar",
+    "createSuccess": "Regjistrim i Karburantit i Shtuar",
+    "logCreated": "Regjistri i karburantit është regjistruar me sukses",
+    "createError": "Dështim në shtim të regjistrit të karburantit",
+    "updateSuccess": "Regjistrim i Karburantit i Përditësuar",
+    "logUpdated": "Regjistri i karburantit është përditësuar",
+    "deleteSuccess": "Regjistrim i Karburantit i Fshirë",
+    "logDeleted": "Regjistri i karburantit është hequr"
+  }
+}

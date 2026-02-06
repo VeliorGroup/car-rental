@@ -1,0 +1,20 @@
+{
+  "Reports": {
+    "title": "Berichte",
+    "description": "Generiere und exportiere Berichte für deine Geschäftsdaten",
+    "selectReportType": "Berichttyp Wählen",
+    "chooseReport": "Wähle die Art des Berichts, den du generieren möchtest",
+    "exportSettings": "Exporteinstellungen",
+    "configureExport": "Konfiguriere deine Exportoptionen",
+    "format": "Format",
+    "startDate": "Startdatum",
+    "endDate": "Enddatum",
+    "allStatuses": "Alle Status",
+    "generateReport": "Bericht Generieren",
+    "generating": "Wird generiert...",
+    "reportGenerated": "Bericht Generiert",
+    "reportDownloaded": "Dein Bericht wurde heruntergeladen",
+    "generateError": "Fehler beim Generieren des Berichts",
+    "reportWillInclude": "Dieser Bericht enthält:"
+  }
+}

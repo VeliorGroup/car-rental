@@ -1,0 +1,33 @@
+{
+  "FuelLogs": {
+    "title": "Дневници Гориво",
+    "description": "Следи потрошена гориво и трошоци во твојата флота",
+    "addFuelLog": "Додај Дневник Гориво",
+    "editFuelLog": "Уреди Дневник Гориво",
+    "modalDescription": "Регистрирај полнење за возило",
+    "selectVehicle": "Избери Возило",
+    "allVehicles": "Сите Возила",
+    "fuelType": "Тип Гориво",
+    "allTypes": "Сите Типови",
+    "vehicle": "Возило",
+    "liters": "Литри",
+    "costPerLiter": "Цена/Литар",
+    "totalCost": "Вкупна Цена",
+    "odometer": "Километраж",
+    "consumption": "Потрошување",
+    "date": "Датум",
+    "stationName": "Име Станица",
+    "fullTank": "Полн Резервоар",
+    "thisMonthCost": "Цена Овој Месец",
+    "thisMonthLiters": "Литри Овој Месец",
+    "avgConsumption": "Просечно Потрошување",
+    "vehiclesTracked": "Возила Следена",
+    "createSuccess": "Дневник Гориво Додаден",
+    "logCreated": "Дневникот гориво е успешно регистриран",
+    "createError": "Неуспешно додавање дневник гориво",
+    "updateSuccess": "Дневник Гориво Ажуриран",
+    "logUpdated": "Дневникот гориво е ажуриран",
+    "deleteSuccess": "Дневник Гориво Избришан",
+    "logDeleted": "Дневникот гориво е отстранен"
+  }
+}

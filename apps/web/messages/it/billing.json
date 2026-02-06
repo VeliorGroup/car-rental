@@ -1,0 +1,27 @@
+{
+  "Billing": {
+    "title": "Fatturazione e Abbonamento",
+    "subtitle": "Gestisci il tuo piano di abbonamento e fatturazione",
+    "daysLeft": "giorni rimasti nella prova",
+    "trialExpired": "La tua prova è scaduta. Scegli un piano per continuare.",
+    "renewsOn": "Si rinnova il",
+    "month": "mese",
+    "year": "anno",
+    "monthly": "Mensile",
+    "yearly": "Annuale",
+    "vehicles": "veicoli",
+    "users": "utenti",
+    "locations": "ubicazioni",
+    "availablePlans": "Piani Disponibili",
+    "popular": "Più Popolare",
+    "currentPlan": "Piano Corrente",
+    "currentPlanBtn": "Piano corrente",
+    "upgradeTo": "Passa a",
+    "toast": {
+      "upgradeSuccess": "Piano aggiornato!",
+      "upgradeDesc": "Il tuo abbonamento è stato aggiornato con successo.",
+      "upgradeFail": "Aggiornamento fallito",
+      "upgradeFailDesc": "Si è verificato un errore. Riprova."
+    }
+  }
+}

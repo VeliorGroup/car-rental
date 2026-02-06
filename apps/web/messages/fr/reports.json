@@ -1,0 +1,20 @@
+{
+  "Reports": {
+    "title": "Rapports",
+    "description": "Générez et exportez des rapports pour vos données commerciales",
+    "selectReportType": "Sélectionner le Type de Rapport",
+    "chooseReport": "Choisissez le type de rapport que vous souhaitez générer",
+    "exportSettings": "Paramètres d'Exportation",
+    "configureExport": "Configurez vos options d'exportation",
+    "format": "Format",
+    "startDate": "Date de Début",
+    "endDate": "Date de Fin",
+    "allStatuses": "Tous les Statuts",
+    "generateReport": "Générer un Rapport",
+    "generating": "Génération en cours...",
+    "reportGenerated": "Rapport Généré",
+    "reportDownloaded": "Votre rapport a été téléchargé",
+    "generateError": "Impossible de générer le rapport",
+    "reportWillInclude": "Ce rapport inclura:"
+  }
+}

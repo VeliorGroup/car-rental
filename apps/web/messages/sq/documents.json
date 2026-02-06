@@ -1,0 +1,32 @@
+{
+  "Documents": {
+    "title": "Dokumentet",
+    "description": "Menaxho dhe organizo dokumentet e tua",
+    "searchPlaceholder": "Kërko dokumentet...",
+    "type": "Lloji",
+    "allTypes": "Të Gjitha Llojet",
+    "entityType": "Entiteti",
+    "allEntities": "Të Gjitha Entitetet",
+    "uploadDocument": "Ngarko Dokument",
+    "uploadDescription": "Ngarko një dokument të ri në bibliotekën tuaj",
+    "totalDocuments": "Dokumentet Totale",
+    "expiringSoon": "Skadimi i Afërt",
+    "contracts": "Kontrata",
+    "insurance": "Sigurim",
+    "expiringDocuments": "Dokumentet që Skadojnë",
+    "expiresOn": "Skadon në",
+    "name": "Emri",
+    "size": "Madhësia",
+    "expiryDate": "Data e Skadit",
+    "uploadedAt": "Ngarkuar",
+    "file": "Datoteka",
+    "clickToUpload": "Klikoni për të ngarkuar ose tërhiqni",
+    "description": "Përshkrim",
+    "upload": "Ngarko",
+    "uploadSuccess": "Ngarkimi i Suksesshëm",
+    "documentUploaded": "Dokumenti është ngarkuar me sukses",
+    "uploadError": "Dështi ngarkimi i dokumentit",
+    "deleteSuccess": "Dokumenti u Fshi",
+    "documentDeleted": "Dokumenti u fshi me sukses"
+  }
+}

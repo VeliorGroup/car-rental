@@ -1,0 +1,20 @@
+{
+  "Reports": {
+    "title": "Rapoarte",
+    "description": "Generează și exportă rapoarte pentru datele tale de afaceri",
+    "selectReportType": "Selectează Tip Raport",
+    "chooseReport": "Alege tipul de raport pe care vrei să-l generezi",
+    "exportSettings": "Setări de Exportare",
+    "configureExport": "Configurează-ți opțiunile de exportare",
+    "format": "Format",
+    "startDate": "Data de Început",
+    "endDate": "Data de Sfârşit",
+    "allStatuses": "Toate Staturile",
+    "generateReport": "Generează Raport",
+    "generating": "Se generează...",
+    "reportGenerated": "Raport Generat",
+    "reportDownloaded": "Raportul tău a fost descărcat",
+    "generateError": "Eșec la generarea raportului",
+    "reportWillInclude": "Acest raport va include:"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Billing": {
+    "title": "Faturimi dhe Pajtimi",
+    "subtitle": "Menaxho planin e pajtimit dhe faturimin",
+    "daysLeft": "ditë të mbetura në prova tuaj",
+    "trialExpired": "Prova juaj ka skaduar. Zgjidh një plan për të vazhduar.",
+    "renewsOn": "Rinovohet në",
+    "month": "muaj",
+    "year": "vit",
+    "monthly": "Mujore",
+    "yearly": "Vjetore",
+    "vehicles": "makinat",
+    "users": "përdoruesit",
+    "locations": "vendndodhat",
+    "availablePlans": "Planët e Disponueshme",
+    "popular": "Më i Popullarizuar",
+    "currentPlan": "Plani Aktual",
+    "currentPlanBtn": "Plani aktual",
+    "upgradeTo": "Përditeso në",
+    "toast": {
+      "upgradeSuccess": "Plani i përditesuar!",
+      "upgradeDesc": "Pajtimi juaj u përditesua me sukses.",
+      "upgradeFail": "Përditesimi dështoi",
+      "upgradeFailDesc": "Ndodhi një gabim. Ju lutemi provoni përsëri."
+    }
+  }
+}

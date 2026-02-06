@@ -1,0 +1,38 @@
+{
+  "Checkout": {
+    "title": "Bezahlung",
+    "back": "Zurück",
+    "vehicleSummary": "Fahrzeugzusammenfassung",
+    "datesLocation": "Daten und Ort",
+    "pickup": "Abholung",
+    "return": "Rückgabe",
+    "loginRequired": "Du musst angemeldet sein, um deine Reservierung abzuschließen.",
+    "loginNow": "Jetzt anmelden",
+    "priceSummary": "Preisübersicht",
+    "days": "Tage",
+    "total": "Gesamt",
+    "deposit": {
+      "title": "Kaution",
+      "atPickup": "wird bei der Abholung berechnet"
+    },
+    "processing": "Wird verarbeitet...",
+    "payAndBook": "Bezahlen und Reservieren",
+    "loginToBook": "Zum Reservieren anmelden",
+    "securePayment": "Sichere Zahlung",
+    "backToSearch": "Zurück zur Suche",
+    "terms": {
+      "accept": "Ich akzeptiere die",
+      "termsConditions": "Allgemeinen Geschäftsbedingungen",
+      "and": "und die",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "confirm": "Ich bestätige, dass ich diese Dokumente gelesen und akzeptiert habe"
+    },
+    "errors": {
+      "missingParams": "Erforderliche Reservierungsparameter fehlen",
+      "loadError": "Reservierungsdetails konnten nicht geladen werden",
+      "vehicleNotFound": "Fahrzeug nicht gefunden",
+      "termsRequired": "Du musst den Allgemeinen Geschäftsbedingungen zustimmen",
+      "bookingError": "Reservierung konnte nicht erstellt werden. Bitte versuche es später erneut."
+    }
+  }
+}

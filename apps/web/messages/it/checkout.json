@@ -1,0 +1,38 @@
+{
+  "Checkout": {
+    "title": "Pagamento",
+    "back": "Indietro",
+    "vehicleSummary": "Riepilogo veicolo",
+    "datesLocation": "Date e Ubicazione",
+    "pickup": "Ritiro",
+    "return": "Restituzione",
+    "loginRequired": "Devi accedere per completare la prenotazione.",
+    "loginNow": "Accedi ora",
+    "priceSummary": "Riepilogo prezzi",
+    "days": "giorni",
+    "total": "Totale",
+    "deposit": {
+      "title": "Cauzione",
+      "atPickup": "sarà addebitata al ritiro"
+    },
+    "processing": "Elaborazione...",
+    "payAndBook": "Paga e Prenota",
+    "loginToBook": "Accedi per Prenotare",
+    "securePayment": "Pagamento Sicuro",
+    "backToSearch": "Torna alla Ricerca",
+    "terms": {
+      "accept": "Accetto i",
+      "termsConditions": "Termini e Condizioni",
+      "and": "e l'",
+      "privacyPolicy": "Informativa sulla Privacy",
+      "confirm": "Confermo di aver letto e accetto questi documenti"
+    },
+    "errors": {
+      "missingParams": "Parametri prenotazione mancanti",
+      "loadError": "Impossibile caricare i dettagli prenotazione",
+      "vehicleNotFound": "Veicolo non trovato",
+      "termsRequired": "Devi accettare i termini e le condizioni",
+      "bookingError": "Impossibile creare la prenotazione. Riprova."
+    }
+  }
+}

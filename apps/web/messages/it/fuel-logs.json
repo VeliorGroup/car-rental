@@ -1,0 +1,33 @@
+{
+  "FuelLogs": {
+    "title": "Registri di Carburante",
+    "description": "Traccia il consumo e i costi di carburante nella tua flotta",
+    "addFuelLog": "Aggiungi Registro Carburante",
+    "editFuelLog": "Modifica Registro Carburante",
+    "modalDescription": "Registra un rifornimento per un veicolo",
+    "selectVehicle": "Seleziona Veicolo",
+    "allVehicles": "Tutti i Veicoli",
+    "fuelType": "Tipo di Carburante",
+    "allTypes": "Tutti i Tipi",
+    "vehicle": "Veicolo",
+    "liters": "Litri",
+    "costPerLiter": "Costo/Litro",
+    "totalCost": "Costo Totale",
+    "odometer": "Contachilometri",
+    "consumption": "Consumo",
+    "date": "Data",
+    "stationName": "Nome Stazione",
+    "fullTank": "Pieno",
+    "thisMonthCost": "Costo di Questo Mese",
+    "thisMonthLiters": "Litri di Questo Mese",
+    "avgConsumption": "Consumo Medio",
+    "vehiclesTracked": "Veicoli Tracciati",
+    "createSuccess": "Registro Carburante Aggiunto",
+    "logCreated": "Il registro di carburante è stato registrato con successo",
+    "createError": "Impossibile aggiungere il registro di carburante",
+    "updateSuccess": "Registro Carburante Aggiornato",
+    "logUpdated": "Il registro di carburante è stato aggiornato",
+    "deleteSuccess": "Registro Carburante Eliminato",
+    "logDeleted": "Il registro di carburante è stato rimosso"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Checkout": {
+    "title": "Pagesë",
+    "back": "Prapa",
+    "vehicleSummary": "Përmbledhje e Makinës",
+    "datesLocation": "Datat dhe Lokacioni",
+    "pickup": "Ngarkim",
+    "return": "Kthim",
+    "loginRequired": "Duhet të bëhesh i loguar për të përfunduar rezervimin tënd.",
+    "loginNow": "Kyçu tani",
+    "priceSummary": "Përmbledhje e Çmimit",
+    "days": "ditë",
+    "total": "Totali",
+    "deposit": {
+      "title": "Depozit Garancial",
+      "atPickup": "do të ngarkohej në ngarkim"
+    },
+    "processing": "Po përpunohet...",
+    "payAndBook": "Pageso dhe Rezervo",
+    "loginToBook": "Kyçu për të Rezervuar",
+    "securePayment": "Pagesë e Sigurt",
+    "backToSearch": "Prapa në Kërkimin",
+    "terms": {
+      "accept": "Shfaq",
+      "termsConditions": "Përmes dhe Kushtet",
+      "and": "dhe",
+      "privacyPolicy": "Politika e Privatësisë",
+      "confirm": "Unë konfirmoj se kam lexuar dhe prano këto dokumente"
+    },
+    "errors": {
+      "missingParams": "Mungojnë parametrat e nevojshëm të rezervimit",
+      "loadError": "Dështim në ngarkim të detajeve të rezervimit",
+      "vehicleNotFound": "Makina nuk u gjet",
+      "termsRequired": "Duhet të pranosh përmes dhe kushtet",
+      "bookingError": "Dështim në krijim të rezervimit. Ju lutemi provoni përsëri."
+    }
+  }
+}

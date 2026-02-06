@@ -23,7 +23,8 @@ import {
   PiGlobeSimple,
   PiChartBar,
   PiFile,
-  PiGasPump
+  PiGasPump,
+  PiCurrencyCircleDollar
 } from 'react-icons/pi'
 import { cn } from '@/lib/utils'
 import { useAuthStore } from '@/lib/store/auth'
@@ -76,6 +77,7 @@ const navigationItems: NavigationItem[] = [
   { key: 'documents', href: '/documents', icon: PiFile },
   { key: 'calendar', href: '/calendar', icon: PiCalendarCheck },
   { key: 'notifications', href: '/notifications', icon: PiBell },
+  { key: 'billing', href: '/billing', icon: PiCurrencyCircleDollar },
   { key: 'settings', href: '/settings', icon: PiGear },
 ]
 

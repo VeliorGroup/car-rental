@@ -1,0 +1,20 @@
+{
+  "Reports": {
+    "title": "Relatórios",
+    "description": "Gere e exporte relatórios para seus dados comerciais",
+    "selectReportType": "Selecionar Tipo de Relatório",
+    "chooseReport": "Escolha o tipo de relatório que deseja gerar",
+    "exportSettings": "Configurações de Exportação",
+    "configureExport": "Configure suas opções de exportação",
+    "format": "Formato",
+    "startDate": "Data de Início",
+    "endDate": "Data de Término",
+    "allStatuses": "Todos os Status",
+    "generateReport": "Gerar Relatório",
+    "generating": "Gerando...",
+    "reportGenerated": "Relatório Gerado",
+    "reportDownloaded": "Seu relatório foi baixado",
+    "generateError": "Falha ao gerar relatório",
+    "reportWillInclude": "Este relatório incluirá:"
+  }
+}

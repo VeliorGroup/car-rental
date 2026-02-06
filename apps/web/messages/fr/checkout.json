@@ -1,0 +1,38 @@
+{
+  "Checkout": {
+    "title": "Paiement",
+    "back": "Retour",
+    "vehicleSummary": "Résumé du véhicule",
+    "datesLocation": "Dates et Localisation",
+    "pickup": "Récupération",
+    "return": "Restitution",
+    "loginRequired": "Vous devez être connecté pour finaliser votre réservation.",
+    "loginNow": "Connectez-vous maintenant",
+    "priceSummary": "Résumé des Prix",
+    "days": "jours",
+    "total": "Total",
+    "deposit": {
+      "title": "Dépôt de Garantie",
+      "atPickup": "sera facturé à la récupération"
+    },
+    "processing": "Traitement...",
+    "payAndBook": "Payer et Réserver",
+    "loginToBook": "Connectez-vous pour Réserver",
+    "securePayment": "Paiement Sécurisé",
+    "backToSearch": "Retour à la Recherche",
+    "terms": {
+      "accept": "J'accepte les",
+      "termsConditions": "Conditions Générales",
+      "and": "et la",
+      "privacyPolicy": "Politique de Confidentialité",
+      "confirm": "Je confirme avoir lu et accepté ces documents"
+    },
+    "errors": {
+      "missingParams": "Paramètres de réservation manquants",
+      "loadError": "Impossible de charger les détails de la réservation",
+      "vehicleNotFound": "Véhicule non trouvé",
+      "termsRequired": "Vous devez accepter les conditions générales",
+      "bookingError": "Impossible de créer la réservation. Veuillez réessayer."
+    }
+  }
+}

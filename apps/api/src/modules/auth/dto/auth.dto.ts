@@ -47,15 +47,10 @@ export class RegisterTenantDto {
   lastName: string;
 
   @IsString()
-  planId: string;
+  vatNumber: string;
 
   @IsString()
-  @IsOptional()
-  vatNumber?: string;
-
-  @IsString()
-  @IsOptional()
-  phone?: string;
+  phone: string;
 
   @IsString()
   @IsOptional()
@@ -72,10 +67,6 @@ export class RegisterTenantDto {
   @IsString()
   @IsOptional()
   referralCode?: string;
-
-  @IsString()
-  @IsOptional()
-  interval?: 'MONTHLY' | 'YEARLY';
 }
 
 export class TwoFADto {

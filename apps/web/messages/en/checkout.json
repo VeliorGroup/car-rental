@@ -1,0 +1,38 @@
+{
+  "Checkout": {
+    "title": "Checkout",
+    "back": "Back",
+    "vehicleSummary": "Vehicle Summary",
+    "datesLocation": "Dates & Location",
+    "pickup": "Pickup",
+    "return": "Return",
+    "loginRequired": "You need to be logged in to complete your booking.",
+    "loginNow": "Log in now",
+    "priceSummary": "Price Summary",
+    "days": "days",
+    "total": "Total",
+    "deposit": {
+      "title": "Franchise Deposit",
+      "atPickup": "will be charged at pickup"
+    },
+    "processing": "Processing...",
+    "payAndBook": "Pay & Book",
+    "loginToBook": "Login to Book",
+    "securePayment": "Secure Payment",
+    "backToSearch": "Back to Search",
+    "terms": {
+      "accept": "I accept the",
+      "termsConditions": "Terms & Conditions",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy",
+      "confirm": "I confirm I have read and accept these documents"
+    },
+    "errors": {
+      "missingParams": "Missing required booking parameters",
+      "loadError": "Failed to load booking details",
+      "vehicleNotFound": "Vehicle not found",
+      "termsRequired": "You must accept the terms and conditions",
+      "bookingError": "Failed to create booking. Please try again."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Billing": {
+    "title": "Abrechnung und Abonnement",
+    "subtitle": "Verwalte deinen Abonnementplan und deine Abrechnung",
+    "daysLeft": "Tage in deiner Testphase verbleibend",
+    "trialExpired": "Deine Testphase ist abgelaufen. Wähle einen Plan, um fortzufahren.",
+    "renewsOn": "Verlängert sich am",
+    "month": "Monat",
+    "year": "Jahr",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "vehicles": "Fahrzeuge",
+    "users": "Benutzer",
+    "locations": "Standorte",
+    "availablePlans": "Verfügbare Pläne",
+    "popular": "Beliebteste",
+    "currentPlan": "Aktueller Plan",
+    "currentPlanBtn": "Aktueller Plan",
+    "upgradeTo": "Wechseln zu",
+    "toast": {
+      "upgradeSuccess": "Plan aktualisiert!",
+      "upgradeDesc": "Dein Abonnement wurde erfolgreich aktualisiert.",
+      "upgradeFail": "Aktualisierung fehlgeschlagen",
+      "upgradeFailDesc": "Ein Fehler ist aufgetreten. Bitte versuche es später erneut."
+    }
+  }
+}

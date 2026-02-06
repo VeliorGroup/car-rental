@@ -1,0 +1,20 @@
+{
+  "Reports": {
+    "title": "Raportet",
+    "description": "Gjenero dhe eksporto raportet për të dhënat e biznesit tuaj",
+    "selectReportType": "Zgjidh Llojin e Raportit",
+    "chooseReport": "Zgjidh llojin e raportit që dëshiron të gjeneroš",
+    "exportSettings": "Përcaktimet e Eksportimit",
+    "configureExport": "Konfiguro opsionet e tua të eksportimit",
+    "format": "Formati",
+    "startDate": "Data e Fillimit",
+    "endDate": "Data e Mbarimit",
+    "allStatuses": "Të Gjitha Statuset",
+    "generateReport": "Gjenero Raportin",
+    "generating": "Gjeneron...",
+    "reportGenerated": "Raporti i Gjeneruar",
+    "reportDownloaded": "Raporti yt ka qenë i shkarkuar",
+    "generateError": "Dështi gjenerimi i raportit",
+    "reportWillInclude": "Ky raport do të përfshijë:"
+  }
+}

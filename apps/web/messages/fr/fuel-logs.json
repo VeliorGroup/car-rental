@@ -1,0 +1,33 @@
+{
+  "FuelLogs": {
+    "title": "Journaux de Carburant",
+    "description": "Suivre la consommation et les coûts de carburant dans votre flotte",
+    "addFuelLog": "Ajouter un Journal de Carburant",
+    "editFuelLog": "Modifier le Journal de Carburant",
+    "modalDescription": "Enregistrer un ravitaillement pour un véhicule",
+    "selectVehicle": "Sélectionner un Véhicule",
+    "allVehicles": "Tous les Véhicules",
+    "fuelType": "Type de Carburant",
+    "allTypes": "Tous les Types",
+    "vehicle": "Véhicule",
+    "liters": "Litres",
+    "costPerLiter": "Coût/Litre",
+    "totalCost": "Coût Total",
+    "odometer": "Odomètre",
+    "consumption": "Consommation",
+    "date": "Date",
+    "stationName": "Nom de la Station",
+    "fullTank": "Réservoir Plein",
+    "thisMonthCost": "Coût ce Mois",
+    "thisMonthLiters": "Litres ce Mois",
+    "avgConsumption": "Consommation Moyenne",
+    "vehiclesTracked": "Véhicules Suivis",
+    "createSuccess": "Journal de Carburant Ajouté",
+    "logCreated": "Le journal de carburant a été enregistré avec succès",
+    "createError": "Impossible d'ajouter le journal de carburant",
+    "updateSuccess": "Journal de Carburant Mis à Jour",
+    "logUpdated": "Le journal de carburant a été mis à jour",
+    "deleteSuccess": "Journal de Carburant Supprimé",
+    "logDeleted": "Le journal de carburant a été supprimé"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "FuelLogs": {
+    "title": "Registre de Combustibil",
+    "description": "Urmărește consumul de combustibil și costurile în flota ta",
+    "addFuelLog": "Adaugă Registru de Combustibil",
+    "editFuelLog": "Editează Registru de Combustibil",
+    "modalDescription": "Înregistrează un plin de combustibil pentru un vehicul",
+    "selectVehicle": "Selectează Vehicul",
+    "allVehicles": "Toate Vehiculele",
+    "fuelType": "Tip de Combustibil",
+    "allTypes": "Toate Tipurile",
+    "vehicle": "Vehicul",
+    "liters": "Litri",
+    "costPerLiter": "Cost/Litru",
+    "totalCost": "Cost Total",
+    "odometer": "Contor Kilometrajului",
+    "consumption": "Consum",
+    "date": "Data",
+    "stationName": "Nume Stație",
+    "fullTank": "Plin de Combustibil",
+    "thisMonthCost": "Cost Această Lună",
+    "thisMonthLiters": "Litri Această Lună",
+    "avgConsumption": "Consum Mediu",
+    "vehiclesTracked": "Vehicule Urmărite",
+    "createSuccess": "Registru de Combustibil Adăugat",
+    "logCreated": "Registrul de combustibil a fost înregistrat cu succes",
+    "createError": "Eșec la adăugarea registrului de combustibil",
+    "updateSuccess": "Registru de Combustibil Actualizat",
+    "logUpdated": "Registrul de combustibil a fost actualizat",
+    "deleteSuccess": "Registru de Combustibil Șters",
+    "logDeleted": "Registrul de combustibil a fost eliminat"
+  }
+}

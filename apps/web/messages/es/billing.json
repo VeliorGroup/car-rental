@@ -1,0 +1,27 @@
+{
+  "Billing": {
+    "title": "Facturación y Suscripción",
+    "subtitle": "Administra tu plan de suscripción y facturación",
+    "daysLeft": "días restantes en tu prueba",
+    "trialExpired": "Tu período de prueba ha expirado. Elige un plan para continuar.",
+    "renewsOn": "Se renueva el",
+    "month": "mes",
+    "year": "año",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "vehicles": "vehículos",
+    "users": "usuarios",
+    "locations": "ubicaciones",
+    "availablePlans": "Planes Disponibles",
+    "popular": "Más Popular",
+    "currentPlan": "Plan Actual",
+    "currentPlanBtn": "Plan actual",
+    "upgradeTo": "Actualizar a",
+    "toast": {
+      "upgradeSuccess": "¡Plan actualizado!",
+      "upgradeDesc": "Tu suscripción ha sido actualizada exitosamente.",
+      "upgradeFail": "Actualización fallida",
+      "upgradeFailDesc": "Ocurrió un error. Por favor, inténtalo de nuevo."
+    }
+  }
+}

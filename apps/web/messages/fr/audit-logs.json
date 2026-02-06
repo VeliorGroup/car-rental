@@ -1,0 +1,27 @@
+{
+  "AuditLogs": {
+    "title": "Journaux d'audit",
+    "description": "Afficher un historique complet des actions effectuées dans votre compte",
+    "searchPlaceholder": "Rechercher les journaux...",
+    "action": "Action",
+    "allActions": "Toutes les Actions",
+    "resource": "Ressource",
+    "allResources": "Toutes les Ressources",
+    "from": "De",
+    "to": "À",
+    "timestamp": "Horodatage",
+    "user": "Utilisateur",
+    "resourceId": "ID de Ressource",
+    "ipAddress": "Adresse IP",
+    "system": "Système",
+    "page": "Page",
+    "totalLogs": "Journaux Totaux",
+    "creates": "Créations",
+    "updates": "Mises à jour",
+    "deletes": "Suppressions",
+    "logDetails": "Détails du Journal",
+    "changes": "Changements",
+    "oldValue": "Valeur Précédente",
+    "newValue": "Nouvelle Valeur"
+  }
+}

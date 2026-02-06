@@ -22,7 +22,15 @@ const NAMESPACES = [
   'public-booking',
   'customer-portal',
   'customer-auth',
-  'superadmin'
+  'superadmin',
+  'billing',
+  'documents',
+  'fuel-logs',
+  'reports',
+  'api-keys',
+  'audit-logs',
+  'email-templates',
+  'checkout'
 ];
 
 // Helper to load and merge all namespace files for a locale

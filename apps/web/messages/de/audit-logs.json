@@ -1,0 +1,27 @@
+{
+  "AuditLogs": {
+    "title": "Audit-Protokolle",
+    "description": "Zeige eine vollständige Historie aller in deinem Konto durchgeführten Aktionen an",
+    "searchPlaceholder": "Protokolle durchsuchen...",
+    "action": "Aktion",
+    "allActions": "Alle Aktionen",
+    "resource": "Ressource",
+    "allResources": "Alle Ressourcen",
+    "from": "Von",
+    "to": "Bis",
+    "timestamp": "Zeitstempel",
+    "user": "Benutzer",
+    "resourceId": "Ressourcen-ID",
+    "ipAddress": "IP-Adresse",
+    "system": "System",
+    "page": "Seite",
+    "totalLogs": "Gesamtprotokolle",
+    "creates": "Erstellungen",
+    "updates": "Aktualisierungen",
+    "deletes": "Löschungen",
+    "logDetails": "Protokolldetails",
+    "changes": "Änderungen",
+    "oldValue": "Vorheriger Wert",
+    "newValue": "Neuer Wert"
+  }
+}

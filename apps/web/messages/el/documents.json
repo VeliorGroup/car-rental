@@ -1,0 +1,32 @@
+{
+  "Documents": {
+    "title": "Έγγραφα",
+    "description": "Διαχειριστείτε και οργανώστε τα έγγραφά σας",
+    "searchPlaceholder": "Αναζήτηση εγγράφων...",
+    "type": "Τύπος",
+    "allTypes": "Όλοι οι Τύποι",
+    "entityType": "Οντότητα",
+    "allEntities": "Όλες οι Οντότητες",
+    "uploadDocument": "Ανέβασμα Εγγράφου",
+    "uploadDescription": "Ανεβάστε ένα νέο έγγραφο στη βιβλιοθήκη σας",
+    "totalDocuments": "Σύνολο Εγγράφων",
+    "expiringSoon": "Καταληκτική Ημερομηνία Λήξης",
+    "contracts": "Συμβάσεις",
+    "insurance": "Ασφάλιση",
+    "expiringDocuments": "Έγγραφα που Λήγουν",
+    "expiresOn": "Λήγει στις",
+    "name": "Όνομα",
+    "size": "Μέγεθος",
+    "expiryDate": "Ημερομηνία Λήξης",
+    "uploadedAt": "Ανεβασμένο",
+    "file": "Αρχείο",
+    "clickToUpload": "Κάντε κλικ για ανέβασμα ή σύρετε",
+    "description": "Περιγραφή",
+    "upload": "Ανέβασμα",
+    "uploadSuccess": "Ανέβασμα Επιτυχές",
+    "documentUploaded": "Το έγγραφο ανεβάστηκε με επιτυχία",
+    "uploadError": "Αποτυχία ανέβασματος εγγράφου",
+    "deleteSuccess": "Έγγραφο Διαγράφηκε",
+    "documentDeleted": "Το έγγραφο διαγράφηκε με επιτυχία"
+  }
+}

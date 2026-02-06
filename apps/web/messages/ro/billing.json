@@ -1,0 +1,27 @@
+{
+  "Billing": {
+    "title": "Facturare și Abonament",
+    "subtitle": "Gestionează-ți planul de abonament și facturarea",
+    "daysLeft": "zile rămase în perioada de probă",
+    "trialExpired": "Perioada de probă a expirat. Alege un plan pentru a continua.",
+    "renewsOn": "Se reînnoiește pe",
+    "month": "lună",
+    "year": "an",
+    "monthly": "Lunar",
+    "yearly": "Anual",
+    "vehicles": "vehicule",
+    "users": "utilizatori",
+    "locations": "locații",
+    "availablePlans": "Planuri Disponibile",
+    "popular": "Cel mai Popular",
+    "currentPlan": "Planul Curent",
+    "currentPlanBtn": "Planul curent",
+    "upgradeTo": "Upgrade la",
+    "toast": {
+      "upgradeSuccess": "Plan actualizat!",
+      "upgradeDesc": "Abonamentul tău a fost actualizat cu succes.",
+      "upgradeFail": "Upgrade eșuat",
+      "upgradeFailDesc": "A apărut o eroare. Te rog încearcă din nou."
+    }
+  }
+}

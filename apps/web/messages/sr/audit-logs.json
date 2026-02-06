@@ -1,0 +1,27 @@
+{
+  "AuditLogs": {
+    "title": "Дневници за Ревизију",
+    "description": "Прегледајте комплетну историју акција извршених на вашем налогу",
+    "searchPlaceholder": "Претрага дневника...",
+    "action": "Акција",
+    "allActions": "Све Акције",
+    "resource": "Ресурс",
+    "allResources": "Сви Ресурси",
+    "from": "Од",
+    "to": "До",
+    "timestamp": "Временска Ознака",
+    "user": "Корисник",
+    "resourceId": "ID ресурса",
+    "ipAddress": "IP Адреса",
+    "system": "Систем",
+    "page": "Страна",
+    "totalLogs": "Укупно Дневника",
+    "creates": "Креирања",
+    "updates": "Ажурирања",
+    "deletes": "Брисања",
+    "logDetails": "Детаљи Дневника",
+    "changes": "Измене",
+    "oldValue": "Предходна Вредност",
+    "newValue": "Нова Вредност"
+  }
+}
