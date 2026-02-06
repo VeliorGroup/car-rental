@@ -1,7 +1,7 @@
 {
-  "name": "fleetpulse-api",
+  "name": "carrental-api",
   "version": "1.0.0",
-  "description": "FleetPulse API - Backend for fleet management platform",
+  "description": "Car Rental API - Backend for fleet management platform",
   "main": "dist/main.js",
   "scripts": {
     "build": "nest build",

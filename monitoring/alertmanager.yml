@@ -27,14 +27,14 @@ receivers:
       - to: '${ALERT_EMAIL_TO}'
         send_resolved: true
         headers:
-          Subject: '[FleetPulse] {{ .Status | toUpper }} - {{ .CommonLabels.alertname }}'
+          Subject: '[Car Rental] {{ .Status | toUpper }} - {{ .CommonLabels.alertname }}'
 
   - name: 'critical-alerts'
     email_configs:
       - to: '${ALERT_EMAIL_TO}'
         send_resolved: true
         headers:
-          Subject: '[FleetPulse CRITICAL] {{ .CommonLabels.alertname }}'
+          Subject: '[Car Rental CRITICAL] {{ .CommonLabels.alertname }}'
     webhook_configs:
       - url: '${SLACK_WEBHOOK_URL}'
         send_resolved: true
@@ -44,7 +44,7 @@ receivers:
       - to: '${ALERT_EMAIL_TO}'
         send_resolved: true
         headers:
-          Subject: '[FleetPulse WARNING] {{ .CommonLabels.alertname }}'
+          Subject: '[Car Rental WARNING] {{ .CommonLabels.alertname }}'
 
 inhibit_rules:
   - source_match:

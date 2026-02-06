@@ -163,7 +163,7 @@ export function Sidebar() {
                 </div>
                 {!isCollapsed && (
                   <div>
-                    <h1 className="text-sm font-bold">FleetPulse</h1>
+                    <h1 className="text-sm font-bold">Car Rental</h1>
                     <p className="text-xs text-muted-foreground">Business</p>
                   </div>
                 )}
@@ -171,7 +171,7 @@ export function Sidebar() {
             </TooltipTrigger>
             {isCollapsed && (
               <TooltipContent side="top" sideOffset={8}>
-                FleetPulse
+                Car Rental
               </TooltipContent>
             )}
           </Tooltip>

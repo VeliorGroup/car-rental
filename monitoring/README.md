@@ -1,4 +1,4 @@
-# 📊 Monitoring Setup - FleetPulse Platform
+# 📊 Monitoring Setup - Car Rental Platform
 
 Questa directory contiene la configurazione per il monitoring dell'applicazione.
 

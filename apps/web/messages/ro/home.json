@@ -1,6 +1,6 @@
 {
   "Home": {
-    "brand": "FleetPulse",
+    "brand": "Car Rental",
     "nav": {
       "login": "Autentificare",
       "getStarted": "Începe",
@@ -16,7 +16,7 @@
       "registerBusiness": "Înregistrează Companie"
     },
     "hero": {
-      "title": "FleetPulse",
+      "title": "Car Rental",
       "subtitle": "Platformă de management închirieri",
       "description": "Optimizează-ți afacerea de închirieri auto cu platforma noastră all-in-one. Gestionează flota, rezervările, clienții și analizele dintr-un singur panou.",
       "startTrial": "Probă gratuită",
@@ -74,7 +74,7 @@
       "supportDesc": "Asistență 24/7"
     },
     "whyUs": {
-      "badge": "De ce FleetPulse",
+      "badge": "De ce Car Rental",
       "title": "Alegerea companiilor lider",
       "subtitle": "O platformă completă care transformă modul în care îți gestionezi afacerea de închirieri",
       "revenue": {

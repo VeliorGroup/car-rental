@@ -1,24 +1,8 @@
 import { IsString, IsOptional, IsEnum, IsDateString } from 'class-validator';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import { DocumentType, DocumentEntityType } from '@prisma/client';
 
-export enum DocumentType {
-  CONTRACT = 'contract',
-  INSURANCE = 'insurance',
-  REGISTRATION = 'registration',
-  INSPECTION = 'inspection',
-  LICENSE = 'license',
-  ID_CARD = 'id_card',
-  RECEIPT = 'receipt',
-  INVOICE = 'invoice',
-  OTHER = 'other',
-}
-
-export enum DocumentEntityType {
-  VEHICLE = 'vehicle',
-  CUSTOMER = 'customer',
-  BOOKING = 'booking',
-  TENANT = 'tenant',
-}
+export { DocumentType, DocumentEntityType };
 
 export class CreateDocumentDto {
   @ApiProperty({ enum: DocumentType })

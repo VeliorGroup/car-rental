@@ -13,7 +13,7 @@ export class LoggerService implements NestLoggerService {
         format.errors({ stack: true }),
         format.json(),
       ),
-      defaultMeta: { service: 'fleetpulse-api' },
+      defaultMeta: { service: 'carrental-api' },
       transports: [
         new transports.Console({
           format: format.combine(

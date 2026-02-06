@@ -1,6 +1,6 @@
 {
   "Home": {
-    "brand": "FleetPulse",
+    "brand": "Car Rental",
     "nav": {
       "login": "Hyrje",
       "getStarted": "Filloni",
@@ -16,7 +16,7 @@
       "registerBusiness": "Regjistro Kompaninë"
     },
     "hero": {
-      "title": "FleetPulse",
+      "title": "Car Rental",
       "subtitle": "për Menaxhimin e Makinave me Qira",
       "description": "Thjeshtoni biznesin tuaj të makinave me qira me platformën tonë gjithëpërfshirëse. Menaxhoni flotën, rezervimet, klientët dhe analitikën nga një panel i vetëm.",
       "startTrial": "Filloni Provën Falas",
@@ -74,7 +74,7 @@
       "supportDesc": "Asistencë 24/7"
     },
     "whyUs": {
-      "badge": "Pse FleetPulse",
+      "badge": "Pse Car Rental",
       "title": "Zgjedhja e kompanive lider",
       "subtitle": "Një platformë e plotë që transformon mënyrën se si menaxhoni biznesin tuaj të qirasë",
       "revenue": {

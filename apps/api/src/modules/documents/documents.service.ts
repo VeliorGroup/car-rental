@@ -200,9 +200,9 @@ export class DocumentsService {
 
     // Delete file from storage
     try {
-      await this.storageService.delete(document.fileKey);
-    } catch (error) {
-      this.logger.warn(`Failed to delete file from storage: ${error.message}`);
+      await this.storageService.deleteFile(document.fileKey);
+    } catch (error: unknown) {
+      this.logger.warn(`Failed to delete file from storage: ${error instanceof Error ? error.message : String(error)}`);
     }
 
     await this.prisma.document.delete({ where: { id } });

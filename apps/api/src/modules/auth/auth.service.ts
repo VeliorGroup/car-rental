@@ -320,14 +320,14 @@ export class AuthService {
 
     // Generate secret
     const secret = speakeasy.generateSecret({
-      name: this.configService.get('TWO_FACTOR_ISSUER', 'FleetPulse'),
+      name: this.configService.get('TWO_FACTOR_ISSUER', 'Car Rental'),
     });
 
     // Generate QR code URL
     const qrCode = speakeasy.otpauthURL({
       secret: secret.base32,
       label: user.email,
-      issuer: this.configService.get('TWO_FACTOR_ISSUER', 'FleetPulse'),
+      issuer: this.configService.get('TWO_FACTOR_ISSUER', 'Car Rental'),
     });
 
     // Generate backup codes

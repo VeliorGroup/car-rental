@@ -1,8 +1,8 @@
 {
-  "uid": "fleetpulse-overview",
-  "title": "FleetPulse Overview",
-  "description": "Main overview dashboard for FleetPulse car rental platform",
-  "tags": ["fleetpulse", "overview"],
+  "uid": "carrental-overview",
+  "title": "Car Rental Overview",
+  "description": "Main overview dashboard for Car Rental car rental platform",
+  "tags": ["carrental", "overview"],
   "timezone": "browser",
   "editable": true,
   "fiscalYearStartMonth": 0,
@@ -87,13 +87,13 @@
       "targets": [
         {
           "datasource": { "type": "prometheus", "uid": "PBFA97CFB590B2093" },
-          "expr": "sum(rate(http_request_duration_seconds_count{job=\"fleetpulse-api\"}[5m]))",
+          "expr": "sum(rate(http_request_duration_seconds_count{job=\"carrental-api\"}[5m]))",
           "legendFormat": "Total Requests",
           "refId": "A"
         },
         {
           "datasource": { "type": "prometheus", "uid": "PBFA97CFB590B2093" },
-          "expr": "sum(rate(http_request_duration_seconds_count{job=\"fleetpulse-api\"}[5m])) by (method)",
+          "expr": "sum(rate(http_request_duration_seconds_count{job=\"carrental-api\"}[5m])) by (method)",
           "legendFormat": "{{method}}",
           "refId": "B"
         }
@@ -158,13 +158,13 @@
       "targets": [
         {
           "datasource": { "type": "prometheus", "uid": "PBFA97CFB590B2093" },
-          "expr": "sum(rate(http_request_duration_seconds_count{job=\"fleetpulse-api\", status_code=~\"5..\"}[5m]))",
+          "expr": "sum(rate(http_request_duration_seconds_count{job=\"carrental-api\", status_code=~\"5..\"}[5m]))",
           "legendFormat": "5xx Errors",
           "refId": "A"
         },
         {
           "datasource": { "type": "prometheus", "uid": "PBFA97CFB590B2093" },
-          "expr": "sum(rate(http_request_duration_seconds_count{job=\"fleetpulse-api\", status_code=~\"4..\"}[5m]))",
+          "expr": "sum(rate(http_request_duration_seconds_count{job=\"carrental-api\", status_code=~\"4..\"}[5m]))",
           "legendFormat": "4xx Errors",
           "refId": "B"
         }
@@ -216,19 +216,19 @@
       "targets": [
         {
           "datasource": { "type": "prometheus", "uid": "PBFA97CFB590B2093" },
-          "expr": "histogram_quantile(0.99, sum(rate(http_request_duration_seconds_bucket{job=\"fleetpulse-api\"}[5m])) by (le))",
+          "expr": "histogram_quantile(0.99, sum(rate(http_request_duration_seconds_bucket{job=\"carrental-api\"}[5m])) by (le))",
           "legendFormat": "P99 Overall",
           "refId": "A"
         },
         {
           "datasource": { "type": "prometheus", "uid": "PBFA97CFB590B2093" },
-          "expr": "histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket{job=\"fleetpulse-api\"}[5m])) by (le))",
+          "expr": "histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket{job=\"carrental-api\"}[5m])) by (le))",
           "legendFormat": "P95 Overall",
           "refId": "B"
         },
         {
           "datasource": { "type": "prometheus", "uid": "PBFA97CFB590B2093" },
-          "expr": "histogram_quantile(0.50, sum(rate(http_request_duration_seconds_bucket{job=\"fleetpulse-api\"}[5m])) by (le))",
+          "expr": "histogram_quantile(0.50, sum(rate(http_request_duration_seconds_bucket{job=\"carrental-api\"}[5m])) by (le))",
           "legendFormat": "P50 Overall",
           "refId": "C"
         }
@@ -280,7 +280,7 @@
       "targets": [
         {
           "datasource": { "type": "prometheus", "uid": "PBFA97CFB590B2093" },
-          "expr": "fleetpulse_active_bookings_total",
+          "expr": "carrental_active_bookings_total",
           "legendFormat": "Active Bookings",
           "refId": "A"
         }
@@ -325,7 +325,7 @@
       "targets": [
         {
           "datasource": { "type": "prometheus", "uid": "PBFA97CFB590B2093" },
-          "expr": "fleetpulse_vehicles_rented_total",
+          "expr": "carrental_vehicles_rented_total",
           "legendFormat": "Vehicles Rented",
           "refId": "A"
         }
@@ -371,7 +371,7 @@
       "targets": [
         {
           "datasource": { "type": "prometheus", "uid": "PBFA97CFB590B2093" },
-          "expr": "fleetpulse_revenue_today_total",
+          "expr": "carrental_revenue_today_total",
           "legendFormat": "Revenue Today",
           "refId": "A"
         }

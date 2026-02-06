@@ -11,7 +11,7 @@ import {
 } from '@nestjs/common';
 import { Response } from 'express';
 import { ApiTags, ApiBearerAuth, ApiOperation, ApiResponse, ApiProduces } from '@nestjs/swagger';
-import { JwtAuthGuard } from '../auth/jwt-auth.guard';
+import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
 import { ReportsService } from './reports.service';
 import { GenerateReportDto, ReportFilterDto } from './dto/reports.dto';
 
@@ -48,7 +48,10 @@ export class ReportsController {
     @Req() req: any,
     @Query() filters: ReportFilterDto,
   ) {
-    return this.reportsService.getReportHistory(req.user.tenantId, filters);
+    return this.reportsService.getReportHistory(req.user.tenantId, {
+      page: filters.page ? Number(filters.page) : undefined,
+      limit: filters.limit ? Number(filters.limit) : undefined,
+    });
   }
 
   @Get('types')

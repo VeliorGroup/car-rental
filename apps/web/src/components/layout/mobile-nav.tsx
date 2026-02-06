@@ -84,7 +84,7 @@ export function MobileNav() {
           <PiList className="h-6 w-6" />
         </button>
         
-        <span className="font-semibold text-sm">FleetPulse</span>
+        <span className="font-semibold text-sm">Car Rental</span>
         
         {user && (
           <Link href={`/${locale}/settings`}>

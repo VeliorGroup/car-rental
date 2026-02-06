@@ -1,24 +1,8 @@
 import { IsString, IsOptional, IsEnum, IsBoolean, IsObject } from 'class-validator';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import { EmailTemplateType } from '@prisma/client';
 
-export enum EmailTemplateType {
-  BOOKING_CONFIRMATION = 'booking_confirmation',
-  BOOKING_REMINDER = 'booking_reminder',
-  CHECKOUT_COMPLETE = 'checkout_complete',
-  CHECKIN_COMPLETE = 'checkin_complete',
-  BOOKING_CANCELLED = 'booking_cancelled',
-  CAUTION_HELD = 'caution_held',
-  CAUTION_RELEASED = 'caution_released',
-  CAUTION_CHARGED = 'caution_charged',
-  DAMAGE_REPORTED = 'damage_reported',
-  MAINTENANCE_SCHEDULED = 'maintenance_scheduled',
-  LICENSE_EXPIRING = 'license_expiring',
-  INSURANCE_EXPIRING = 'insurance_expiring',
-  WELCOME = 'welcome',
-  PASSWORD_RESET = 'password_reset',
-  INVOICE = 'invoice',
-  CUSTOM = 'custom',
-}
+export { EmailTemplateType };
 
 export class CreateEmailTemplateDto {
   @ApiProperty({ enum: EmailTemplateType })

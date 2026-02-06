@@ -33,12 +33,12 @@ export async function generateMetadata({
   const { locale } = await params;
 
   const titlesByLocale: Record<string, string> = {
-    en: 'FleetPulse - Fleet Management & Car Rental Software',
-    it: 'FleetPulse - Software Gestione Flotta & Autonoleggio',
-    sq: 'FleetPulse - Software Menaxhimi Flote & Makinash me Qira',
-    de: 'FleetPulse - Flottenmanagement & Autovermietung Software',
-    fr: 'FleetPulse - Logiciel de Gestion de Flotte & Location',
-    es: 'FleetPulse - Software de Gestión de Flotas & Alquiler',
+    en: 'Car Rental - Fleet Management & Car Rental Software',
+    it: 'Car Rental - Software Gestione Flotta & Autonoleggio',
+    sq: 'Car Rental - Software Menaxhimi Flote & Makinash me Qira',
+    de: 'Car Rental - Flottenmanagement & Autovermietung Software',
+    fr: 'Car Rental - Logiciel de Gestion de Flotte & Location',
+    es: 'Car Rental - Software de Gestión de Flotas & Alquiler',
   };
 
   const descriptionsByLocale: Record<string, string> = {
@@ -56,7 +56,7 @@ export async function generateMetadata({
   return {
     title: {
       default: title,
-      template: '%s | FleetPulse',
+      template: '%s | Car Rental',
     },
     description,
     keywords: [
@@ -64,19 +64,19 @@ export async function generateMetadata({
       'car rental',
       'vehicle management',
       'booking system',
-      'FleetPulse',
+      'Car Rental',
       'autonoleggio',
     ],
-    authors: [{ name: 'FleetPulse' }],
-    creator: 'FleetPulse',
+    authors: [{ name: 'Car Rental' }],
+    creator: 'Car Rental',
     metadataBase: new URL(
-      process.env.NEXT_PUBLIC_APP_URL || 'https://app.fleetpulse.io'
+      process.env.NEXT_PUBLIC_APP_URL || 'https://app.carrental.io'
     ),
     openGraph: {
       type: 'website',
       locale,
       url: '/',
-      siteName: 'FleetPulse',
+      siteName: 'Car Rental',
       title,
       description,
       images: [
@@ -84,7 +84,7 @@ export async function generateMetadata({
           url: '/og-image.png',
           width: 1200,
           height: 630,
-          alt: 'FleetPulse - Fleet Management Platform',
+          alt: 'Car Rental - Fleet Management Platform',
         },
       ],
     },
@@ -93,7 +93,7 @@ export async function generateMetadata({
       title,
       description,
       images: ['/og-image.png'],
-      creator: '@fleetpulse',
+      creator: '@carrental',
     },
     robots: {
       index: true,
@@ -133,10 +133,10 @@ export default async function LocaleLayout({
     <html lang={locale} suppressHydrationWarning>
       <head>
         {/* PWA Meta Tags */}
-        <meta name="application-name" content="FleetPulse" />
+        <meta name="application-name" content="Car Rental" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="FleetPulse" />
+        <meta name="apple-mobile-web-app-title" content="Car Rental" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="theme-color" content="#3b82f6" />
         <link rel="manifest" href="/manifest.json" />

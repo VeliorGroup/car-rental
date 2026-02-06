@@ -124,7 +124,7 @@ export default function CustomerRegisterPage() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href={`/${locale}`} className="flex items-center gap-2">
-              <span className="text-xl font-bold text-foreground tracking-tight">FleetPulse</span>
+              <span className="text-xl font-bold text-foreground tracking-tight">Car Rental</span>
             </Link>
           </div>
 
@@ -198,7 +198,7 @@ export default function CustomerRegisterPage() {
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center">
             <div className="flex flex-col">
-              <span className="text-base font-semibold text-foreground leading-tight">FleetPulse</span>
+              <span className="text-base font-semibold text-foreground leading-tight">Car Rental</span>
               <span className="text-[9px] font-medium text-muted-foreground uppercase tracking-wider">Enterprise</span>
             </div>
           </Link>

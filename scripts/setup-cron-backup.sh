@@ -13,7 +13,7 @@ BACKUP_SCRIPT="$SCRIPT_DIR/backup-db.sh"
 chmod +x "$BACKUP_SCRIPT"
 
 # Add cron job: daily at 2:00 AM
-CRON_JOB="0 2 * * * cd $PROJECT_DIR && $BACKUP_SCRIPT >> /var/log/fleetpulse-backup.log 2>&1"
+CRON_JOB="0 2 * * * cd $PROJECT_DIR && $BACKUP_SCRIPT >> /var/log/carrental-backup.log 2>&1"
 
 # Check if cron job already exists
 if crontab -l 2>/dev/null | grep -q "backup-db.sh"; then
@@ -26,6 +26,6 @@ fi
 
 echo "Cron job installed successfully:"
 echo "  Schedule: Daily at 2:00 AM"
-echo "  Log: /var/log/fleetpulse-backup.log"
+echo "  Log: /var/log/carrental-backup.log"
 echo ""
 echo "Verify with: crontab -l"

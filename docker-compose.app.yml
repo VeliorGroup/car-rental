@@ -51,7 +51,7 @@ services:
         condition: service_healthy
     environment:
       NEXT_PUBLIC_API_URL: http://localhost:3000
-      NEXT_PUBLIC_APP_NAME: FleetPulse
+      NEXT_PUBLIC_APP_NAME: Car Rental
     ports:
       - "3001:3000"
     volumes:

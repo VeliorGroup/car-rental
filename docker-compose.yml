@@ -9,13 +9,13 @@ services:
     environment:
       POSTGRES_USER: ${POSTGRES_USER:?POSTGRES_USER is required}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}
-      POSTGRES_DB: ${POSTGRES_DB:-fleetpulse}
+      POSTGRES_DB: ${POSTGRES_DB:-carrental}
     ports:
       - "${POSTGRES_PORT:-5432}:5432"
     volumes:
       - postgres-data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB:-fleetpulse}"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB:-carrental}"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -75,8 +75,8 @@ services:
         condition: service_healthy
     environment:
       # Database
-      DATABASE_URL: postgresql://${POSTGRES_USER:?POSTGRES_USER is required}:${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}@postgres:5432/${POSTGRES_DB:-fleetpulse}
-      DIRECT_URL: postgresql://${POSTGRES_USER:?POSTGRES_USER is required}:${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}@postgres:5432/${POSTGRES_DB:-fleetpulse}
+      DATABASE_URL: postgresql://${POSTGRES_USER:?POSTGRES_USER is required}:${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}@postgres:5432/${POSTGRES_DB:-carrental}
+      DIRECT_URL: postgresql://${POSTGRES_USER:?POSTGRES_USER is required}:${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}@postgres:5432/${POSTGRES_DB:-carrental}
 
       # Redis
       REDIS_URL: redis://redis:6379
@@ -87,7 +87,7 @@ services:
       MINIO_USE_SSL: "false"
       MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:?MINIO_ACCESS_KEY is required}
       MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:?MINIO_SECRET_KEY is required}
-      STORAGE_BUCKET: ${STORAGE_BUCKET:-fleetpulse}
+      STORAGE_BUCKET: ${STORAGE_BUCKET:-carrental}
 
       # Paysera
       PAYSERA_PROJECT_ID: ${PAYSERA_PROJECT_ID:-test-project}
@@ -99,7 +99,7 @@ services:
       JWT_EXPIRES_IN: ${JWT_EXPIRES_IN:-7d}
 
       # 2FA
-      TWO_FACTOR_ISSUER: ${TWO_FACTOR_ISSUER:-FleetPulse}
+      TWO_FACTOR_ISSUER: ${TWO_FACTOR_ISSUER:-Car Rental}
 
       # Email (SendGrid)
       SENDGRID_API_KEY: ${SENDGRID_API_KEY:-your-sendgrid-api-key}
@@ -153,7 +153,7 @@ services:
         condition: service_healthy
     environment:
       NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:3000/api/v1}
-      NEXT_PUBLIC_APP_NAME: ${NEXT_PUBLIC_APP_NAME:-FleetPulse}
+      NEXT_PUBLIC_APP_NAME: ${NEXT_PUBLIC_APP_NAME:-Car Rental}
     ports:
       - "${WEB_PORT:-3001}:3000"
     networks:

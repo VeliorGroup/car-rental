@@ -1,6 +1,6 @@
 {
-  "name": "FleetPulse - Fleet Management Platform",
-  "short_name": "FleetPulse",
+  "name": "Car Rental - Fleet Management Platform",
+  "short_name": "Car Rental",
   "description": "Professional fleet management platform for car rental businesses",
   "start_url": "/",
   "display": "standalone",

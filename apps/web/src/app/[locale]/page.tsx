@@ -245,7 +245,7 @@ export default function HomePage() {
             {/* Logo */}
             <div className="flex items-center">
               <div className="flex flex-col">
-                <span className="text-lg font-semibold text-foreground leading-tight">FleetPulse</span>
+                <span className="text-lg font-semibold text-foreground leading-tight">Car Rental</span>
                 <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">Enterprise</span>
               </div>
             </div>
@@ -1019,9 +1019,9 @@ export default function HomePage() {
           </div>
           
           <div className="pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
-            <span className="font-semibold">FleetPulse</span>
+            <span className="font-semibold">Car Rental</span>
             <div className="text-sm opacity-70">
-              © 2026 FleetPulse Inc. {t('footer.rights')}
+              © 2026 Car Rental Inc. {t('footer.rights')}
             </div>
           </div>
         </div>

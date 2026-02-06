@@ -1,4 +1,4 @@
-# FleetPulse Operational Runbook
+# Car Rental Operational Runbook
 
 > **Last Updated:** 2026-02-06
 > **Audience:** DevOps, On-call Engineers, Platform Team
@@ -33,7 +33,7 @@
 | Grafana        | `grafana`               | 3002        | `GET /api/health`                             |
 | Alertmanager   | `alertmanager`          | 9093        | `GET /-/healthy`                              |
 
-**Production path:** `/opt/fleetpulse` on the VPS.
+**Production path:** `/opt/carrental` on the VPS.
 
 ---
 
@@ -49,7 +49,7 @@ docker compose -f docker-compose.prod.yml ps
 curl -sf http://localhost:3000/api/v1/health | jq .
 
 # PostgreSQL
-docker exec postgres pg_isready -U "$POSTGRES_USER" -d fleetpulse
+docker exec postgres pg_isready -U "$POSTGRES_USER" -d carrental
 
 # Redis
 docker exec redis redis-cli ping
@@ -62,7 +62,7 @@ curl -sf http://localhost:9000/minio/health/live
 
 ```bash
 #!/bin/bash
-echo "=== FleetPulse Health Check ==="
+echo "=== Car Rental Health Check ==="
 
 # API
 if curl -sf http://localhost:3000/api/v1/health > /dev/null 2>&1; then
@@ -145,14 +145,14 @@ docker stats api --no-stream
 
 ```bash
 # Check PostgreSQL container health
-docker exec postgres pg_isready -U "$POSTGRES_USER" -d fleetpulse
+docker exec postgres pg_isready -U "$POSTGRES_USER" -d carrental
 
 # Check active connections
-docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse \
-  -c "SELECT count(*) FROM pg_stat_activity WHERE datname = 'fleetpulse';"
+docker exec postgres psql -U "$POSTGRES_USER" -d carrental \
+  -c "SELECT count(*) FROM pg_stat_activity WHERE datname = 'carrental';"
 
 # Check connection pool status
-docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse \
+docker exec postgres psql -U "$POSTGRES_USER" -d carrental \
   -c "SELECT state, count(*) FROM pg_stat_activity GROUP BY state;"
 
 # Check PostgreSQL logs
@@ -164,8 +164,8 @@ docker logs postgres --tail 100
 | Step | Action | Command |
 | ---- | ------ | ------- |
 | 1 | Verify Postgres is running | `docker ps --filter name=postgres` |
-| 2 | Test direct connection | `docker exec postgres psql -U $POSTGRES_USER -d fleetpulse -c "SELECT 1;"` |
-| 3 | Kill idle connections | `docker exec postgres psql -U $POSTGRES_USER -d fleetpulse -c "SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE state = 'idle' AND query_start < now() - interval '10 minutes';"` |
+| 2 | Test direct connection | `docker exec postgres psql -U $POSTGRES_USER -d carrental -c "SELECT 1;"` |
+| 3 | Kill idle connections | `docker exec postgres psql -U $POSTGRES_USER -d carrental -c "SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE state = 'idle' AND query_start < now() - interval '10 minutes';"` |
 | 4 | Restart PostgreSQL | `docker compose -f docker-compose.prod.yml restart postgres` |
 | 5 | Restart API (reconnect pool) | `docker compose -f docker-compose.prod.yml restart api` |
 
@@ -230,7 +230,7 @@ docker logs minio --tail 50
 docker exec minio df -h /data
 
 # Check bucket exists
-docker exec minio mc ls local/fleetpulse
+docker exec minio mc ls local/carrental
 ```
 
 **Resolution:**
@@ -265,7 +265,7 @@ docker stats api --no-stream
 docker logs api --tail 500 2>&1 | grep -c "prisma:query"
 
 # Check PostgreSQL memory
-docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse \
+docker exec postgres psql -U "$POSTGRES_USER" -d carrental \
   -c "SELECT query, calls, mean_exec_time, total_exec_time FROM pg_stat_statements ORDER BY total_exec_time DESC LIMIT 10;"
 ```
 
@@ -301,7 +301,7 @@ Deployments are triggered automatically when a PR is merged to `main`:
 
 1. GitHub Actions builds Docker images (`docker/Dockerfile.api.prod`, `docker/Dockerfile.web.prod`)
 2. Images are pushed to `ghcr.io`
-3. SSH into VPS at `/opt/fleetpulse`
+3. SSH into VPS at `/opt/carrental`
 4. Pull new images and restart containers
 5. Automated health check with 30s grace period
 6. Auto-rollback if health check fails
@@ -310,7 +310,7 @@ Deployments are triggered automatically when a PR is merged to `main`:
 
 ```bash
 ssh deploy@your-vps-host
-cd /opt/fleetpulse
+cd /opt/carrental
 
 # 1. Backup database
 bash scripts/backup-db.sh
@@ -337,7 +337,7 @@ docker logs api --tail 50
 ### 4.4 Rollback Procedure
 
 ```bash
-cd /opt/fleetpulse
+cd /opt/carrental
 
 # 1. Stop current containers
 docker compose -f docker-compose.prod.yml down
@@ -350,13 +350,13 @@ docker compose -f docker-compose.prod.yml build
 docker compose -f docker-compose.prod.yml up -d
 
 # Option B: Pull previous image tag from registry
-docker pull ghcr.io/your-org/fleetpulse/backend:<previous-sha>
-docker pull ghcr.io/your-org/fleetpulse/frontend:<previous-sha>
+docker pull ghcr.io/your-org/carrental/backend:<previous-sha>
+docker pull ghcr.io/your-org/carrental/frontend:<previous-sha>
 docker compose -f docker-compose.prod.yml up -d
 
 # 3. If migration was applied, restore database from backup
 gunzip -c backups/car_rental_backup_YYYYMMDD_HHMMSS.sql.gz | \
-  docker exec -i postgres psql -U "$POSTGRES_USER" -d fleetpulse
+  docker exec -i postgres psql -U "$POSTGRES_USER" -d carrental
 
 # 4. Verify rollback
 curl -sf http://localhost:3000/api/v1/health | jq .
@@ -406,7 +406,7 @@ docker compose -f docker-compose.prod.yml restart api
 
 ```bash
 # 1. Identify slow queries
-docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse -c "
+docker exec postgres psql -U "$POSTGRES_USER" -d carrental -c "
   SELECT query, calls, mean_exec_time::int as avg_ms, max_exec_time::int as max_ms
   FROM pg_stat_statements
   ORDER BY mean_exec_time DESC
@@ -414,7 +414,7 @@ docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse -c "
 "
 
 # 2. Check for missing indexes
-docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse -c "
+docker exec postgres psql -U "$POSTGRES_USER" -d carrental -c "
   SELECT relname, seq_scan, seq_tup_read, idx_scan
   FROM pg_stat_user_tables
   WHERE seq_scan > 1000
@@ -423,7 +423,7 @@ docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse -c "
 "
 
 # 3. Check for lock contention
-docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse -c "
+docker exec postgres psql -U "$POSTGRES_USER" -d carrental -c "
   SELECT blocked_locks.pid AS blocked_pid, blocked_activity.query AS blocked_query
   FROM pg_catalog.pg_locks blocked_locks
   JOIN pg_catalog.pg_stat_activity blocked_activity ON blocked_activity.pid = blocked_locks.pid
@@ -432,7 +432,7 @@ docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse -c "
 
 # 4. Add indexes if sequential scans are high on filtered columns
 # 5. Reset stats after resolution
-docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse -c "SELECT pg_stat_statements_reset();"
+docker exec postgres psql -U "$POSTGRES_USER" -d carrental -c "SELECT pg_stat_statements_reset();"
 ```
 
 ### 5.3 Disk Space Low
@@ -453,7 +453,7 @@ docker system prune -f
 docker image prune -a -f --filter "until=168h"  # Remove images older than 7 days
 
 # 4. Clean old backups (keep last 7 days)
-find /opt/fleetpulse/backups -name "*.sql.gz" -mtime +7 -delete
+find /opt/carrental/backups -name "*.sql.gz" -mtime +7 -delete
 
 # 5. Clean old Docker logs
 truncate -s 0 /var/lib/docker/containers/*/*-json.log
@@ -478,7 +478,7 @@ Backups are handled by `scripts/backup-db.sh` scheduled via cron (configured by 
 ### 6.2 Manual Backup
 
 ```bash
-cd /opt/fleetpulse
+cd /opt/carrental
 
 # Full database backup
 bash scripts/backup-db.sh
@@ -495,7 +495,7 @@ docker compose -f docker-compose.prod.yml stop api web
 
 # 2. Restore database
 gunzip -c backups/car_rental_backup_YYYYMMDD_HHMMSS.sql.gz | \
-  docker exec -i postgres psql -U "$POSTGRES_USER" -d fleetpulse
+  docker exec -i postgres psql -U "$POSTGRES_USER" -d carrental
 
 # 3. Restart services
 docker compose -f docker-compose.prod.yml up -d api web
@@ -511,7 +511,7 @@ curl -sf http://localhost:3000/api/v1/health | jq .
 docker exec minio mc alias set local http://localhost:9000 "$MINIO_ACCESS_KEY" "$MINIO_SECRET_KEY"
 
 # Mirror bucket to local directory
-docker exec minio mc mirror local/fleetpulse /tmp/minio-backup
+docker exec minio mc mirror local/carrental /tmp/minio-backup
 
 # Copy backup out of container
 docker cp minio:/tmp/minio-backup ./backups/minio-backup-$(date +%Y%m%d)

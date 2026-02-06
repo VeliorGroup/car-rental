@@ -27,7 +27,7 @@ interface OnboardingStep {
 const defaultSteps: OnboardingStep[] = [
   {
     id: 'welcome',
-    title: 'Welcome to FleetPulse! 🎉',
+    title: 'Welcome to Car Rental! 🎉',
     description: 'Let us show you around. This quick tour will help you get started with managing your fleet.',
     icon: Sparkles,
   },

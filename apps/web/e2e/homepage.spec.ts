@@ -4,8 +4,8 @@ test.describe('Homepage', () => {
   test('renders the homepage with branding', async ({ page }) => {
     await page.goto('/en')
 
-    // Should display the FleetPulse brand
-    await expect(page.locator('text=FleetPulse')).toBeVisible()
+    // Should display the Car Rental brand
+    await expect(page.locator('text=Car Rental')).toBeVisible()
 
     // Should display the navigation
     await expect(page.locator('nav')).toBeVisible()

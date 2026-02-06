@@ -446,7 +446,7 @@ export class EmailTemplatesService {
       amount: '€300.00',
       chargedAmount: '€50.00',
       refundAmount: '€450.00',
-      companyName: 'FleetPulse',
+      companyName: 'Car Rental',
       expiryDate: '31/12/2024',
       resetLink: 'https://example.com/reset?token=abc123',
       expiryTime: '24 hours',

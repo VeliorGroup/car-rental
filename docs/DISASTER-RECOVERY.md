@@ -1,4 +1,4 @@
-# FleetPulse Disaster Recovery Plan
+# Car Rental Disaster Recovery Plan
 
 > **Last Updated:** 2026-02-06
 > **Document Owner:** Platform Engineering
@@ -77,7 +77,7 @@
 ```bash
 # Sync backups to S3-compatible offsite storage
 # Configure in scripts/backup-db.sh (uncomment S3 section)
-aws s3 sync ./backups/ s3://$S3_BUCKET/fleetpulse/db-backups/ \
+aws s3 sync ./backups/ s3://$S3_BUCKET/carrental/db-backups/ \
   --storage-class STANDARD_IA \
   --exclude "*" --include "*.sql.gz"
 ```
@@ -97,7 +97,7 @@ aws s3 sync ./backups/ s3://$S3_BUCKET/fleetpulse/db-backups/ \
 ```bash
 # 1. Stop the application to prevent further damage
 ssh deploy@your-vps
-cd /opt/fleetpulse
+cd /opt/carrental
 docker compose -f docker-compose.prod.yml stop api web
 
 # 2. Identify the latest valid backup
@@ -105,14 +105,14 @@ ls -lah backups/*.sql.gz | tail -5
 
 # 3. Drop and recreate the database
 docker exec postgres psql -U "$POSTGRES_USER" -c "
-  SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname = 'fleetpulse';
+  SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname = 'carrental';
 "
-docker exec postgres dropdb -U "$POSTGRES_USER" fleetpulse
-docker exec postgres createdb -U "$POSTGRES_USER" fleetpulse
+docker exec postgres dropdb -U "$POSTGRES_USER" carrental
+docker exec postgres createdb -U "$POSTGRES_USER" carrental
 
 # 4. Restore from backup
 gunzip -c backups/car_rental_backup_YYYYMMDD_HHMMSS.sql.gz | \
-  docker exec -i postgres psql -U "$POSTGRES_USER" -d fleetpulse
+  docker exec -i postgres psql -U "$POSTGRES_USER" -d carrental
 
 # 5. Run any pending Prisma migrations
 docker compose -f docker-compose.prod.yml run --rm api npx prisma migrate deploy
@@ -124,7 +124,7 @@ docker compose -f docker-compose.prod.yml up -d api web
 curl -sf http://localhost:3000/api/v1/health | jq .
 
 # 8. Spot-check critical data (tenant count, recent bookings)
-docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse -c "
+docker exec postgres psql -U "$POSTGRES_USER" -d carrental -c "
   SELECT 'tenants' as entity, count(*) FROM \"Tenant\"
   UNION ALL SELECT 'bookings', count(*) FROM \"Booking\"
   UNION ALL SELECT 'vehicles', count(*) FROM \"Vehicle\"
@@ -158,8 +158,8 @@ curl -fsSL https://get.docker.com | sh
 apt install -y docker-compose-plugin
 
 # 4. Clone repository
-git clone https://github.com/your-org/fleetpulse.git /opt/fleetpulse
-cd /opt/fleetpulse
+git clone https://github.com/your-org/carrental.git /opt/carrental
+cd /opt/carrental
 
 # 5. Restore environment configuration
 #    Copy .env from secure vault / password manager
@@ -171,15 +171,15 @@ sleep 30  # Wait for services to initialize
 
 # 7. Restore database from offsite backup
 # Option A: From S3
-aws s3 cp s3://$S3_BUCKET/fleetpulse/db-backups/latest.sql.gz ./backups/
+aws s3 cp s3://$S3_BUCKET/carrental/db-backups/latest.sql.gz ./backups/
 # Option B: From local machine
-scp backups/car_rental_backup_YYYYMMDD_HHMMSS.sql.gz deploy@new-server:/opt/fleetpulse/backups/
+scp backups/car_rental_backup_YYYYMMDD_HHMMSS.sql.gz deploy@new-server:/opt/carrental/backups/
 
 gunzip -c backups/car_rental_backup_YYYYMMDD_HHMMSS.sql.gz | \
-  docker exec -i postgres psql -U "$POSTGRES_USER" -d fleetpulse
+  docker exec -i postgres psql -U "$POSTGRES_USER" -d carrental
 
 # 8. Restore MinIO data (if offsite backup exists)
-docker exec minio mc mirror /backup/minio local/fleetpulse
+docker exec minio mc mirror /backup/minio local/carrental
 
 # 9. Build and start application
 docker compose -f docker-compose.prod.yml up -d --build
@@ -209,12 +209,12 @@ bash scripts/setup-cron-backup.sh
 For cases where application code is corrupted but infrastructure is intact:
 
 ```bash
-cd /opt/fleetpulse
+cd /opt/carrental
 
 # 1. Pull images from GitHub Container Registry
 docker login ghcr.io -u USERNAME --password-stdin <<< "$GITHUB_TOKEN"
-docker pull ghcr.io/your-org/fleetpulse/backend:latest
-docker pull ghcr.io/your-org/fleetpulse/frontend:latest
+docker pull ghcr.io/your-org/carrental/backend:latest
+docker pull ghcr.io/your-org/carrental/frontend:latest
 
 # 2. Restart with fresh images
 docker compose -f docker-compose.prod.yml down
@@ -245,14 +245,14 @@ sleep 10
 
 # Restore from offsite mirror
 docker exec minio mc alias set local http://localhost:9000 "$MINIO_ACCESS_KEY" "$MINIO_SECRET_KEY"
-docker exec minio mc mb local/fleetpulse --ignore-existing
+docker exec minio mc mb local/carrental --ignore-existing
 
 # Copy backup data into the container
 docker cp ./backups/minio-backup-YYYYMMDD/. minio:/tmp/restore/
-docker exec minio mc mirror /tmp/restore local/fleetpulse
+docker exec minio mc mirror /tmp/restore local/carrental
 
 # 4. Verify bucket contents
-docker exec minio mc ls local/fleetpulse --recursive --summarize
+docker exec minio mc ls local/carrental --recursive --summarize
 ```
 
 ---
@@ -293,7 +293,7 @@ A     yourdomain.com    STANDBY_IP      60   (add during failover)
 **Incident Declaration:**
 
 ```
-[INCIDENT] FleetPulse - {SEVERITY}
+[INCIDENT] Car Rental - {SEVERITY}
 Status: Investigating
 Impact: {description of user impact}
 Start Time: {UTC timestamp}
@@ -304,7 +304,7 @@ Next Update: {time}
 **Status Update:**
 
 ```
-[UPDATE] FleetPulse - {SEVERITY}
+[UPDATE] Car Rental - {SEVERITY}
 Status: {Investigating | Identified | Monitoring | Resolved}
 Summary: {what changed since last update}
 ETA to Resolution: {estimate}
@@ -314,7 +314,7 @@ Next Update: {time}
 **Resolution Notice:**
 
 ```
-[RESOLVED] FleetPulse - {SEVERITY}
+[RESOLVED] Car Rental - {SEVERITY}
 Duration: {total downtime}
 Root Cause: {brief summary}
 Impact: {affected users/tenants}
@@ -352,21 +352,21 @@ Follow-up: Post-incident review scheduled for {date}
 bash scripts/backup-db.sh
 
 # 2. Create a test database
-docker exec postgres createdb -U "$POSTGRES_USER" fleetpulse_dr_test
+docker exec postgres createdb -U "$POSTGRES_USER" carrental_dr_test
 
 # 3. Restore to test database
 gunzip -c backups/car_rental_backup_*.sql.gz | \
-  docker exec -i postgres psql -U "$POSTGRES_USER" -d fleetpulse_dr_test
+  docker exec -i postgres psql -U "$POSTGRES_USER" -d carrental_dr_test
 
 # 4. Verify record counts
-docker exec postgres psql -U "$POSTGRES_USER" -d fleetpulse_dr_test -c "
+docker exec postgres psql -U "$POSTGRES_USER" -d carrental_dr_test -c "
   SELECT 'tenants' as entity, count(*) FROM \"Tenant\"
   UNION ALL SELECT 'bookings', count(*) FROM \"Booking\"
   UNION ALL SELECT 'vehicles', count(*) FROM \"Vehicle\";
 "
 
 # 5. Cleanup test database
-docker exec postgres dropdb -U "$POSTGRES_USER" fleetpulse_dr_test
+docker exec postgres dropdb -U "$POSTGRES_USER" carrental_dr_test
 
 # 6. Document results
 echo "DR Test $(date): Database restore successful" >> docs/dr-test-log.txt

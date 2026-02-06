@@ -152,7 +152,7 @@ export default function PublicVehiclesPage() {
       <nav className="border-b border-border bg-background/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <Link href={`/${locale}`} className="flex items-center">
-            <span className="text-xl font-bold text-foreground tracking-tight">FleetPulse</span>
+            <span className="text-xl font-bold text-foreground tracking-tight">Car Rental</span>
           </Link>
           <div className="flex items-center space-x-3">
             <Link href={`/${locale}/business/login`}>
@@ -353,10 +353,10 @@ export default function PublicVehiclesPage() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
               <Car className="h-5 w-5 text-primary" />
-              <span className="font-bold">FleetPulse</span>
+              <span className="font-bold">Car Rental</span>
             </div>
             <p className="text-muted-foreground text-sm">
-              © 2025 FleetPulse. All rights reserved.
+              © 2025 Car Rental. All rights reserved.
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
-# Contributing to FleetPulse Platform
+# Contributing to Car Rental Platform
 
-Thank you for your interest in contributing to the FleetPulse SaaS Platform!
+Thank you for your interest in contributing to the Car Rental SaaS Platform!
 
 ## 📋 Table of Contents
 
@@ -29,8 +29,8 @@ Please be respectful and constructive in all interactions.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-org/fleetpulse.git
-cd fleetpulse
+git clone https://github.com/your-org/carrental.git
+cd carrental
 ```
 
 2. Install dependencies

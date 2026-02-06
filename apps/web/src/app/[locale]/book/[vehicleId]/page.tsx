@@ -125,7 +125,7 @@ export default function BookingPage({ params }: { params: { vehicleId: string } 
         <nav className="border-b border-border bg-background/80 backdrop-blur-sm">
           <div className="container mx-auto px-6 py-4 flex justify-between items-center">
             <Link href={`/${locale}`} className="flex items-center">
-              <span className="text-xl font-bold">FleetPulse</span>
+              <span className="text-xl font-bold">Car Rental</span>
             </Link>
           </div>
         </nav>
@@ -188,7 +188,7 @@ export default function BookingPage({ params }: { params: { vehicleId: string } 
       <nav className="border-b border-border bg-background/80 backdrop-blur-sm">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <Link href={`/${locale}`} className="flex items-center">
-            <span className="text-xl font-bold">FleetPulse</span>
+            <span className="text-xl font-bold">Car Rental</span>
           </Link>
         </div>
       </nav>

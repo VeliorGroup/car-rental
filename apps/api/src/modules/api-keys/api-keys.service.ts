@@ -16,7 +16,7 @@ export class ApiKeysService {
 
   async create(tenantId: string, data: CreateApiKeyDto, userId: string) {
     // Generate API key
-    const keyPrefix = 'fp_'; // fleetpulse prefix
+    const keyPrefix = 'fp_'; // carrental prefix
     const rawKey = `${keyPrefix}${crypto.randomBytes(32).toString('hex')}`;
     const keyHash = await bcrypt.hash(rawKey, 10);
     const keyPreview = `${rawKey.slice(0, 12)}...${rawKey.slice(-4)}`;
@@ -257,7 +257,7 @@ export class ApiKeysService {
         ],
       },
       include: {
-        tenant: { select: { id: true, status: true } },
+        tenant: { select: { id: true, isActive: true } },
       },
     });
 
@@ -266,7 +266,7 @@ export class ApiKeysService {
       
       if (isValid) {
         // Check tenant status
-        if (apiKey.tenant.status !== 'ACTIVE') {
+        if (!apiKey.tenant.isActive) {
           throw new UnauthorizedException('Tenant is not active');
         }
 

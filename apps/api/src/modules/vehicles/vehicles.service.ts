@@ -383,7 +383,7 @@ export class VehiclesService {
     });
 
     // Invalidate cache
-    await this.cacheService.del(`vehicles:stats:${tenantId}`);
+    await this.cacheService.delete(`vehicles:stats:${tenantId}`);
   }
 
   async getExpiringInsurances(tenantId: string, days: number = 30): Promise<Vehicle[]> {

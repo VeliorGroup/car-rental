@@ -1,6 +1,6 @@
 {
   "Home": {
-    "brand": "FleetPulse",
+    "brand": "Car Rental",
     "nav": {
       "login": "Anmelden",
       "getStarted": "Loslegen",
@@ -16,7 +16,7 @@
       "registerBusiness": "Unternehmen registrieren"
     },
     "hero": {
-      "title": "FleetPulse",
+      "title": "Car Rental",
       "subtitle": "Autovermietungs-Management",
       "description": "Optimieren Sie Ihr Autovermietungsgeschäft mit unserer All-in-One-Plattform. Verwalten Sie Flotte, Buchungen, Kunden und Analysen von einem einzigen Dashboard aus.",
       "startTrial": "Kostenlose Testversion starten",
@@ -74,7 +74,7 @@
       "supportDesc": "24/7 Unterstützung"
     },
     "whyUs": {
-      "badge": "Warum FleetPulse",
+      "badge": "Warum Car Rental",
       "title": "Die Wahl führender Unternehmen",
       "subtitle": "Eine komplette Plattform, die die Art und Weise transformiert, wie Sie Ihr Vermietungsgeschäft führen",
       "revenue": {

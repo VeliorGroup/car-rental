@@ -17,7 +17,7 @@ async function main() {
     where: { subdomain: 'demo' },
     update: {},
     create: {
-      name: 'Demo FleetPulse',
+      name: 'Demo Car Rental',
       subdomain: 'demo',
     },
   });

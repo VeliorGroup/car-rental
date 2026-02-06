@@ -193,7 +193,7 @@ export default function LoginPage() {
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center">
             <div className="flex flex-col">
-              <span className="text-base font-semibold text-foreground leading-tight">FleetPulse</span>
+              <span className="text-base font-semibold text-foreground leading-tight">Car Rental</span>
               <span className="text-[9px] font-medium text-muted-foreground uppercase tracking-wider">Enterprise</span>
             </div>
           </Link>

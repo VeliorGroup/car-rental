@@ -89,7 +89,7 @@ async function bootstrap() {
   
   // Swagger
   const config = new DocumentBuilder()
-    .setTitle('FleetPulse API')
+    .setTitle('Car Rental API')
     .setDescription('Complete SaaS platform for car rental management')
     .setVersion('1.0')
     .addBearerAuth()

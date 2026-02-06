@@ -1,7 +1,7 @@
 {
-  "name": "fleetpulse",
+  "name": "carrental",
   "version": "1.0.0",
-  "description": "FleetPulse - Complete SaaS platform for car rental fleet management",
+  "description": "Car Rental - Complete SaaS platform for car rental fleet management",
   "private": true,
   "workspaces": [
     "apps/api",

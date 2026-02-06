@@ -20,7 +20,7 @@ export default function MarketplaceLayout({ children }: { children: ReactNode })
       <nav className="border-b border-border bg-background/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <Link href={`/${locale}`} className="flex items-center space-x-3">
-            <span className="text-xl font-bold text-foreground tracking-tight">FleetPulse</span>
+            <span className="text-xl font-bold text-foreground tracking-tight">Car Rental</span>
             <span className="text-sm text-primary font-medium">Marketplace</span>
           </Link>
           <div className="flex items-center space-x-3">
@@ -62,7 +62,7 @@ export default function MarketplaceLayout({ children }: { children: ReactNode })
         <div className="container mx-auto px-6 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm">
-              © 2026 FleetPulse Marketplace. Tutti i diritti riservati.
+              © 2026 Car Rental Marketplace. Tutti i diritti riservati.
             </p>
             <div className="flex gap-6 text-sm text-muted-foreground">
               <Link href="/terms" className="hover:text-foreground transition-colors">

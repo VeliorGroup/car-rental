@@ -106,7 +106,7 @@ export default function SuperAdminLoginPage() {
             <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
               <Shield className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold text-white tracking-tight">FleetPulse</span>
+            <span className="text-xl font-bold text-white tracking-tight">Car Rental</span>
           </div>
 
           {/* Main Content */}
@@ -142,7 +142,7 @@ export default function SuperAdminLoginPage() {
 
           {/* Footer */}
           <div className="text-sm text-slate-500">
-            © 2026 FleetPulse. All rights reserved.
+            © 2026 Car Rental. All rights reserved.
           </div>
         </div>
       </div>
@@ -182,7 +182,7 @@ export default function SuperAdminLoginPage() {
             <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
               <Shield className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold text-foreground tracking-tight">FleetPulse</span>
+            <span className="text-xl font-bold text-foreground tracking-tight">Car Rental</span>
           </div>
         </div>
 
@@ -211,7 +211,7 @@ export default function SuperAdminLoginPage() {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="superadmin@fleetpulse.com"
+                    placeholder="superadmin@carrental.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required

@@ -97,7 +97,7 @@ export default function AuthenticatedCustomerLayout({ children }: { children: Re
         {/* Footer */}
         <footer className="border-t border-border bg-card py-4">
           <div className="container mx-auto px-6 text-center text-xs text-muted-foreground">
-            © 2026 FleetPulse
+            © 2026 Car Rental
           </div>
         </footer>
       </div>

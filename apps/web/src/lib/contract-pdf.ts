@@ -304,7 +304,7 @@ export function generateContractHTML(data: ContractData): string {
   <!-- Header with Logo -->
   <div class="header">
     ${logoHTML}
-    <div class="subtitle">🚗 Noleggio Auto / FleetPulse</div>
+    <div class="subtitle">🚗 Noleggio Auto / Car Rental</div>
     <div class="police-row">
       <span>POLICE 112</span>
       <span>AUTORIZZAZIONE / AUTHORISATION</span>

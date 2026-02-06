@@ -111,7 +111,7 @@ export default function BookingDetailPage() {
       
       const contractData: ContractData = {
         company: {
-          name: tenantData.companyName || 'FleetPulse',
+          name: tenantData.companyName || 'Car Rental',
           logoUrl: tenantData.logoUrl,
           address: tenantData.address,
           city: tenantData.city,

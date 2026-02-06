@@ -170,7 +170,7 @@ export class FuelLogsService {
     let consumption = fuelLog.consumption;
     if ((data.odometerReading || data.liters) && (data.fullTank ?? fuelLog.fullTank)) {
       const newOdometer = data.odometerReading ?? fuelLog.odometerReading;
-      const newLiters = data.liters ?? fuelLog.liters;
+      const newLiters = Number(data.liters ?? fuelLog.liters);
 
       const previousLog = await this.prisma.fuelLog.findFirst({
         where: {

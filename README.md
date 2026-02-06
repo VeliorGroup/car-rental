@@ -1,4 +1,4 @@
-# 🚗 FleetPulse Platform
+# 🚗 Car Rental Platform
 
 Piattaforma SaaS multi-tenant completa per la gestione del noleggio auto con marketplace integrato.
 
@@ -15,7 +15,7 @@ Piattaforma SaaS multi-tenant completa per la gestione del noleggio auto con mar
 
 ## 🎯 Panoramica
 
-FleetPulse Platform è una soluzione completa per la gestione di flotte di veicoli a noleggio, con supporto multi-tenant, marketplace pubblico, sistema di abbonamenti e gestione completa del ciclo di vita delle prenotazioni.
+Car Rental Platform è una soluzione completa per la gestione di flotte di veicoli a noleggio, con supporto multi-tenant, marketplace pubblico, sistema di abbonamenti e gestione completa del ciclo di vita delle prenotazioni.
 
 ### Caratteristiche Principali
 
@@ -56,7 +56,7 @@ FleetPulse Platform è una soluzione completa per la gestione di flotte di veico
 ## 🏗 Architettura
 
 ```
-fleetpulse/
+carrental/
 ├── apps/
 │   ├── api/          # Backend NestJS
 │   └── web/          # Frontend Next.js
@@ -91,7 +91,7 @@ fleetpulse/
 1. **Clonare il repository**
    ```bash
    git clone <repository-url>
-   cd fleetpulse
+   cd carrental
    ```
 
 2. **Avviare i servizi con Docker**
@@ -120,9 +120,9 @@ fleetpulse/
 **Credenziali Demo:**
 | Tipo | Email | Password | URL |
 |------|-------|----------|-----|
-| SuperAdmin | superadmin@fleetpulse.com | demo1234 | /superadmin/login |
-| Business | business@fleetpulse.com | demo1234 | /business/login |
-| Customer | customer@fleetpulse.com | demo1234 | /customer/login |
+| SuperAdmin | superadmin@carrental.com | demo1234 | /superadmin/login |
+| Business | business@carrental.com | demo1234 | /business/login |
+| Customer | customer@carrental.com | demo1234 | /customer/login |
 
 **Servizi disponibili:**
 - Frontend: http://localhost:3001
@@ -140,11 +140,11 @@ fleetpulse/
 2. **Configurare environment variables** (`.env`):
    ```env
    # Database
-   POSTGRES_USER=fleetpulse
-   POSTGRES_PASSWORD=fleetpulse123
-   POSTGRES_DB=fleetpulse
-   DATABASE_URL=postgresql://fleetpulse:fleetpulse123@localhost:5432/fleetpulse
-   DIRECT_URL=postgresql://fleetpulse:fleetpulse123@localhost:5432/fleetpulse
+   POSTGRES_USER=carrental
+   POSTGRES_PASSWORD=carrental123
+   POSTGRES_DB=carrental
+   DATABASE_URL=postgresql://carrental:carrental123@localhost:5432/carrental
+   DIRECT_URL=postgresql://carrental:carrental123@localhost:5432/carrental
 
    # Redis
    REDIS_URL=redis://localhost:6379
@@ -160,7 +160,7 @@ fleetpulse/
    MINIO_PORT=9000
    MINIO_ACCESS_KEY=minioadmin
    MINIO_SECRET_KEY=minioadmin
-   STORAGE_BUCKET=fleetpulse
+   STORAGE_BUCKET=carrental
 
    # Frontend
    NEXT_PUBLIC_API_URL=http://localhost:3000/api/v1

@@ -11,7 +11,7 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { ApiTags, ApiBearerAuth, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { JwtAuthGuard } from '../auth/jwt-auth.guard';
+import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
 import { FuelLogsService } from './fuel-logs.service';
 import { CreateFuelLogDto, UpdateFuelLogDto, FuelLogFilterDto } from './dto/fuel-logs.dto';
 

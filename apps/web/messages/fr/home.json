@@ -1,6 +1,6 @@
 {
   "Home": {
-    "brand": "FleetPulse",
+    "brand": "Car Rental",
     "nav": {
       "login": "Connexion",
       "getStarted": "Commencer",
@@ -16,7 +16,7 @@
       "registerBusiness": "Inscrire une entreprise"
     },
     "hero": {
-      "title": "FleetPulse",
+      "title": "Car Rental",
       "subtitle": "Plateforme de gestion de location",
       "description": "Optimisez votre activité de location de voitures avec notre plateforme tout-en-un. Gérez flotte, réservations, clients et analyses depuis un seul tableau de bord.",
       "startTrial": "Essai gratuit",
@@ -74,7 +74,7 @@
       "supportDesc": "Assistance 24/7"
     },
     "whyUs": {
-      "badge": "Pourquoi FleetPulse",
+      "badge": "Pourquoi Car Rental",
       "title": "Le choix des entreprises leaders",
       "subtitle": "Une plateforme complète qui transforme la façon dont vous gérez votre activité de location",
       "revenue": {

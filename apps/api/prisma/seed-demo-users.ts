@@ -27,16 +27,16 @@ async function seedDemoUsers() {
   // 1. SUPERADMIN
   console.log('📌 SuperAdmin:');
   const superAdmin = await prisma.superAdmin.upsert({
-    where: { email: 'superadmin@fleetpulse.com' },
+    where: { email: 'superadmin@carrental.com' },
     update: { password: hashedPassword },
     create: {
-      email: 'superadmin@fleetpulse.com',
+      email: 'superadmin@carrental.com',
       password: hashedPassword,
       firstName: 'Super',
       lastName: 'Admin',
     },
   });
-  console.log('   Email:    superadmin@fleetpulse.com');
+  console.log('   Email:    superadmin@carrental.com');
   console.log('   Password: demo1234');
   console.log('   URL:      /superadmin/login\n');
 
@@ -46,7 +46,7 @@ async function seedDemoUsers() {
     where: { subdomain: 'demo' },
     update: {},
     create: {
-      name: 'Demo FleetPulse',
+      name: 'Demo Car Rental',
       subdomain: 'demo',
     },
   });
@@ -64,10 +64,10 @@ async function seedDemoUsers() {
 
   console.log('📌 Business User:');
   const businessUser = await prisma.user.upsert({
-    where: { email: 'business@fleetpulse.com' },
+    where: { email: 'business@carrental.com' },
     update: { password: hashedPassword },
     create: {
-      email: 'business@fleetpulse.com',
+      email: 'business@carrental.com',
       password: hashedPassword,
       firstName: 'Business',
       lastName: 'User',
@@ -75,17 +75,17 @@ async function seedDemoUsers() {
       tenantId: tenant.id,
     },
   });
-  console.log('   Email:    business@fleetpulse.com');
+  console.log('   Email:    business@carrental.com');
   console.log('   Password: demo1234');
   console.log('   URL:      /business/login\n');
 
   // 3. CUSTOMER
   console.log('📌 Customer:');
   const customer = await prisma.customer.upsert({
-    where: { email: 'customer@fleetpulse.com' },
+    where: { email: 'customer@carrental.com' },
     update: { passwordHash: hashedPassword },
     create: {
-      email: 'customer@fleetpulse.com',
+      email: 'customer@carrental.com',
       passwordHash: hashedPassword,
       firstName: 'Customer',
       lastName: 'Demo',
@@ -96,7 +96,7 @@ async function seedDemoUsers() {
       isVerified: true,
     },
   });
-  console.log('   Email:    customer@fleetpulse.com');
+  console.log('   Email:    customer@carrental.com');
   console.log('   Password: demo1234');
   console.log('   URL:      /customer/login\n');
 
@@ -107,9 +107,9 @@ async function seedDemoUsers() {
   console.log('───────────────────────────────────────────');
   console.log('│ Type       │ Email                      │ Password │');
   console.log('───────────────────────────────────────────');
-  console.log('│ SuperAdmin │ superadmin@fleetpulse.com  │ demo1234 │');
-  console.log('│ Business   │ business@fleetpulse.com    │ demo1234 │');
-  console.log('│ Customer   │ customer@fleetpulse.com    │ demo1234 │');
+  console.log('│ SuperAdmin │ superadmin@carrental.com  │ demo1234 │');
+  console.log('│ Business   │ business@carrental.com    │ demo1234 │');
+  console.log('│ Customer   │ customer@carrental.com    │ demo1234 │');
   console.log('───────────────────────────────────────────\n');
 }
 

@@ -39,7 +39,7 @@ export class EmailService {
   constructor(private readonly configService: ConfigService) {
     const apiKey = this.configService.get<string>('RESEND_API_KEY');
     this.fromEmail = this.configService.get<string>('EMAIL_FROM', 'noreply@carrental.com');
-    this.fromName = this.configService.get<string>('EMAIL_FROM_NAME', 'FleetPulse');
+    this.fromName = this.configService.get<string>('EMAIL_FROM_NAME', 'Car Rental');
     this.isEnabled = !!apiKey;
 
     if (apiKey) {
@@ -254,7 +254,7 @@ export class EmailService {
       <body>
         <div class="container">
           <div class="header">
-            <h1>Welcome to FleetPulse! 🚗</h1>
+            <h1>Welcome to Car Rental! 🚗</h1>
           </div>
           <div class="content">
             <p>Hi ${firstName},</p>
@@ -283,7 +283,7 @@ export class EmailService {
 
     return this.sendEmail({
       to,
-      subject: 'Welcome to FleetPulse!',
+      subject: 'Welcome to Car Rental!',
       html,
     });
   }

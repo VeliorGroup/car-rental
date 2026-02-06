@@ -11,7 +11,7 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { ApiTags, ApiBearerAuth, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { JwtAuthGuard } from '../auth/jwt-auth.guard';
+import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
 import { ApiKeysService } from './api-keys.service';
 import { CreateApiKeyDto, UpdateApiKeyDto, ApiKeyFilterDto, API_KEY_SCOPES } from './dto/api-keys.dto';
 

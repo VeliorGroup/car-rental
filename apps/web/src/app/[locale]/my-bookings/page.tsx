@@ -103,7 +103,7 @@ export default function CustomerBookingsPage() {
       <nav className="border-b border-border bg-background/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <Link href={`/${locale}`} className="flex items-center">
-            <span className="text-xl font-bold">FleetPulse</span>
+            <span className="text-xl font-bold">Car Rental</span>
           </Link>
           <div className="flex items-center gap-4">
             <Link href={`/${locale}/customer/profile`}>

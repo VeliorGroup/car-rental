@@ -1,6 +1,6 @@
 # API Scripts
 
-This directory contains utility scripts for the FleetPulse API.
+This directory contains utility scripts for the Car Rental API.
 
 ## Directory Structure
 

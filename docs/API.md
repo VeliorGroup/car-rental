@@ -1,4 +1,4 @@
-# FleetPulse API Documentation
+# Car Rental API Documentation
 
 ## Base URL
 

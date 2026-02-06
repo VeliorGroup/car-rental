@@ -35,7 +35,7 @@ export class PublicAuthService {
 
   async register(dto: RegisterCustomerDto): Promise<CustomerAuthResponseDto> {
     // Check if email already exists
-    const existing = await this.prisma.customer.findUnique({
+    const existing = await this.prisma.customer.findFirst({
       where: { email: dto.email },
     });
 
@@ -81,7 +81,7 @@ export class PublicAuthService {
   }
 
   async login(dto: LoginCustomerDto): Promise<CustomerAuthResponseDto> {
-    const customer = await this.prisma.customer.findUnique({
+    const customer = await this.prisma.customer.findFirst({
       where: { email: dto.email },
     });
 
@@ -224,7 +224,7 @@ export class PublicAuthService {
   }
 
   async requestPasswordReset(dto: ResetPasswordRequestDto): Promise<void> {
-    const customer = await this.prisma.customer.findUnique({
+    const customer = await this.prisma.customer.findFirst({
       where: { email: dto.email },
     });
 

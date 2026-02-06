@@ -1,13 +1,10 @@
 import { IsString, IsOptional, IsNumber, IsDateString, IsEnum } from 'class-validator';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import { FuelLogType } from '@prisma/client';
 
-export enum FuelType {
-  PETROL = 'petrol',
-  DIESEL = 'diesel',
-  ELECTRIC = 'electric',
-  HYBRID = 'hybrid',
-  LPG = 'lpg',
-}
+export { FuelLogType };
+export type FuelType = FuelLogType;
+const FuelType = FuelLogType;
 
 export class CreateFuelLogDto {
   @ApiProperty()

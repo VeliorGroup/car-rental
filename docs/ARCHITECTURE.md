@@ -1,4 +1,4 @@
-# FleetPulse Architecture Overview
+# Car Rental Architecture Overview
 
 > **Last Updated:** 2026-02-06
 > **Audience:** Engineers, Architects, New Team Members
@@ -20,7 +20,7 @@
 
 ## 1. System Overview
 
-FleetPulse is a multi-tenant SaaS platform for car rental fleet management. It provides booking management, vehicle lifecycle tracking, payments, maintenance scheduling, customer management, and operational analytics -- all with complete tenant data isolation.
+Car Rental is a multi-tenant SaaS platform for car rental fleet management. It provides booking management, vehicle lifecycle tracking, payments, maintenance scheduling, customer management, and operational analytics -- all with complete tenant data isolation.
 
 ### High-Level Architecture
 
@@ -322,7 +322,7 @@ sequenceDiagram
 
 ### Architecture Pattern: Row-Level Isolation
 
-FleetPulse uses a **shared database, shared schema** multi-tenancy model with row-level isolation. Every tenant-scoped entity includes a `tenantId` foreign key.
+Car Rental uses a **shared database, shared schema** multi-tenancy model with row-level isolation. Every tenant-scoped entity includes a `tenantId` foreign key.
 
 ```
 ┌─────────────────────────────────────────┐

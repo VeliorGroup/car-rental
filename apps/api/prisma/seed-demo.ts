@@ -204,7 +204,7 @@ async function main() {
   // 4. GET ADMIN USER FOR BOOKINGS
   // ========================================
   const adminUser = await prisma.user.findFirst({
-    where: { tenantId, email: 'business@fleetpulse.com' }
+    where: { tenantId, email: 'business@carrental.com' }
   });
 
   if (!adminUser) {

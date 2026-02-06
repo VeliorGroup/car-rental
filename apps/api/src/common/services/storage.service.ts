@@ -31,7 +31,7 @@ export class StorageService {
       secretKey: this.configService.get<string>('MINIO_SECRET_KEY', 'minioadmin'),
     };
 
-    this.bucketName = this.configService.get('STORAGE_BUCKET', 'fleetpulse');
+    this.bucketName = this.configService.get('STORAGE_BUCKET', 'carrental');
   }
 
   private getBaseUrl(): string {
