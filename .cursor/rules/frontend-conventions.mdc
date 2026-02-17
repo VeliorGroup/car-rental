@@ -1,0 +1,73 @@
+---
+description: Convenzioni Next.js/React per il frontend Car Rental. i18n, data fetching, form, Tailwind.
+globs: apps/web/**/*.{ts,tsx}
+alwaysApply: false
+---
+
+# Frontend Conventions — Next.js
+
+## Traduzioni (next-intl)
+
+```typescript
+// Client component
+'use client'
+import { useTranslations } from 'next-intl'
+const t = useTranslations('MyNamespace')
+
+// Server component / metadata
+import { getTranslations } from 'next-intl/server'
+const t = await getTranslations('MyNamespace')
+```
+
+**Quando aggiungi un namespace:**
+1. Aggiornare `NAMESPACES` in `apps/web/src/i18n/request.ts`
+2. Creare `apps/web/messages/en/<namespace>.json`
+3. Creare lo stesso file per tutti i 10 locali: `it es fr de pt el ro mk sr sq`
+
+Mai scrivere testi hardcoded in italiano o inglese nei componenti React.
+
+## Data fetching (TanStack Query)
+
+```typescript
+// ✅ CORRETTO
+const { data, isLoading } = useQuery({
+  queryKey: ['resource', page, search, filter],
+  queryFn: () => api.get('/resource', { params: { page, search } }).then(r => r.data),
+})
+
+// ❌ SBAGLIATO — fetch diretto nel componente
+const [data, setData] = useState(null)
+useEffect(() => { fetch('/api/resource').then(...) }, [])
+```
+
+- `api` da `apps/web/src/lib/api/index.ts` per route autenticate
+- `publicApi` da `apps/web/src/lib/api/public-api.ts` per route pubbliche
+
+## Form (React Hook Form + Zod)
+
+```typescript
+const schema = z.object({
+  name: z.string().min(1, t('validation.required')),
+})
+const form = useForm({ resolver: zodResolver(schema) })
+```
+
+- Componenti: `FormField`, `FormItem`, `FormLabel`, `FormControl`, `FormMessage`
+- Messaggi di errore: sempre tradotti con `useTranslations`
+
+## Classi Tailwind
+
+```typescript
+// ✅ CORRETTO
+import { cn } from '@/lib/utils'
+<div className={cn('base-class', condition && 'conditional-class')} />
+
+// ❌ SBAGLIATO
+<div className={`base-class ${condition ? 'a' : 'b'}`} />
+```
+
+## Struttura pagine
+
+- Pagina autenticata: `apps/web/src/app/[locale]/(authenticated)/<slug>/page.tsx`
+- Pagina pubblica: `apps/web/src/app/[locale]/<slug>/page.tsx`
+- Pagina marketplace: `apps/web/src/app/[locale]/(marketplace)/<slug>/page.tsx`

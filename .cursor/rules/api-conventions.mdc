@@ -1,0 +1,94 @@
+---
+description: Convenzioni NestJS per il backend Car Rental. Controller, service, DTO, guard, multi-tenancy.
+globs: apps/api/**/*.ts
+alwaysApply: false
+---
+
+# API Conventions — NestJS Backend
+
+## Controller
+
+Ogni controller **deve** avere tutti e tre i guard + interceptor:
+
+```typescript
+@Controller('resource')
+@ApiTags('Resource')
+@UseGuards(JwtAuthGuard, RolesGuard, SubscriptionRequiredGuard)
+@UseInterceptors(TenantInterceptor)
+export class ResourceController {
+  @Get()
+  @Roles('ADMIN', 'MANAGER')
+  @ApiOperation({ summary: '...' })
+  findAll(@Req() req: Request) {
+    const tenantId = req.user!.tenantId;
+    return this.service.findAll(tenantId);
+  }
+}
+```
+
+- Estrarre sempre `tenantId` e `userId` da `req.user` (non dal body)
+- Usare `@Roles()` su ogni endpoint con i ruoli minimi necessari
+- Documentare ogni endpoint con `@ApiOperation` e `@ApiResponse`
+
+## Service
+
+```typescript
+@Injectable()
+export class ResourceService {
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly audit: AuditService,
+    private readonly metrics: MetricsService,
+    private readonly cache: RedisCacheService,
+  ) {}
+
+  async findAll(tenantId: string) {
+    return this.prisma.resource.findMany({
+      where: { tenantId }, // SEMPRE tenantId
+    });
+  }
+}
+```
+
+- Ogni query Prisma include `where: { tenantId }`
+- Operazioni sensibili: chiamare `this.audit.log(...)` dopo
+- Errori: usare `NotFoundException`, `BadRequestException`, `ConflictException`
+- Operazioni atomiche: usare `prisma.$transaction()`
+
+## DTO
+
+```typescript
+export class CreateResourceDto {
+  @IsString()
+  @ApiProperty()
+  name: string;
+
+  @IsEnum(ResourceStatus) // Prisma enum, non locale
+  @IsOptional()
+  status?: ResourceStatus;
+}
+```
+
+- Validazione con `class-validator` decorators
+- **Mai** ridefinire enum localmente: importare da `@prisma/client`
+- Usare `@ApiProperty()` per la documentazione Swagger
+
+## Errori
+
+```typescript
+// ✅ CORRETTO
+throw new NotFoundException(`Resource ${id} not found`);
+throw new BadRequestException('Invalid state transition');
+throw new ConflictException('Resource already exists');
+
+// ❌ SBAGLIATO
+throw new Error('not found');
+```
+
+## Import guard
+
+```typescript
+import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
+// oppure
+import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
+```

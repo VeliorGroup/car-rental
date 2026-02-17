@@ -1,0 +1,88 @@
+---
+description: Convenzioni Docker Compose per Car Rental. Rete, immagini, healthcheck, variabili.
+globs: docker-compose*.yml
+alwaysApply: false
+---
+
+# Docker Conventions
+
+## Rete
+
+Tutti i servizi usano sempre la rete `app-network`:
+
+```yaml
+networks:
+  app-network:
+    driver: bridge
+
+services:
+  myservice:
+    networks:
+      - app-network
+```
+
+## Immagini custom
+
+```yaml
+# ✅ CORRETTO
+services:
+  api:
+    image: api:latest
+    build: ./apps/api
+
+  web:
+    image: web:latest
+    build: ./apps/web
+```
+
+## Variabili d'ambiente
+
+```yaml
+# ✅ CORRETTO — sempre con fallback
+environment:
+  - POSTGRES_PORT=${POSTGRES_PORT:-5432}
+  - API_PORT=${API_PORT:-3000}
+
+# ❌ SBAGLIATO — valore hardcoded
+environment:
+  - POSTGRES_PORT=5432
+```
+
+## Healthcheck obbligatorio per servizi infrastruttura
+
+```yaml
+postgres:
+  healthcheck:
+    test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+    interval: 10s
+    timeout: 5s
+    retries: 5
+
+redis:
+  healthcheck:
+    test: ["CMD", "redis-cli", "ping"]
+    interval: 10s
+    timeout: 3s
+    retries: 5
+```
+
+## Dipendenze con healthcheck
+
+```yaml
+api:
+  depends_on:
+    postgres:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+```
+
+## File compose disponibili
+
+| File | Scopo |
+|------|-------|
+| `docker-compose.yml` | Sviluppo completo |
+| `docker-compose.services.yml` | Solo infrastruttura (postgres, redis, minio) |
+| `docker-compose.app.yml` | Solo applicazioni (api, web) |
+| `docker-compose.monitoring.yml` | Stack monitoring (Prometheus, Grafana) |
+| `docker-compose.prod.yml` | Produzione |

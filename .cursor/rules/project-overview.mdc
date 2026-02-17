@@ -1,0 +1,48 @@
+---
+description: Panoramica globale del progetto Car Rental. Sempre attiva per fornire contesto architetturale.
+alwaysApply: true
+---
+
+# Car Rental — Panoramica Progetto
+
+## Architettura
+
+Monorepo con due app:
+- `apps/api` — Backend NestJS + Prisma + PostgreSQL
+- `apps/web` — Frontend Next.js 14+ (App Router) + React
+
+## Multi-tenancy
+
+**Ogni operazione è scoped per `tenantId`.** Ogni query Prisma, ogni service, ogni risposta API deve essere filtrata per tenant. Non esistono query globali senza `tenantId` (eccetto superadmin).
+
+## Stack tecnologico
+
+| Layer | Tecnologia |
+|-------|-----------|
+| Backend | NestJS, TypeScript, Prisma ORM, PostgreSQL |
+| Cache | Redis (ioredis) con fallback in-memory |
+| Queue | pg-boss (non Bull/BullMQ) |
+| Storage | MinIO (S3-compatible) |
+| Auth | JWT + Passport, 2FA (speakeasy) |
+| Frontend | Next.js (App Router), React, TanStack Query, Zustand |
+| UI | Radix UI, shadcn/ui, Tailwind CSS 4 |
+| i18n | next-intl — 11 locali: `en it es fr de pt el ro mk sr sq` |
+| PDF | Puppeteer + pdf-lib |
+| Email | Resend |
+| Pagamenti | Paysera |
+
+## Comandi principali
+
+```bash
+npm run dev          # avvia api + web in sviluppo
+npm run docker:dev   # avvia tutti i servizi Docker
+npm run build        # build completo
+```
+
+## File chiave
+
+- `.env` — tutte le variabili d'ambiente
+- `apps/api/prisma/schema.prisma` — schema database
+- `apps/web/src/i18n/request.ts` — NAMESPACES i18n
+- `apps/api/src/app.module.ts` — registrazione moduli NestJS
+- `apps/web/src/components/layout/sidebar.tsx` — navigazione pannello

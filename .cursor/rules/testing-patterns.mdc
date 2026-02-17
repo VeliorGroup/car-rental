@@ -1,0 +1,92 @@
+---
+description: Pattern Jest e NestJS Testing Module per Car Rental. Mock PrismaService, fixture, struttura test.
+globs: **/*.spec.ts
+alwaysApply: false
+---
+
+# Testing Patterns — Jest + NestJS
+
+## Struttura test
+
+```typescript
+describe('BookingsService', () => {
+  let service: BookingsService;
+  let prisma: typeof mockPrismaService;
+
+  beforeEach(async () => {
+    const module = await Test.createTestingModule({
+      providers: [
+        BookingsService,
+        { provide: PrismaService, useValue: mockPrismaService },
+        { provide: RedisCacheService, useValue: mockCacheService },
+        { provide: AuditService, useValue: mockAuditService },
+      ],
+    }).compile();
+    service = module.get(BookingsService);
+  });
+
+  describe('findAll', () => {
+    it('should return paginated bookings', async () => { ... });
+    it('should throw NotFoundException when tenant not found', async () => { ... });
+  });
+});
+```
+
+## Mock PrismaService
+
+```typescript
+const mockPrismaService = {
+  booking: {
+    findMany: jest.fn(),
+    findFirst: jest.fn(),
+    create: jest.fn(),
+    update: jest.fn(),
+    delete: jest.fn(),
+    count: jest.fn(),
+  },
+  vehicle: {
+    findFirst: jest.fn(),
+    update: jest.fn(),
+  },
+  $transaction: jest.fn(),
+};
+```
+
+## Mock servizi comuni
+
+```typescript
+const mockAuditService = { log: jest.fn() };
+const mockCacheService = {
+  get: jest.fn(), set: jest.fn(), delete: jest.fn(),
+  getOrCompute: jest.fn((key, fn) => fn()),
+  acquireLock: jest.fn().mockResolvedValue(true),
+  releaseLock: jest.fn(),
+};
+const mockQueueService = { add: jest.fn(), process: jest.fn() };
+const mockStorageService = { uploadBuffer: jest.fn(), getPresignedUrl: jest.fn(), deleteFile: jest.fn() };
+```
+
+## Fixture condivise
+
+```typescript
+const mockTenant = { id: 'tenant-1', companyName: 'Test Co', isActive: true };
+const mockUser = { id: 'user-1', tenantId: 'tenant-1', email: 'test@test.com' };
+const mockVehicle = { id: 'vehicle-1', tenantId: 'tenant-1', status: 'AVAILABLE', licensePlate: 'AB123CD' };
+const mockCustomer = { id: 'customer-1', tenantId: 'tenant-1', firstName: 'John', lastName: 'Doe' };
+const mockBooking = { id: 'booking-1', tenantId: 'tenant-1', status: 'CONFIRMED', vehicleId: 'vehicle-1' };
+```
+
+## Test obbligatori per ogni metodo
+
+Per ogni metodo del service, scrivere almeno:
+- `it('should succeed with valid data', ...)`
+- `it('should throw NotFoundException when resource not found', ...)`
+- `it('should throw BadRequestException when validation fails', ...)`
+
+## Reset mock tra test
+
+```typescript
+afterEach(() => {
+  jest.clearAllMocks();
+});
+```

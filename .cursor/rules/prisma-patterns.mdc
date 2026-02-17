@@ -1,0 +1,83 @@
+---
+description: Pattern Prisma per Car Rental. Schema design, migrazioni, transazioni, tipi Decimal.
+globs: apps/api/prisma/**
+alwaysApply: false
+---
+
+# Prisma Patterns
+
+## Workflow migrazioni
+
+```bash
+# Sviluppo — dopo ogni modifica a schema.prisma
+npx prisma migrate dev --name descrizione_breve
+
+# Produzione — mai migrate dev in prod
+npx prisma migrate deploy
+
+# Reset completo (solo dev)
+npx prisma migrate reset
+```
+
+## Naming conventions
+
+```prisma
+model MyModel {        // PascalCase
+  id        String     @id @default(cuid())
+  myField   String     // camelCase
+  tenantId  String     // OBBLIGATORIO su ogni modello
+  status    MyStatus   // enum SCREAMING_SNAKE_CASE
+  tenant    Tenant     @relation(fields: [tenantId], references: [id])
+}
+
+enum MyStatus {
+  ACTIVE    // SCREAMING_SNAKE_CASE
+  INACTIVE
+}
+```
+
+## Multi-tenant obbligatorio
+
+**Ogni nuovo modello deve avere `tenantId` e relazione a `Tenant`:**
+
+```prisma
+model NewModel {
+  id       String @id @default(cuid())
+  tenantId String
+  tenant   Tenant @relation(fields: [tenantId], references: [id])
+}
+```
+
+## Tipi Decimal
+
+```typescript
+// ✅ CORRETTO — convertire prima dell'aritmetica
+const total = Number(booking.dailyPrice) * days;
+
+// ❌ SBAGLIATO — Decimal non supporta operatori JS
+const total = booking.dailyPrice * days;
+```
+
+## Transazioni atomiche
+
+```typescript
+// Per operazioni che modificano più tabelle
+await this.prisma.$transaction([
+  this.prisma.booking.update({ where: { id }, data: { status: 'CHECKED_OUT' } }),
+  this.prisma.vehicle.update({ where: { id: vehicleId }, data: { status: 'RENTED' } }),
+]);
+```
+
+## Enum nei DTO
+
+```typescript
+// ✅ CORRETTO
+import { BookingStatus } from '@prisma/client';
+export class UpdateBookingDto {
+  @IsEnum(BookingStatus)
+  status: BookingStatus;
+}
+
+// ❌ SBAGLIATO
+enum BookingStatus { CONFIRMED = 'CONFIRMED' } // ridefinizione locale
+```
